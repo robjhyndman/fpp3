@@ -1,0 +1,54 @@
+---
+output: github_document
+---
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# fpp3
+
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
+[![Travis build status](https://travis-ci.org/fpp3/fpp3.svg?branch=master)](https://travis-ci.org/fpp3/fpp3)
+[![Codecov test coverage](https://codecov.io/gh/fpp3/fpp3/branch/master/graph/badge.svg)](https://codecov.io/gh/fpp3/fpp3?branch=master)
+[![Travis build status](https://travis-ci.org/robjhyndman/fpp3-package.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp3-package)
+[![Codecov test coverage](https://codecov.io/gh/robjhyndman/fpp3-package/branch/master/graph/badge.svg)](https://codecov.io/gh/robjhyndman/fpp3-package?branch=master)
+<!-- badges: end -->
+
+## Overview
+
+The fpp3 package contains data used in the book [*Forecasting: Principles and Practice* (3rd edition)](https://OTexts.com/fpp3) by Rob J Hyndman and George Athanasopoulos. It also loads several packages needed to do the analysis described in the book. These packages work with the [tidyverse](https://www.tidyverse.org/) set of packages, sharing common data representations and API design.
+
+## Installation
+
+```{r eval = FALSE}
+# Currently, only the development version is available on GitHub
+# install.packages("devtools")
+devtools::install_github("robjhyndman/fpp3-package")
+```
+
+## Usage
+
+`library(fpp3)` will load the following packages:
+
+* [dplyr](http://dplyr.tidyverse.org), for data manipulation.
+* [tibble](http://tibble.tidyverse.org), for tibbles, a modern re-imagining of data frames.
+* [tsibble](http://tsibble.tidyverts.org), for tsibbles, a time series version of a tibble.
+* [tsibbledata](http://tsibbledata.tidyverts.org), various time series data sets in the form of tsibbles.
+* [feasts](http://feasts.tidyverts.org), for features and statistics of time series.
+* [fable](http://fable.tidyverts.org), for fitting models and producing forecasts.
+* [lubridate](https://github.com/hadley/lubridate), for date/times.
+* [ggplot2](http://ggplot2.tidyverse.org), for data visualisation.
+
+You also get a condensed summary of conflicts with other packages you have loaded:
+
+```{r example}
+library(fpp3)
+```
+
