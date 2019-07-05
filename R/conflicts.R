@@ -34,7 +34,7 @@ fpp3_conflict_message <- function(x) {
 
   header <- cli::rule(
     left = crayon::bold("Conflicts"),
-    right = "fpp3_conflicts()"
+    right = "function conflicts"
   )
 
   pkgs <- x %>% purrr::map(~ gsub("^package:", "", .))
