@@ -28,7 +28,9 @@ fpp3_conflicts <- function() {
 }
 
 fpp3_conflict_message <- function(x) {
-  if (length(x) == 0) return("")
+  if (length(x) == 0) {
+    return("")
+  }
 
   header <- cli::rule(
     left = crayon::bold("Conflicts"),
@@ -65,14 +67,16 @@ confirm_conflict <- function(packages, name) {
     purrr::map(~ get(name, pos = .)) %>%
     purrr::keep(is.function)
 
-  if (length(objs) <= 1)
+  if (length(objs) <= 1) {
     return()
+  }
 
   # Remove identical functions
   objs <- objs[!duplicated(objs)]
   packages <- packages[!duplicated(packages)]
-  if (length(objs) == 1)
+  if (length(objs) == 1) {
     return()
+  }
 
   packages
 }

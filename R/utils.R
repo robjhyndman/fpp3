@@ -21,7 +21,6 @@ text_col <- function(x) {
   theme <- rstudioapi::getThemeInfo()
 
   if (isTRUE(theme$dark)) crayon::white(x) else crayon::black(x)
-
 }
 
 #' List all packages loaded by fpp3
@@ -39,7 +38,9 @@ fpp3_packages <- function() {
 }
 
 invert <- function(x) {
-  if (length(x) == 0) return()
+  if (length(x) == 0) {
+    return()
+  }
   stacked <- utils::stack(x)
   tapply(as.character(stacked$ind), stacked$values, list)
 }

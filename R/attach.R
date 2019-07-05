@@ -6,7 +6,8 @@ core <- c(
   "feasts",
   "fable",
   "lubridate",
-  "ggplot2")
+  "ggplot2"
+)
 
 core_unloaded <- function() {
   search <- paste0("package:", core)
@@ -24,8 +25,9 @@ same_library <- function(pkg) {
 
 fpp3_attach <- function() {
   to_load <- core_unloaded()
-  if (length(to_load) == 0)
+  if (length(to_load) == 0) {
     return(invisible())
+  }
 
   msg(
     cli::rule(
