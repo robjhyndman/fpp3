@@ -24,9 +24,9 @@ The fpp3 package contains data used in the book [*Forecasting: Principles and Pr
 
 ## Installation
 
+Currently, only the development version is available on GitHub.
+
 ```{r eval = FALSE}
-# Currently, only the development version is available on GitHub.
-# Some of the component packages are also only available on GitHub.
 # install.packages("remotes")
 remotes::install_github("robjhyndman/fpp3-package")
 ```

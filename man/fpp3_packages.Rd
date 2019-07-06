@@ -4,7 +4,7 @@
 \alias{fpp3_packages}
 \title{List all packages loaded by fpp3}
 \usage{
-fpp3_packages()
+fpp3_packages(include_self = FALSE)
 }
 \description{
 List all packages loaded by fpp3
