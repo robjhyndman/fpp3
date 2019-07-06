@@ -6,6 +6,9 @@
 \usage{
 fpp3_packages(include_self = FALSE)
 }
+\arguments{
+\item{include_self}{Include fpp3 in the list?}
+}
 \description{
 List all packages loaded by fpp3
 }

@@ -27,6 +27,7 @@ text_col <- function(x) {
 
 #' List all packages loaded by fpp3
 #'
+#' @param include_self Include fpp3 in the list?
 #' @export
 #' @examples
 #' fpp3_packages()
