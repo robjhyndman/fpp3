@@ -3,5 +3,4 @@
 S3method(print,fpp3_conflicts)
 export(fpp3_conflicts)
 export(fpp3_packages)
-importFrom(ggplot2,ggplot)
 importFrom(magrittr,"%>%")
