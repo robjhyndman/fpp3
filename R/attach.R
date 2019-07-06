@@ -1,3 +1,5 @@
+# Based on attach.R from the tidyverse package
+
 core <- c(
   "tibble",
   "dplyr",

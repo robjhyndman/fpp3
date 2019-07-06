@@ -1,3 +1,5 @@
+# Based on utils.R from the tidyverse package
+
 msg <- function(..., startup = FALSE) {
   if (startup) {
     if (!isTRUE(getOption("fpp3.quiet"))) {
