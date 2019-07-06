@@ -23,5 +23,10 @@ Useful links:
 \author{
 \strong{Maintainer}: Rob Hyndman \email{Rob.Hyndman@monash.edu} [copyright holder]
 
+Other contributors:
+\itemize{
+  \item RStudio [copyright holder]
+}
+
 }
 \keyword{internal}

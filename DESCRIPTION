@@ -3,10 +3,12 @@ Title: Data for "Forecasting: Principles and Practice" (3rd
     Edition)
 Version: 0.1
 Authors@R:
-    person(given = "Rob",
-           family = "Hyndman",
-           role = c("aut", "cre", "cph"),
-           email = "Rob.Hyndman@monash.edu")
+    c(person(given = "Rob",
+             family = "Hyndman",
+             role = c("aut", "cre", "cph"),
+             email = "Rob.Hyndman@monash.edu"),
+      person(given = "RStudio",
+             role = c("cph")))
 Description: All data sets required for the examples and
     exercises in the book "Forecasting: principles and practice" by Rob J
     Hyndman and George Athanasopoulos <http://OTexts.org/fpp3/>.  All
