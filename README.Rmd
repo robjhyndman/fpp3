@@ -16,9 +16,6 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
 [![Travis build status](https://travis-ci.org/fpp3/fpp3.svg?branch=master)](https://travis-ci.org/fpp3/fpp3)
-[![Codecov test coverage](https://codecov.io/gh/fpp3/fpp3/branch/master/graph/badge.svg)](https://codecov.io/gh/fpp3/fpp3?branch=master)
-[![Travis build status](https://travis-ci.org/robjhyndman/fpp3-package.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp3-package)
-[![Codecov test coverage](https://codecov.io/gh/robjhyndman/fpp3-package/branch/master/graph/badge.svg)](https://codecov.io/gh/robjhyndman/fpp3-package?branch=master)
 <!-- badges: end -->
 
 ## Overview
