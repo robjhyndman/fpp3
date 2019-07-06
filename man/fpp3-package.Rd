@@ -4,12 +4,13 @@
 \name{fpp3-package}
 \alias{fpp3}
 \alias{fpp3-package}
-\title{fpp3: Data for "Forecasting: Principles and Practice" (3rd Edition)}
+\title{fpp3: Data for "Forecasting: Principles and Practice" (3rd
+    Edition)}
 \description{
-All data sets required for the examples and exercises
-  in the book "Forecasting: principles and practice"
-  by Rob J Hyndman and George Athanasopoulos <http://OTexts.org/fpp3/>.
-  All packages required to run the examples are also loaded.
+All data sets required for the examples and
+    exercises in the book "Forecasting: principles and practice" by Rob J
+    Hyndman and George Athanasopoulos <http://OTexts.org/fpp3/>.  All
+    packages required to run the examples are also loaded.
 }
 \seealso{
 Useful links:
