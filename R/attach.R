@@ -1,12 +1,13 @@
 core <- c(
-  "dplyr",
   "tibble",
+  "dplyr",
+  "tidyr",
+  "lubridate",
+  "ggplot2",
   "tsibble",
   "tsibbledata",
   "feasts",
-  "fable",
-  "lubridate",
-  "ggplot2"
+  "fable"
 )
 
 core_unloaded <- function() {
