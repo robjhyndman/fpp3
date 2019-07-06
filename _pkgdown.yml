@@ -1,0 +1,9 @@
+template:
+  params:
+    bootswatch: flatly
+
+destination: docs
+
+authors:
+  Rob Hyndman:
+    href: http://robjhyndman.com
