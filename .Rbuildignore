@@ -5,3 +5,6 @@
 ^\.covrignore$
 ^_pkgdown\.yml$
 ^pkgdown$
+docs/
+cran-comments.md
+README.Rmd
