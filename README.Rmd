@@ -35,14 +35,15 @@ remotes::install_github("robjhyndman/fpp3-package")
 
 `library(fpp3)` will load the following packages:
 
-* [dplyr](http://dplyr.tidyverse.org), for data manipulation.
 * [tibble](http://tibble.tidyverse.org), for tibbles, a modern re-imagining of data frames.
+* [dplyr](http://dplyr.tidyverse.org), for data manipulation.
+* [tidyr](http://tidyr.tidyverse.org), to easily tidy data using `spread()` and `gather()`.
+* [lubridate](https://github.com/hadley/lubridate), for date/times.
+* [ggplot2](http://ggplot2.tidyverse.org), for data visualisation.
 * [tsibble](http://tsibble.tidyverts.org), for tsibbles, a time series version of a tibble.
 * [tsibbledata](http://tsibbledata.tidyverts.org), various time series data sets in the form of tsibbles.
 * [feasts](http://feasts.tidyverts.org), for features and statistics of time series.
 * [fable](http://fable.tidyverts.org), for fitting models and producing forecasts.
-* [lubridate](https://github.com/hadley/lubridate), for date/times.
-* [ggplot2](http://ggplot2.tidyverse.org), for data visualisation.
 
 You also get a condensed summary of conflicts with other packages you have loaded:
 
