@@ -7,13 +7,14 @@
 fpp3_conflicts()
 }
 \description{
-This function lists all the conflicts between packages in the tidyverts
+This function lists all the conflicts between packages in the fpp3 collection
 and other packages that you have loaded.
 }
 \details{
-There are four conflicts that are deliberately ignored: \code{intersect},
-\code{union}, \code{setequal}, and \code{setdiff} from dplyr. These functions
-make the base equivalents generic, so shouldn't negatively affect any
+Some conflicts are deliberately ignored: \code{intersect}, \code{union},
+\code{setequal}, and \code{setdiff} from dplyr; and \code{intersect},
+\code{union}, \code{setdiff}, and \code{as.difftime} from lubridate.
+These functions make the base equivalents generic, so shouldn't negatively affect any
 existing code.
 }
 \examples{
