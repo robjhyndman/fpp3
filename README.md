@@ -8,7 +8,7 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
 [![Travis build
-status](https://travis-ci.org/fpp3/fpp3.svg?branch=master)](https://travis-ci.org/fpp3/fpp3)
+status](https://travis-ci.org/robjhyndman/fpp3-package.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp3-package)
 <!-- badges: end -->
 
 ## Overview
