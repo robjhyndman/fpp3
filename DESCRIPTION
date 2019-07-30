@@ -37,7 +37,7 @@ Imports:
     tsibbledata (>= 0.1.0)
 Remotes:
    tidyverts/feasts,
-   tidyverts/fablelite,
+   tidyverts/fabletools,
    tidyverts/fable
 Encoding: UTF-8
 LazyData: true
