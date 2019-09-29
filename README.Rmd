@@ -24,7 +24,15 @@ The fpp3 package contains data used in the book [*Forecasting: Principles and Pr
 
 ## Installation
 
-Currently, only the development version is available on GitHub.
+You can install the **stable** version from
+[CRAN](https://cran.r-project.org/package=fpp3).
+
+```{r eval = FALSE}
+install.packages('fpp3', dependencies = TRUE)
+```
+
+You can install the **development** version from
+[Github](https://github.com/robjhyndman/fpp3-package)
 
 ```{r eval = FALSE}
 # install.packages("remotes")
@@ -35,15 +43,15 @@ remotes::install_github("robjhyndman/fpp3-package")
 
 `library(fpp3)` will load the following packages:
 
-* [tibble](http://tibble.tidyverse.org), for tibbles, a modern re-imagining of data frames.
-* [dplyr](http://dplyr.tidyverse.org), for data manipulation.
-* [tidyr](http://tidyr.tidyverse.org), to easily tidy data using `spread()` and `gather()`.
-* [lubridate](https://github.com/hadley/lubridate), for date/times.
-* [ggplot2](http://ggplot2.tidyverse.org), for data visualisation.
-* [tsibble](http://tsibble.tidyverts.org), for tsibbles, a time series version of a tibble.
-* [tsibbledata](http://tsibbledata.tidyverts.org), various time series data sets in the form of tsibbles.
-* [feasts](http://feasts.tidyverts.org), for features and statistics of time series.
-* [fable](http://fable.tidyverts.org), for fitting models and producing forecasts.
+* [tibble](https://tibble.tidyverse.org), for tibbles, a modern re-imagining of data frames.
+* [dplyr](https://dplyr.tidyverse.org), for data manipulation.
+* [tidyr](https://tidyr.tidyverse.org), to easily tidy data using `spread()` and `gather()`.
+* [lubridate](https://lubridate.tidyverse.org), for date/times.
+* [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
+* [tsibble](https://tsibble.tidyverts.org), for tsibbles, a time series version of a tibble.
+* [tsibbledata](https://tsibbledata.tidyverts.org), various time series data sets in the form of tsibbles.
+* [feasts](https://feasts.tidyverts.org), for features and statistics of time series.
+* [fable](https://fable.tidyverts.org), for fitting models and producing forecasts.
 
 You also get a condensed summary of conflicts with other packages you have loaded:
 
