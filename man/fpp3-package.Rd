@@ -25,6 +25,7 @@ Useful links:
 
 Other contributors:
 \itemize{
+  \item Mitchell O'Hara-Wild [contributor]
   \item RStudio [copyright holder]
 }
 

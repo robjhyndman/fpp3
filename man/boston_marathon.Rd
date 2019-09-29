@@ -10,8 +10,8 @@ Boston Athletic Association.
 \url{https://www.baa.org/races/boston-marathon/results/champions}
 }
 \description{
-Winning times (in minutes) for the Boston Marathon Men's Open Division.
-1897-2016.
+Winning times for events at the Boston Marathon.
+1897-2019.
 }
 \examples{
 

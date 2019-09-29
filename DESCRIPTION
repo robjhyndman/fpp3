@@ -6,6 +6,9 @@ Authors@R:
              family = "Hyndman",
              role = c("aut", "cre", "cph"),
              email = "Rob.Hyndman@monash.edu"),
+      person(given = "Mitchell",
+             family = "O'Hara-Wild",
+             role = "ctb"),
       person(given = "RStudio",
              role = c("cph")))
 Description:
