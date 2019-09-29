@@ -7,7 +7,7 @@
 \format{Annual time series of class `tsibble`.}
 \source{
 Boston Athletic Association.
-\url{http://www.baa.org/races/boston-marathon/boston-marathon-history/champions/mens-open-division.aspx}
+\url{https://www.baa.org/races/boston-marathon/results/champions}
 }
 \description{
 Winning times (in minutes) for the Boston Marathon Men's Open Division.

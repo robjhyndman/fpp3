@@ -7,3 +7,21 @@ destination: docs
 authors:
   Rob Hyndman:
     href: http://robjhyndman.com
+
+reference:
+  - title: "Package"
+    contents:
+      - fpp3-package
+  - title: "Functions"
+    contents:
+      - fpp3_conflicts
+      - fpp3_packages
+  - title: "Data"
+    contents:
+      - aus_airpassengers
+      - boston_marathon
+      - canadian_gas
+      - guinea_rice
+      - us_change
+      - us_employment
+      - us_gasoline

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Conflicts between fpp3 packages and other packages — fpp3_conflicts • fpp3</title>
+<title>US monthly employment data — us_employment • fpp3</title>
 
 
 <!-- jquery -->
@@ -35,9 +35,9 @@
 
 
 
-<meta property="og:title" content="Conflicts between fpp3 packages and other packages — fpp3_conflicts" />
-<meta property="og:description" content="This function lists all the conflicts between packages in the fpp3 collection
-and other packages that you have loaded." />
+<meta property="og:title" content="US monthly employment data — us_employment" />
+<meta property="og:description" content="us_employment is a monthly `tsibble` containing US employment data from January 1939
+to June 2019. Each `Series_ID` represents different sectors of the economy." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -109,40 +109,49 @@ and other packages that you have loaded." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Conflicts between fpp3 packages and other packages</h1>
-    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/conflicts.R'><code>R/conflicts.R</code></a></small>
-    <div class="hidden name"><code>fpp3_conflicts.Rd</code></div>
+    <h1>US monthly employment data</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>us_employment.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This function lists all the conflicts between packages in the fpp3 collection
-and other packages that you have loaded.</p>
+    <p><code>us_employment</code> is a monthly `tsibble` containing US employment data from January 1939
+to June 2019. Each `Series_ID` represents different sectors of the economy.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>fpp3_conflicts</span>()</pre>
 
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Some conflicts are deliberately ignored: <code>intersect</code>, <code>union</code>,
-<code>setequal</code>, and <code>setdiff</code> from dplyr; and <code>intersect</code>,
-<code>union</code>, <code>setdiff</code>, and <code>as.difftime</code> from lubridate.
-These functions make the base equivalents generic, so shouldn't negatively affect any
-existing code.</p>
+    <p>Time series of class `tsibble`</p>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>U.S. Bureau of Labor Statistics</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>fpp3_conflicts</span>()</div><div class='output co'>#&gt; ── <span style='font-weight: bold;'>Conflicts</span><span> ────────────────────────────────────────────────────────────────── fpp3_conflicts ──
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>lubridate</span><span>::</span><span style='color: #00BB00;'>date()</span><span>       masks </span><span style='color: #0000BB;'>base</span><span>::date()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>dplyr</span><span>::</span><span style='color: #00BB00;'>filter()</span><span>         masks </span><span style='color: #0000BB;'>stats</span><span>::filter()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>tsibble</span><span>::</span><span style='color: #00BB00;'>id()</span><span>           masks </span><span style='color: #0000BB;'>dplyr</span><span>::id()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>tsibble</span><span>::</span><span style='color: #00BB00;'>interval()</span><span>     masks </span><span style='color: #0000BB;'>lubridate</span><span>::interval()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>dplyr</span><span>::</span><span style='color: #00BB00;'>lag()</span><span>            masks </span><span style='color: #0000BB;'>stats</span><span>::lag()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>tsibble</span><span>::</span><span style='color: #00BB00;'>new_interval()</span><span> masks </span><span style='color: #0000BB;'>lubridate</span><span>::new_interval()</div></span></pre>
+    <pre class="examples"><div class='input'>
+<span class='no'>us_employment</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 142,968 x 3 [1M]</span><span>
+#&gt; </span><span style='color: #555555;'># Key:       Series_ID [148]</span><span>
+#&gt;       Month Series_ID     employment
+#&gt;       </span><span style='color: #555555;font-style: italic;'>&lt;mth&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'> 1</span><span> 1939 Jan CEU0500000001      </span><span style='text-decoration: underline;'>25</span><span>338
+#&gt; </span><span style='color: #555555;'> 2</span><span> 1939 Feb CEU0500000001      </span><span style='text-decoration: underline;'>25</span><span>447
+#&gt; </span><span style='color: #555555;'> 3</span><span> 1939 Mar CEU0500000001      </span><span style='text-decoration: underline;'>25</span><span>833
+#&gt; </span><span style='color: #555555;'> 4</span><span> 1939 Apr CEU0500000001      </span><span style='text-decoration: underline;'>25</span><span>801
+#&gt; </span><span style='color: #555555;'> 5</span><span> 1939 May CEU0500000001      </span><span style='text-decoration: underline;'>26</span><span>113
+#&gt; </span><span style='color: #555555;'> 6</span><span> 1939 Jun CEU0500000001      </span><span style='text-decoration: underline;'>26</span><span>485
+#&gt; </span><span style='color: #555555;'> 7</span><span> 1939 Jul CEU0500000001      </span><span style='text-decoration: underline;'>26</span><span>481
+#&gt; </span><span style='color: #555555;'> 8</span><span> 1939 Aug CEU0500000001      </span><span style='text-decoration: underline;'>26</span><span>848
+#&gt; </span><span style='color: #555555;'> 9</span><span> 1939 Sep CEU0500000001      </span><span style='text-decoration: underline;'>27</span><span>468
+#&gt; </span><span style='color: #555555;'>10</span><span> 1939 Oct CEU0500000001      </span><span style='text-decoration: underline;'>27</span><span>830
+#&gt; </span><span style='color: #555555;'># … with 142,958 more rows</span><span></div><div class='input'>
+</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#details">Details</a></li>
+      <li><a href="#format">Format</a></li>
+      <li><a href="#source">Source</a></li>
       <li><a href="#examples">Examples</a></li>
     </ul>
 

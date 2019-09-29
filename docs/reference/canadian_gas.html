@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Page not found (404) • fpp3</title>
+<title>Monthly Canadian gas production — canadian_gas • fpp3</title>
 
 
 <!-- jquery -->
@@ -29,13 +29,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.4/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script>
 
 <!-- pkgdown -->
-<link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script>
+<link href="../pkgdown.css" rel="stylesheet">
+<script src="../pkgdown.js"></script>
 
 
 
 
-<meta property="og:title" content="Page not found (404)" />
+<meta property="og:title" content="Monthly Canadian gas production — canadian_gas" />
+<meta property="og:description" content="Monthly Canadian gas production, billions of cubic metres, January 1960 -
+February 2005" />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -54,7 +57,7 @@
   </head>
 
   <body>
-    <div class="container template-title-body">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -66,7 +69,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">fpp3</a>
+        <a class="navbar-link" href="../index.html">fpp3</a>
         <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1</span>
       </span>
     </div>
@@ -74,16 +77,16 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">
+  <a href="../index.html">
     <span class="fas fa fas fa-home fa-lg"></span>
      
   </a>
 </li>
 <li>
-  <a href="reference/index.html">Reference</a>
+  <a href="../reference/index.html">Reference</a>
 </li>
 <li>
-  <a href="news/index.html">Changelog</a>
+  <a href="../news/index.html">Changelog</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -104,17 +107,61 @@
       </header>
 
 <div class="row">
-  <div class="contents col-md-9">
+  <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Page not found (404)</h1>
+    <h1>Monthly Canadian gas production</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>canadian_gas.Rd</code></div>
     </div>
 
-Content not found. Please use links in the navbar.
+    <div class="ref-description">
+    <p>Monthly Canadian gas production, billions of cubic metres, January 1960 -
+February 2005</p>
+    </div>
+
+
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>Monthly time series of class `tsibble`.</p>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
+<em>Forecasting with exponential smoothing: the state space approach</em>,
+Springer.</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p><a href='http://www.exponentialsmoothing.net'>http://www.exponentialsmoothing.net</a></p>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'>
+<span class='no'>canadian_gas</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 542 x 2 [1M]</span><span>
+#&gt;       Month Volume
+#&gt;       </span><span style='color: #555555;font-style: italic;'>&lt;mth&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'> 1</span><span> 1960 Jan  1.43 
+#&gt; </span><span style='color: #555555;'> 2</span><span> 1960 Feb  1.31 
+#&gt; </span><span style='color: #555555;'> 3</span><span> 1960 Mar  1.40 
+#&gt; </span><span style='color: #555555;'> 4</span><span> 1960 Apr  1.17 
+#&gt; </span><span style='color: #555555;'> 5</span><span> 1960 May  1.12 
+#&gt; </span><span style='color: #555555;'> 6</span><span> 1960 Jun  1.01 
+#&gt; </span><span style='color: #555555;'> 7</span><span> 1960 Jul  0.966
+#&gt; </span><span style='color: #555555;'> 8</span><span> 1960 Aug  0.977
+#&gt; </span><span style='color: #555555;'> 9</span><span> 1960 Sep  1.03 
+#&gt; </span><span style='color: #555555;'>10</span><span> 1960 Oct  1.25 
+#&gt; </span><span style='color: #555555;'># … with 532 more rows</span><span></div><div class='input'>
+</div></span></pre>
+  </div>
+  <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
+    <h2>Contents</h2>
+    <ul class="nav nav-pills nav-stacked">
+      <li><a href="#format">Format</a></li>
+      <li><a href="#source">Source</a></li>
+      <li><a href="#references">References</a></li>
+      <li><a href="#examples">Examples</a></li>
+    </ul>
 
   </div>
-
 </div>
-
 
 
       <footer>

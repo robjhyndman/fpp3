@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Conflicts between fpp3 packages and other packages — fpp3_conflicts • fpp3</title>
+<title>Percentage changes in economic variables in the USA. — us_change • fpp3</title>
 
 
 <!-- jquery -->
@@ -35,9 +35,10 @@
 
 
 
-<meta property="og:title" content="Conflicts between fpp3 packages and other packages — fpp3_conflicts" />
-<meta property="og:description" content="This function lists all the conflicts between packages in the fpp3 collection
-and other packages that you have loaded." />
+<meta property="og:title" content="Percentage changes in economic variables in the USA. — us_change" />
+<meta property="og:description" content="us_change is a quarterly `tsibble` containing percentage changes in
+quarterly personal consumption expenditure, personal disposable income,
+production, savings and the unemployment rate for the US, 1970 to 2016." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -109,40 +110,49 @@ and other packages that you have loaded." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Conflicts between fpp3 packages and other packages</h1>
-    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/conflicts.R'><code>R/conflicts.R</code></a></small>
-    <div class="hidden name"><code>fpp3_conflicts.Rd</code></div>
+    <h1>Percentage changes in economic variables in the USA.</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>us_change.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This function lists all the conflicts between packages in the fpp3 collection
-and other packages that you have loaded.</p>
+    <p><code>us_change</code> is a quarterly `tsibble` containing percentage changes in
+quarterly personal consumption expenditure, personal disposable income,
+production, savings and the unemployment rate for the US, 1970 to 2016.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>fpp3_conflicts</span>()</pre>
 
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Some conflicts are deliberately ignored: <code>intersect</code>, <code>union</code>,
-<code>setequal</code>, and <code>setdiff</code> from dplyr; and <code>intersect</code>,
-<code>union</code>, <code>setdiff</code>, and <code>as.difftime</code> from lubridate.
-These functions make the base equivalents generic, so shouldn't negatively affect any
-existing code.</p>
+    <p>Time series of class `tsibble`</p>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>Federal Reserve Bank of St Louis.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'>fpp3_conflicts</span>()</div><div class='output co'>#&gt; ── <span style='font-weight: bold;'>Conflicts</span><span> ────────────────────────────────────────────────────────────────── fpp3_conflicts ──
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>lubridate</span><span>::</span><span style='color: #00BB00;'>date()</span><span>       masks </span><span style='color: #0000BB;'>base</span><span>::date()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>dplyr</span><span>::</span><span style='color: #00BB00;'>filter()</span><span>         masks </span><span style='color: #0000BB;'>stats</span><span>::filter()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>tsibble</span><span>::</span><span style='color: #00BB00;'>id()</span><span>           masks </span><span style='color: #0000BB;'>dplyr</span><span>::id()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>tsibble</span><span>::</span><span style='color: #00BB00;'>interval()</span><span>     masks </span><span style='color: #0000BB;'>lubridate</span><span>::interval()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>dplyr</span><span>::</span><span style='color: #00BB00;'>lag()</span><span>            masks </span><span style='color: #0000BB;'>stats</span><span>::lag()
-#&gt; </span><span style='color: #BB0000;'>✖</span><span> </span><span style='color: #0000BB;'>tsibble</span><span>::</span><span style='color: #00BB00;'>new_interval()</span><span> masks </span><span style='color: #0000BB;'>lubridate</span><span>::new_interval()</div></span></pre>
+    <pre class="examples"><div class='input'>
+<span class='no'>us_change</span></div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 187 x 6 [1Q]</span><span>
+#&gt;    Quarter Consumption Income Production Savings Unemployment
+#&gt;      </span><span style='color: #555555;font-style: italic;'>&lt;qtr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'> 1</span><span> 1970 Q1       0.616  0.972     -</span><span style='color: #BB0000;'>2.45</span><span>    4.81           0.9
+#&gt; </span><span style='color: #555555;'> 2</span><span> 1970 Q2       0.460  1.17      -</span><span style='color: #BB0000;'>0.552</span><span>   7.29           0.5
+#&gt; </span><span style='color: #555555;'> 3</span><span> 1970 Q3       0.877  1.55      -</span><span style='color: #BB0000;'>0.359</span><span>   7.29           0.5
+#&gt; </span><span style='color: #555555;'> 4</span><span> 1970 Q4      -</span><span style='color: #BB0000;'>0.274</span><span> -</span><span style='color: #BB0000;'>0.255</span><span>     -</span><span style='color: #BB0000;'>2.19</span><span>    0.985          0.7
+#&gt; </span><span style='color: #555555;'> 5</span><span> 1971 Q1       1.90   1.99       1.91    3.66          -</span><span style='color: #BB0000;'>0.1</span><span>
+#&gt; </span><span style='color: #555555;'> 6</span><span> 1971 Q2       0.912  1.45       0.902   6.05          -</span><span style='color: #BB0000;'>0.1</span><span>
+#&gt; </span><span style='color: #555555;'> 7</span><span> 1971 Q3       0.795  0.532      0.308  -</span><span style='color: #BB0000;'>0.446</span><span>          0.1
+#&gt; </span><span style='color: #555555;'> 8</span><span> 1971 Q4       1.65   1.16       2.29   -</span><span style='color: #BB0000;'>1.53</span><span>           0  
+#&gt; </span><span style='color: #555555;'> 9</span><span> 1972 Q1       1.31   0.457      4.15   -</span><span style='color: #BB0000;'>4.36</span><span>          -</span><span style='color: #BB0000;'>0.2</span><span>
+#&gt; </span><span style='color: #555555;'>10</span><span> 1972 Q2       1.89   1.02       1.89   -</span><span style='color: #BB0000;'>5.05</span><span>          -</span><span style='color: #BB0000;'>0.1</span><span>
+#&gt; </span><span style='color: #555555;'># … with 177 more rows</span><span></div><div class='input'>
+</div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#details">Details</a></li>
+      <li><a href="#format">Format</a></li>
+      <li><a href="#source">Source</a></li>
       <li><a href="#examples">Examples</a></li>
     </ul>
 

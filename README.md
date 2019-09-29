@@ -22,9 +22,17 @@ sharing common data representations and API design.
 
 ## Installation
 
+You can install the **stable** version from
+[CRAN](https://cran.r-project.org/package=fpp3).
+
 ``` r
-# Currently, only the development version is available on GitHub.
-# Some of the component packages are also only available on GitHub.
+install.packages('fpp3', dependencies = TRUE)
+```
+
+You can install the **development** version from
+[Github](https://github.com/robjhyndman/fpp3-package)
+
+``` r
 # install.packages("remotes")
 remotes::install_github("robjhyndman/fpp3-package")
 ```
@@ -33,20 +41,20 @@ remotes::install_github("robjhyndman/fpp3-package")
 
 `library(fpp3)` will load the following packages:
 
-  - [tibble](http://tibble.tidyverse.org), for tibbles, a modern
+  - [tibble](https://tibble.tidyverse.org), for tibbles, a modern
     re-imagining of data frames.
-  - [dplyr](http://dplyr.tidyverse.org), for data manipulation.
-  - [tidyr](http://tidyr.tidyverse.org), to easily tidy data using
+  - [dplyr](https://dplyr.tidyverse.org), for data manipulation.
+  - [tidyr](https://tidyr.tidyverse.org), to easily tidy data using
     `spread()` and `gather()`.
-  - [lubridate](https://github.com/hadley/lubridate), for date/times.
-  - [ggplot2](http://ggplot2.tidyverse.org), for data visualisation.
-  - [tsibble](http://tsibble.tidyverts.org), for tsibbles, a time series
-    version of a tibble.
-  - [tsibbledata](http://tsibbledata.tidyverts.org), various time series
-    data sets in the form of tsibbles.
-  - [feasts](http://feasts.tidyverts.org), for features and statistics
+  - [lubridate](https://lubridate.tidyverse.org), for date/times.
+  - [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
+  - [tsibble](https://tsibble.tidyverts.org), for tsibbles, a time
+    series version of a tibble.
+  - [tsibbledata](https://tsibbledata.tidyverts.org), various time
+    series data sets in the form of tsibbles.
+  - [feasts](https://feasts.tidyverts.org), for features and statistics
     of time series.
-  - [fable](http://fable.tidyverts.org), for fitting models and
+  - [fable](https://fable.tidyverts.org), for fitting models and
     producing forecasts.
 
 You also get a condensed summary of conflicts with other packages you
@@ -54,22 +62,17 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> ── Attaching packages ───────────────────────────────────────────────────────────────────────────── fpp3 0.1 ──
-#> ✔ tibble      2.1.3          ✔ tsibble     0.8.2.9000
+#> ── Attaching packages ─────────────────────────────────────────────────────────────── fpp3 0.1 ──
+#> ✔ tibble      2.1.3          ✔ tsibble     0.8.4     
 #> ✔ dplyr       0.8.3          ✔ tsibbledata 0.1.0.9000
-#> ✔ tidyr       0.8.3          ✔ feasts      0.0.0.9001
-#> ✔ lubridate   1.7.4          ✔ fable       0.0.0.9100
-#> ✔ ggplot2     3.2.0
-#> ── Conflicts ──────────────────────────────────────────────────────────────────────────────── fpp3_conflicts ──
-#> ✖ lubridate::as.difftime() masks base::as.difftime()
-#> ✖ lubridate::date()        masks base::date()
-#> ✖ dplyr::filter()          masks stats::filter()
-#> ✖ tsibble::id()            masks dplyr::id()
-#> ✖ lubridate::intersect()   masks base::intersect()
-#> ✖ tsibble::interval()      masks lubridate::interval()
-#> ✖ dplyr::lag()             masks stats::lag()
-#> ✖ tsibble::new_interval()  masks lubridate::new_interval()
-#> ✖ lubridate::setdiff()     masks base::setdiff()
-#> ✖ lubridate::union()       masks base::union()
-#> ✖ feasts::X11()            masks grDevices::X11()
+#> ✔ tidyr       1.0.0          ✔ feasts      0.1.1.9000
+#> ✔ lubridate   1.7.4          ✔ fable       0.1.0.9000
+#> ✔ ggplot2     3.2.1
+#> ── Conflicts ────────────────────────────────────────────────────────────────── fpp3_conflicts ──
+#> ✖ lubridate::date()       masks base::date()
+#> ✖ dplyr::filter()         masks stats::filter()
+#> ✖ tsibble::id()           masks dplyr::id()
+#> ✖ tsibble::interval()     masks lubridate::interval()
+#> ✖ dplyr::lag()            masks stats::lag()
+#> ✖ tsibble::new_interval() masks lubridate::new_interval()
 ```

@@ -23,7 +23,7 @@
 <![endif]-->
 </head>
 <body>
-    <div class="container template-article">
+    <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -72,12 +72,7 @@
       
 
       </header><div class="row">
-  <div class="col-md-9 contents">
-    
-
-    
-    
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+  <div class="contents col-md-9">
 <div id="fpp3" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#fpp3" class="anchor"></a>fpp3</h1></div>
@@ -91,9 +86,11 @@
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<p>Currently, only the development version is available on GitHub.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages("remotes")</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">remotes<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/remotes/man/install_github.html">install_github</a></span>(<span class="st">"robjhyndman/fpp3-package"</span>)</a></code></pre></div>
+<p>You can install the <strong>stable</strong> version from <a href="https://cran.r-project.org/package=fpp3">CRAN</a>.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">'fpp3'</span>, <span class="dt">dependencies =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+<p>You can install the <strong>development</strong> version from <a href="https://github.com/robjhyndman/fpp3-package">Github</a></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># install.packages("remotes")</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>remotes<span class="op">::</span><span class="kw"><a href="https://rdrr.io/pkg/remotes/man/install_github.html">install_github</a></span>(<span class="st">"robjhyndman/fpp3-package"</span>)</span></code></pre></div>
 </div>
 <div id="usage" class="section level2">
 <h2 class="hasAnchor">
@@ -101,40 +98,39 @@
 <p><code><a href="https://rdrr.io/r/base/library.html">library(fpp3)</a></code> will load the following packages:</p>
 <ul>
 <li>
-<a href="http://tibble.tidyverse.org">tibble</a>, for tibbles, a modern re-imagining of data frames.</li>
+<a href="https://tibble.tidyverse.org">tibble</a>, for tibbles, a modern re-imagining of data frames.</li>
 <li>
-<a href="http://dplyr.tidyverse.org">dplyr</a>, for data manipulation.</li>
+<a href="https://dplyr.tidyverse.org">dplyr</a>, for data manipulation.</li>
 <li>
-<a href="http://tidyr.tidyverse.org">tidyr</a>, to easily tidy data using <code>spread()</code> and <code>gather()</code>.</li>
+<a href="https://tidyr.tidyverse.org">tidyr</a>, to easily tidy data using <code>spread()</code> and <code>gather()</code>.</li>
 <li>
-<a href="https://github.com/hadley/lubridate">lubridate</a>, for date/times.</li>
+<a href="https://lubridate.tidyverse.org">lubridate</a>, for date/times.</li>
 <li>
-<a href="http://ggplot2.tidyverse.org">ggplot2</a>, for data visualisation.</li>
+<a href="https://ggplot2.tidyverse.org">ggplot2</a>, for data visualisation.</li>
 <li>
-<a href="http://tsibble.tidyverts.org">tsibble</a>, for tsibbles, a time series version of a tibble.</li>
+<a href="https://tsibble.tidyverts.org">tsibble</a>, for tsibbles, a time series version of a tibble.</li>
 <li>
-<a href="http://tsibbledata.tidyverts.org">tsibbledata</a>, various time series data sets in the form of tsibbles.</li>
+<a href="https://tsibbledata.tidyverts.org">tsibbledata</a>, various time series data sets in the form of tsibbles.</li>
 <li>
-<a href="http://feasts.tidyverts.org">feasts</a>, for features and statistics of time series.</li>
+<a href="https://feasts.tidyverts.org">feasts</a>, for features and statistics of time series.</li>
 <li>
-<a href="http://fable.tidyverts.org">fable</a>, for fitting models and producing forecasts.</li>
+<a href="https://fable.tidyverts.org">fable</a>, for fitting models and producing forecasts.</li>
 </ul>
 <p>You also get a condensed summary of conflicts with other packages you have loaded:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(fpp3)</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; ── Attaching packages ──────────────────────────────────────────────────────────────────────────── fpp3 0.1 ──</span></a>
-<a class="sourceLine" id="cb2-3" data-line-number="3"><span class="co">#&gt; ✔ tibble      2.1.3          ✔ tsibble     0.8.2.9000</span></a>
-<a class="sourceLine" id="cb2-4" data-line-number="4"><span class="co">#&gt; ✔ dplyr       0.8.3          ✔ tsibbledata 0.1.0.9000</span></a>
-<a class="sourceLine" id="cb2-5" data-line-number="5"><span class="co">#&gt; ✔ tidyr       0.8.3          ✔ feasts      0.0.0.9001</span></a>
-<a class="sourceLine" id="cb2-6" data-line-number="6"><span class="co">#&gt; ✔ lubridate   1.7.4          ✔ fable       0.0.0.9100</span></a>
-<a class="sourceLine" id="cb2-7" data-line-number="7"><span class="co">#&gt; ✔ ggplot2     3.2.0</span></a>
-<a class="sourceLine" id="cb2-8" data-line-number="8"><span class="co">#&gt; ── Conflicts ─────────────────────────────────────────────────────────────────────────────── fpp3_conflicts ──</span></a>
-<a class="sourceLine" id="cb2-9" data-line-number="9"><span class="co">#&gt; ✖ lubridate::date()       masks base::date()</span></a>
-<a class="sourceLine" id="cb2-10" data-line-number="10"><span class="co">#&gt; ✖ dplyr::filter()         masks stats::filter()</span></a>
-<a class="sourceLine" id="cb2-11" data-line-number="11"><span class="co">#&gt; ✖ tsibble::id()           masks dplyr::id()</span></a>
-<a class="sourceLine" id="cb2-12" data-line-number="12"><span class="co">#&gt; ✖ tsibble::interval()     masks lubridate::interval()</span></a>
-<a class="sourceLine" id="cb2-13" data-line-number="13"><span class="co">#&gt; ✖ dplyr::lag()            masks stats::lag()</span></a>
-<a class="sourceLine" id="cb2-14" data-line-number="14"><span class="co">#&gt; ✖ tsibble::new_interval() masks lubridate::new_interval()</span></a>
-<a class="sourceLine" id="cb2-15" data-line-number="15"><span class="co">#&gt; ✖ feasts::X11()           masks grDevices::X11()</span></a></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span>(fpp3)</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="co">#&gt; ── Attaching packages ─────────────────────────────────────────────────────────────── fpp3 0.1 ──</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="co">#&gt; ✔ tibble      2.1.3          ✔ tsibble     0.8.4     </span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="co">#&gt; ✔ dplyr       0.8.3          ✔ tsibbledata 0.1.0.9000</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="co">#&gt; ✔ tidyr       1.0.0          ✔ feasts      0.1.1.9000</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="co">#&gt; ✔ lubridate   1.7.4          ✔ fable       0.1.0.9000</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="co">#&gt; ✔ ggplot2     3.2.1</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="co">#&gt; ── Conflicts ────────────────────────────────────────────────────────────────── fpp3_conflicts ──</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="co">#&gt; ✖ lubridate::date()       masks base::date()</span></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="co">#&gt; ✖ dplyr::filter()         masks stats::filter()</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a><span class="co">#&gt; ✖ tsibble::id()           masks dplyr::id()</span></span>
+<span id="cb3-12"><a href="#cb3-12"></a><span class="co">#&gt; ✖ tsibble::interval()     masks lubridate::interval()</span></span>
+<span id="cb3-13"><a href="#cb3-13"></a><span class="co">#&gt; ✖ dplyr::lag()            masks stats::lag()</span></span>
+<span id="cb3-14"><a href="#cb3-14"></a><span class="co">#&gt; ✖ tsibble::new_interval() masks lubridate::new_interval()</span></span></code></pre></div>
 </div>
 </div>
   </div>
@@ -166,7 +162,7 @@
 </ul>
 </div>
 
-      <div class="dev-status">
+  <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
 <li><a href="https://cran.r-project.org/package=fpp3"><img src="https://www.r-pkg.org/badges/version/fpp3" alt="CRAN status"></a></li>
@@ -174,9 +170,7 @@
 </ul>
 </div>
 </div>
-
 </div>
-
 
 
       <footer><div class="copyright">
@@ -184,7 +178,7 @@
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.3.0.9100.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.4.1.9000.</p>
 </div>
 
       </footer>
