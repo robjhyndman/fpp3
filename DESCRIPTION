@@ -16,7 +16,7 @@ Description:
     "Forecasting: principles and practice" by Rob J Hyndman and George Athanasopoulos
     <http://OTexts.org/fpp3/>.  All packages required to run the examples are also
     loaded.
-License: GPL-3 | file LICENSE
+License: GPL-3
 URL: https://github.com/robjhyndman/fpp3-package,
     https://OTexts.org/fpp3/
 BugReports: https://github.com/robjhyndman/fpp3-package
