@@ -12,17 +12,23 @@ us_change <- readr::read_csv("data-raw/uschange.csv") %>%
 usethis::use_data(us_change, overwrite = TRUE)
 
 # US change NEW
-unrate <- readxl::read_xls("data-raw/US_change.xls", sheet = "Monthly") %>%
-  mutate(Month = yearmonth(DATE)) %>%
-  select(Month, everything(), -DATE) %>%
+unrate <- readxl::read_xls("data-raw/uschange_fpp3.xls", sheet = "Monthly") %>%
+  mutate(Month = yearmonth(observation_date)) %>%
+  select(Month, everything(), -observation_date) %>%
+  rename(Unemployment=UNRATE_20191004) %>%
   as_tsibble(index = Month)
 
-# need to aggregate to monthly by taking the last month of the quarter observation.
-# then we take the differences of these, i.e., change on the rate
+# need to aggregate to monthly by taking the last month of the quarter as the observation.
+# then we take the differences of these, i.e., calculate the change of the rate
+# then select 1970 onwards
 
-other <- readxl::read_xls("data-raw/US_change.xls", sheet = "Quarterly") %>%
-  mutate(Quarter = yearquarter(DATE)) %>%
-  select(Quarter, everything(), -DATE) %>%
+other <- readxl::read_xls("data-raw/uschange_fpp3.xls", sheet = "Quarterly") %>%
+  mutate(Quarter = yearquarter(observation_date)) %>%
+  select(Quarter, everything(), -observation_date) %>%
+  rename(Consumption=DPIC96_20191004,
+         Income= IPB50001SQ_20191004,
+         Production=PCECC96_20191004,
+         Savings=PSAVE_20191004) %>%
   as_tsibble(index = Quarter) %>%
   filter_index("1969 Q4"~.)
 
