@@ -2,6 +2,7 @@ library(tidyverse)
 library(tsibble)
 
 # US employment data
+# Data download from https://research.stlouisfed.org/pdl/1215
 
 us_employment <- read_tsv("data-raw/US_employment/US_employment_fpp3_Monthly.txt") %>%
   rename(Month = "observation_date") %>%
