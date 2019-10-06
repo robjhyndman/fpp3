@@ -21,10 +21,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Rob Hyndman \email{Rob.Hyndman@monash.edu} [copyright holder]
+\strong{Maintainer}: Rob Hyndman \email{Rob.Hyndman@monash.edu} (0000-0002-2140-5352) [copyright holder]
 
 Other contributors:
 \itemize{
+  \item George Athanasopoulos [contributor]
   \item Mitchell O'Hara-Wild [contributor]
   \item RStudio [copyright holder]
 }
