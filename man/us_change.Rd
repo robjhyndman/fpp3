@@ -12,6 +12,7 @@ Federal Reserve Bank of St Louis.
 \code{us_change} is a quarterly `tsibble` containing percentage changes in
 quarterly personal consumption expenditure, personal disposable income,
 production, savings and the unemployment rate for the US, 1970 to 2016.
+Original $ values were in chained 2012 US dollars.
 }
 \examples{
 
