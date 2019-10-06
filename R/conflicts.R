@@ -11,6 +11,7 @@
 #' These functions make the base equivalents generic, so shouldn't negatively affect any
 #' existing code.
 #'
+#' @return A list object of class \code{fpp3_conflicts}.
 #' @export
 #' @examples
 #' fpp3_conflicts()

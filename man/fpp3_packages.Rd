@@ -9,6 +9,9 @@ fpp3_packages(include_self = FALSE)
 \arguments{
 \item{include_self}{Include fpp3 in the list?}
 }
+\value{
+A character vector of package names.
+}
 \description{
 List all packages loaded by fpp3
 }

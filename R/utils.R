@@ -28,6 +28,7 @@ text_col <- function(x) {
 #' List all packages loaded by fpp3
 #'
 #' @param include_self Include fpp3 in the list?
+#' @return A character vector of package names.
 #' @export
 #' @examples
 #' fpp3_packages()

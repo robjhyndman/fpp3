@@ -6,6 +6,9 @@
 \usage{
 fpp3_conflicts()
 }
+\value{
+A list object of class \code{fpp3_conflicts}.
+}
 \description{
 This function lists all the conflicts between packages in the fpp3 collection
 and other packages that you have loaded.
