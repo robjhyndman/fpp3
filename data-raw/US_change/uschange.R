@@ -1,12 +1,11 @@
 library(tidyverse)
-library(readxl)
 library(tsibble)
 
 # US change data
 # Downloaded from https://research.stlouisfed.org/pdl/1216/
 
 # Read monthly unemployment data
-unrate <- readxl::read_xls("data-raw/uschange_fpp3.xls", sheet = "Monthly") %>%
+unrate <- read_tsv("data-raw/US_change/uschange_fpp3_Monthly.txt") %>%
   mutate(Month = yearmonth(observation_date)) %>%
   select(Month, everything(), -observation_date) %>%
   rename(Unemployment = UNRATE_20191004) %>%
@@ -20,13 +19,13 @@ unrate <- unrate %>%
   filter_index("1969 Q4" ~ .)
 
 # Read remaining quarterly data
-other <- readxl::read_xls("data-raw/uschange_fpp3.xls", sheet = "Quarterly") %>%
+other <- read_tsv("data-raw/US_change/uschange_fpp3_Quarterly.txt", na=c("",".")) %>%
   mutate(Quarter = yearquarter(observation_date)) %>%
   select(Quarter, everything(), -observation_date) %>%
   rename(
-    Consumption = DPIC96_20191004,
-    Income = IPB50001SQ_20191004,
-    Production = PCECC96_20191004,
+    Income = DPIC96_20191004,
+    Production = IPB50001SQ_20191004,
+    Consumption = PCECC96_20191004,
     Savings = PSAVE_20191004
   ) %>%
   as_tsibble(index = Quarter) %>%
@@ -42,14 +41,14 @@ us_change <- inner_join(other, unrate) %>%
     Savings = difference(log(Savings)) * 100,
     Unemployment = difference(Unemployment)
   ) %>%
-  filter_index("1970 Q1" ~ .)
-
-us_change
+  filter_index("1970 Q1" ~ .) %>%
+  select(Quarter, Consumption, Income, Production, Savings, Unemployment)
 
 # Compare with csv file
-readr::read_csv("data-raw/uschange.csv") %>%
+us_change
+readr::read_csv("data-raw/US_change/uschange.csv") %>%
   mutate(Quarter = yearquarter(Time)) %>%
   select(Quarter, everything(), -Time) %>%
   as_tsibble(index = Quarter)
 
-# usethis::use_data(us_change, overwrite = TRUE)
+usethis::use_data(us_change, overwrite = TRUE)
