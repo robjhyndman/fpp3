@@ -44,11 +44,4 @@ us_change <- inner_join(other, unrate) %>%
   filter_index("1970 Q1" ~ .) %>%
   select(Quarter, Consumption, Income, Production, Savings, Unemployment)
 
-# Compare with csv file
-us_change
-readr::read_csv("data-raw/US_change/uschange.csv") %>%
-  mutate(Quarter = yearquarter(Time)) %>%
-  select(Quarter, everything(), -Time) %>%
-  as_tsibble(index = Quarter)
-
 usethis::use_data(us_change, overwrite = TRUE)
