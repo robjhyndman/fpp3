@@ -126,3 +126,21 @@ NULL
 #' canadian_gas
 #'
 NULL
+
+
+#' International Arrivals to Australia
+#'
+#' Quarterly international arrivals to Australia from Japan, New
+#' Zealand, UK and the US.  1981Q1 - 2012Q3.
+#'
+#'
+#' @name aus_arrivals
+#' @docType data
+#' @format Quarterly time series of class `tsibble`.
+#' @source Tourism Research Australia.
+#' @keywords datasets
+#' @examples
+#'
+#' aus_arrivals
+#'
+NULL

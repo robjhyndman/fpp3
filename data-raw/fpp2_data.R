@@ -34,3 +34,16 @@ guinea_rice <- as_tsibble(fpp2::guinearice) %>%
     Production = value
   )
 usethis::use_data(guinea_rice, overwrite = TRUE)
+
+# aus arrivals
+
+aus_arrivals <- as_tsibble(fpp2::arrivals) %>%
+  rename(
+    Quarter = index,
+    Origin = key,
+    Arrivals = value
+  ) %>%
+  mutate(
+    Arrivals = as.integer(Arrivals * 1e3)
+  )
+usethis::use_data(aus_arrivals, overwrite = TRUE)
