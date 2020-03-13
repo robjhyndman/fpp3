@@ -4,7 +4,9 @@
 \name{aus_airpassengers}
 \alias{aus_airpassengers}
 \title{Air Transport Passengers Australia}
-\format{Annual time series of class `tsibble`.}
+\format{
+Annual time series of class `tsibble`.
+}
 \source{
 World Bank.
 }

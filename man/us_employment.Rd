@@ -4,7 +4,9 @@
 \name{us_employment}
 \alias{us_employment}
 \title{US monthly employment data}
-\format{Time series of class `tsibble`}
+\format{
+Time series of class `tsibble`
+}
 \source{
 U.S. Bureau of Labor Statistics
 }

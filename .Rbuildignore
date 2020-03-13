@@ -10,3 +10,4 @@ cran-comments.md
 README.Rmd
 ^data-raw$
 ^CRAN-RELEASE$
+^cran-comments\.md$

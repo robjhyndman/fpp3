@@ -4,7 +4,9 @@
 \name{us_change}
 \alias{us_change}
 \title{Percentage changes in economic variables in the USA.}
-\format{Time series of class `tsibble`}
+\format{
+Time series of class `tsibble`
+}
 \source{
 Federal Reserve Bank of St Louis.
 }

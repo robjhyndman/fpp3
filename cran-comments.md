@@ -1,15 +1,8 @@
 ## Test environments
-
-* local: linux-gnu-3.6.1
-* travis: oldrel, release, devel
-* win-builder: windows-x86_64-devel
+* local Ubuntu 19.10 install, R 3.6.3
+* win-builder (devel and release)
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 notes
+0 errors | 0 warnings | 1 note
 
-## Response to CRAN maintainers
-
-As requested, license file removed and \value added to .Rd files for functions.
-
-Broken URL now working.

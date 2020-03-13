@@ -4,7 +4,9 @@
 \name{canadian_gas}
 \alias{canadian_gas}
 \title{Monthly Canadian gas production}
-\format{Monthly time series of class `tsibble`.}
+\format{
+Monthly time series of class `tsibble`.
+}
 \source{
 Hyndman, R.J., Koehler, A.B., Ord, J.K., and Snyder, R.D., (2008)
 \emph{Forecasting with exponential smoothing: the state space approach},

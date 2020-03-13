@@ -4,7 +4,9 @@
 \name{guinea_rice}
 \alias{guinea_rice}
 \title{Rice production (Guinea)}
-\format{Annual time series of class `tsibble`.}
+\format{
+Annual time series of class `tsibble`.
+}
 \source{
 World Bank.
 }

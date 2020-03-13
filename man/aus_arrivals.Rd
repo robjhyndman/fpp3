@@ -4,7 +4,9 @@
 \name{aus_arrivals}
 \alias{aus_arrivals}
 \title{International Arrivals to Australia}
-\format{Quarterly time series of class `tsibble`.}
+\format{
+Quarterly time series of class `tsibble`.
+}
 \source{
 Tourism Research Australia.
 }

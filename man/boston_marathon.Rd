@@ -4,7 +4,9 @@
 \name{boston_marathon}
 \alias{boston_marathon}
 \title{Boston marathon winning times since 1897}
-\format{Annual time series of class `tsibble`.}
+\format{
+Annual time series of class `tsibble`.
+}
 \source{
 Boston Athletic Association.
 \url{https://www.baa.org/races/boston-marathon/results/champions}
