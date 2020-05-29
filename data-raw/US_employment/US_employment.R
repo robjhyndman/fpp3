@@ -29,7 +29,7 @@ readme <- read_lines("data-raw/US_employment/US_employment_fpp3_README.txt") %>%
     Title = str_remove(Title, "All Employees: ")
   )
 
-left_join(us_employment, readme, by = "Series_ID") %>%
+us_employment <- left_join(us_employment, readme, by = "Series_ID") %>%
   select(Month, Series_ID, Title, Employed)
 
 usethis::use_data(us_employment, overwrite = TRUE)
