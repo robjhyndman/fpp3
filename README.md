@@ -62,17 +62,15 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> ── Attaching packages ─────────────────────────────────────────────────────────────── fpp3 0.1 ──
-#> ✔ tibble      2.1.3          ✔ tsibble     0.8.4     
-#> ✔ dplyr       0.8.3          ✔ tsibbledata 0.1.0.9000
-#> ✔ tidyr       1.0.0          ✔ feasts      0.1.1.9000
-#> ✔ lubridate   1.7.4          ✔ fable       0.1.0.9000
-#> ✔ ggplot2     3.2.1
-#> ── Conflicts ────────────────────────────────────────────────────────────────── fpp3_conflicts ──
-#> ✖ lubridate::date()       masks base::date()
-#> ✖ dplyr::filter()         masks stats::filter()
-#> ✖ tsibble::id()           masks dplyr::id()
-#> ✖ tsibble::interval()     masks lubridate::interval()
-#> ✖ dplyr::lag()            masks stats::lag()
-#> ✖ tsibble::new_interval() masks lubridate::new_interval()
+#> ── Attaching packages ──────────────────────────────────────────────────── fpp3 0.3 ──
+#> ✓ tibble      3.0.1          ✓ tsibble     0.9.0     
+#> ✓ dplyr       1.0.0          ✓ tsibbledata 0.2.0.9000
+#> ✓ tidyr       1.1.0          ✓ feasts      0.1.3     
+#> ✓ lubridate   1.7.8          ✓ fable       0.2.0     
+#> ✓ ggplot2     3.3.1
+#> ── Conflicts ─────────────────────────────────────────────────────── fpp3_conflicts ──
+#> x lubridate::date()   masks base::date()
+#> x dplyr::filter()     masks stats::filter()
+#> x tsibble::interval() masks lubridate::interval()
+#> x dplyr::lag()        masks stats::lag()
 ```
