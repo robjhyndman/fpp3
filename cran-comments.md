@@ -1,6 +1,6 @@
 ## Comments
 
-Updated to work with the new version of tsibble v0.9.0 (to be submitted on 1 June)
+Updated to work with tsibble v0.9.0
 
 ## Test environments
 
