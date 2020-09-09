@@ -15,7 +15,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
-[![Travis build status](https://travis-ci.org/robjhyndman/fpp3-package.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp3-package)
+[![R build status](https://github.com/robjhyndman/fpp3-package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp3-package/actions)
+[![Downloads](http://cranlogs.r-pkg.org/badges/fpp3)](https://cran.r-project.org/package=fpp3)
 <!-- badges: end -->
 
 ## Overview

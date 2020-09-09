@@ -7,8 +7,9 @@
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
-[![Travis build
-status](https://travis-ci.org/robjhyndman/fpp3-package.svg?branch=master)](https://travis-ci.org/robjhyndman/fpp3-package)
+[![R build
+status](https://github.com/robjhyndman/fpp3-package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp3-package/actions)
+[![Downloads](http://cranlogs.r-pkg.org/badges/fpp3)](https://cran.r-project.org/package=fpp3)
 <!-- badges: end -->
 
 ## Overview
@@ -62,13 +63,13 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> ── Attaching packages ──────────────────────────────────────────────────── fpp3 0.3 ──
-#> ✓ tibble      3.0.1          ✓ tsibble     0.9.0     
-#> ✓ dplyr       1.0.0          ✓ tsibbledata 0.2.0.9000
-#> ✓ tidyr       1.1.0          ✓ feasts      0.1.3     
-#> ✓ lubridate   1.7.8          ✓ fable       0.2.0     
-#> ✓ ggplot2     3.3.1
-#> ── Conflicts ─────────────────────────────────────────────────────── fpp3_conflicts ──
+#> ── Attaching packages ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── fpp3 0.3 ──
+#> ✓ tibble      3.0.3     ✓ tsibble     0.9.2
+#> ✓ dplyr       1.0.2     ✓ tsibbledata 0.2.0
+#> ✓ tidyr       1.1.2     ✓ feasts      0.1.5
+#> ✓ lubridate   1.7.9     ✓ fable       0.2.1
+#> ✓ ggplot2     3.3.2
+#> ── Conflicts ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── fpp3_conflicts ──
 #> x lubridate::date()   masks base::date()
 #> x dplyr::filter()     masks stats::filter()
 #> x tsibble::interval() masks lubridate::interval()
