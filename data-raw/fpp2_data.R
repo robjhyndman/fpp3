@@ -60,5 +60,5 @@ bank_calls <- read_delim("https://robjhyndman.com/data/callcenter.txt",
     DateTime = as_datetime(paste(Date, Time)),
   ) %>%
   as_tsibble(index=DateTime) %>%
-  select(DateTime, Date, Time, Calls)
+  select(DateTime, Calls)
 usethis::use_data(bank_calls, overwrite = TRUE)
