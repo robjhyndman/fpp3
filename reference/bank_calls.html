@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>US finished motor gasoline product supplied. — us_gasoline • fpp3</title>
+<title>Call volume for a large North American bank — bank_calls • fpp3</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,8 @@
 
 
 
-<meta property="og:title" content="US finished motor gasoline product supplied. — us_gasoline" />
-<meta property="og:description" content="Weekly data beginning Week 6, 1991, ending Week 3, 2017. Units are
-&quot;million barrels per day&quot;." />
+<meta property="og:title" content="Call volume for a large North American bank — bank_calls" />
+<meta property="og:description" content="Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 for 164 days." />
 
 
 
@@ -112,42 +111,41 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>US finished motor gasoline product supplied.</h1>
+    <h1>Call volume for a large North American bank</h1>
     <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/data.R'><code>R/data.R</code></a></small>
-    <div class="hidden name"><code>us_gasoline.Rd</code></div>
+    <div class="hidden name"><code>bank_calls.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Weekly data beginning Week 6, 1991, ending Week 3, 2017. Units are
-"million barrels per day".</p>
+    <p>Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 for 164 days.</p>
     </div>
 
 
 
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
-    <p>Time series object of class `tsibble`.</p>
+    <p>Time series of class `tsibble` at 5 minute intervals.</p>
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>US Energy Information Administration.</p>
+    <p>Rob Hyndman</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
-<span class='va'>us_gasoline</span>
-</div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 1,355 x 2 [1W]</span><span>
-#&gt;        Week Barrels
-#&gt;      </span><span style='color: #555555;font-style: italic;'>&lt;week&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
-#&gt; </span><span style='color: #555555;'> 1</span><span> 1991 W06    6.62
-#&gt; </span><span style='color: #555555;'> 2</span><span> 1991 W07    6.43
-#&gt; </span><span style='color: #555555;'> 3</span><span> 1991 W08    6.58
-#&gt; </span><span style='color: #555555;'> 4</span><span> 1991 W09    7.22
-#&gt; </span><span style='color: #555555;'> 5</span><span> 1991 W10    6.88
-#&gt; </span><span style='color: #555555;'> 6</span><span> 1991 W11    6.95
-#&gt; </span><span style='color: #555555;'> 7</span><span> 1991 W12    7.33
-#&gt; </span><span style='color: #555555;'> 8</span><span> 1991 W13    6.78
-#&gt; </span><span style='color: #555555;'> 9</span><span> 1991 W14    7.50
-#&gt; </span><span style='color: #555555;'>10</span><span> 1991 W15    6.92
-#&gt; </span><span style='color: #555555;'># … with 1,345 more rows</span><span></div><div class='input'>
+<span class='va'>bank_calls</span>
+</div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 27,716 x 4 [5m] &lt;UTC&gt;</span><span>
+#&gt;    DateTime            Date       Time       Calls
+#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;dttm&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;date&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;drtn&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'> 1</span><span> 2003-03-03 </span><span style='color: #555555;'>07:00:00</span><span> 2003-03-03 25200 secs   111
+#&gt; </span><span style='color: #555555;'> 2</span><span> 2003-03-03 </span><span style='color: #555555;'>07:05:00</span><span> 2003-03-03 25500 secs   113
+#&gt; </span><span style='color: #555555;'> 3</span><span> 2003-03-03 </span><span style='color: #555555;'>07:10:00</span><span> 2003-03-03 25800 secs    76
+#&gt; </span><span style='color: #555555;'> 4</span><span> 2003-03-03 </span><span style='color: #555555;'>07:15:00</span><span> 2003-03-03 26100 secs    82
+#&gt; </span><span style='color: #555555;'> 5</span><span> 2003-03-03 </span><span style='color: #555555;'>07:20:00</span><span> 2003-03-03 26400 secs    91
+#&gt; </span><span style='color: #555555;'> 6</span><span> 2003-03-03 </span><span style='color: #555555;'>07:25:00</span><span> 2003-03-03 26700 secs    87
+#&gt; </span><span style='color: #555555;'> 7</span><span> 2003-03-03 </span><span style='color: #555555;'>07:30:00</span><span> 2003-03-03 27000 secs    75
+#&gt; </span><span style='color: #555555;'> 8</span><span> 2003-03-03 </span><span style='color: #555555;'>07:35:00</span><span> 2003-03-03 27300 secs    89
+#&gt; </span><span style='color: #555555;'> 9</span><span> 2003-03-03 </span><span style='color: #555555;'>07:40:00</span><span> 2003-03-03 27600 secs    99
+#&gt; </span><span style='color: #555555;'>10</span><span> 2003-03-03 </span><span style='color: #555555;'>07:45:00</span><span> 2003-03-03 27900 secs   125
+#&gt; </span><span style='color: #555555;'># … with 27,706 more rows</span><span></div><div class='input'>
 </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
