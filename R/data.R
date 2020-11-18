@@ -144,3 +144,19 @@ NULL
 #' aus_arrivals
 #'
 NULL
+
+#' Call volume for a large North American bank
+#'
+#' Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 for 164 days.
+#'
+#' @name bank_calls
+#' @docType data
+#' @format Time series of class `tsibble` at 5 minute intervals.
+#' @source Rob Hyndman
+#' @keywords datasets
+#' @examples
+#'
+#' bank_calls
+#'
+NULL
+

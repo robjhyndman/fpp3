@@ -47,3 +47,18 @@ aus_arrivals <- as_tsibble(fpp2::arrivals) %>%
     Arrivals = as.integer(Arrivals * 1e3)
   )
 usethis::use_data(aus_arrivals, overwrite = TRUE)
+
+# Calls
+# Simpler to just read from the raw file rather than from fpp2
+
+bank_calls <- read_delim("https://robjhyndman.com/data/callcenter.txt",
+                         delim="\t", locale = locale(tz="US/Eastern")) %>%
+  rename(Time = X1) %>%
+  pivot_longer(-Time, names_to="Date", values_to="Calls") %>%
+  mutate(
+    Date = dmy(Date),
+    DateTime = as_datetime(paste(Date, Time)),
+  ) %>%
+  as_tsibble(index=DateTime) %>%
+  select(DateTime, Date, Time, Calls)
+usethis::use_data(bank_calls, overwrite = TRUE)
