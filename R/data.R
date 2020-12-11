@@ -160,3 +160,18 @@ NULL
 #'
 NULL
 
+#' Price series for various commodities
+#'
+#' Annual prices for eggs, chicken, copper, nails, oil and wheat.
+#' Eggs, chicken, nails, oil and copper in $US; wheat in British pounds. All prices adjusted for inflation.
+#'
+#' @source Makridakis, Wheelwright and Hyndman (1998) *Forecasting: methods and applications*, John Wiley & Sons: New York. Chapter 9.
+#' @name prices
+#' @docType data
+#' @format Annual time series of class `tsibble`.
+#' @keywords datasets
+#' @examples
+#'
+#' prices %>% autoplot(wheat)
+#'
+NULL
