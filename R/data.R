@@ -175,3 +175,18 @@ NULL
 #' prices %>% autoplot(wheat)
 #'
 NULL
+
+#' Sales for a souvenir shop
+#'
+#' Monthly sales for a souvenir shop on the wharf at a beach resort town in Queensland, Australia.
+#'
+#' @source Makridakis, Wheelwright and Hyndman (1998) *Forecasting: methods and applications*, John Wiley & Sons: New York. Exercise 5.8.
+#' @name souvenirs
+#' @docType data
+#' @format Monthly time series of class `tsibble`.
+#' @keywords datasets
+#' @examples
+#'
+#' souvenirs %>% autoplot(Sales)
+#'
+NULL

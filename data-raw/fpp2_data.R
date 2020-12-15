@@ -81,3 +81,8 @@ prices <- prices %>%
   select(year, everything()) %>%
   as_tsibble(index = year)
 usethis::use_data(prices, overwrite = TRUE)
+
+# Fancy sales
+souvenirs <- as_tsibble(fma::fancy) %>%
+  rename(Month = index, Sales = value)
+usethis::use_data(souvenirs, overwrite = TRUE)
