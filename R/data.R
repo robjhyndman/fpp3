@@ -190,3 +190,21 @@ NULL
 #' souvenirs %>% autoplot(Sales)
 #'
 NULL
+
+
+#' Insurance quotations and advertising expenditure
+#'
+#' Monthly quotations and monthly television advertising expenditure for a US insurance company.
+#' January 2002 to April 2005
+#'
+#' @source Kindly provided by Dave Reilly, Automatic Forecasting Systems.
+#' @name insurance
+#' @docType data
+#' @format Monthly time series of class `tsibble`.
+#' @keywords datasets
+#' @examples
+#'
+#' insurance %>%
+#'   ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()
+#'
+NULL

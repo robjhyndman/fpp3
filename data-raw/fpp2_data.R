@@ -86,3 +86,14 @@ usethis::use_data(prices, overwrite = TRUE)
 souvenirs <- as_tsibble(fma::fancy) %>%
   rename(Month = index, Sales = value)
 usethis::use_data(souvenirs, overwrite = TRUE)
+
+# Insurance
+insurance <- as_tsibble(fpp2::insurance) %>%
+  pivot_wider(names_from="key", values_from="value") %>%
+  rename(
+    Month = index,
+    TVadverts = TV.advert
+  )
+usethis::use_data(insurance, overwrite = TRUE)
+
+
