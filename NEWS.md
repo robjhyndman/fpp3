@@ -1,5 +1,7 @@
 # fpp3 (development version)
 
+  * Added bank_calls, prices and souvenirs data sets
+
 # fpp3 (0.3)
  
   * Updated all objects to work with tsibble v0.9.0
