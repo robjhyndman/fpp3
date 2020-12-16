@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • fpp3</title>
+<title>Insurance quotations and advertising expenditure — insurance • fpp3</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,9 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="Insurance quotations and advertising expenditure — insurance" />
+<meta property="og:description" content="Monthly quotations and monthly television advertising expenditure for a US insurance company.
+January 2002 to April 2005" />
 
 
 
@@ -58,7 +60,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -110,26 +112,37 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1 data-toc-skip>Changelog <small></small></h1>
-      <small>Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
+    <h1>Insurance quotations and advertising expenditure</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>insurance.Rd</code></div>
     </div>
 
-    <div id="fpp3-development-version" class="section level1">
-<h1 class="page-header" data-toc-text="development version">
-<a href="#fpp3-development-version" class="anchor"></a>fpp3 (development version)<small> Unreleased </small>
-</h1>
-<ul>
-<li>Added bank_calls, prices, souvenirs and insurance data sets</li>
-</ul>
-</div>
-  </div>
+    <div class="ref-description">
+    <p>Monthly quotations and monthly television advertising expenditure for a US insurance company.
+January 2002 to April 2005</p>
+    </div>
 
+
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>Monthly time series of class `tsibble`.</p>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>Kindly provided by Dave Reilly, Automatic Forecasting Systems.</p>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'>
+<span class='va'>insurance</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x<span class='op'>=</span><span class='va'>TVadverts</span>, y<span class='op'>=</span><span class='va'>Quotes</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span> <span class='fu'>geom_point</span><span class='op'>(</span><span class='op'>)</span>
+</div><div class='img'><img src='insurance-1.png' alt='' width='700' height='433' /></div><div class='input'>
+</div></pre>
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
-
 </div>
 
 
