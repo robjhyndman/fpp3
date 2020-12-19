@@ -42,7 +42,10 @@
 <meta property="og:title" content="Australian accommodation data — aus_accommodation" />
 <meta property="og:description" content="aus_accommodation is a quarterly `tsibble` containing data on Australian tourist accommodation
 from short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2. The data set
-also contains the Australian Consumer Price Index (CPI) for the same period." />
+also contains the Australian Consumer Price Index (CPI) for the same period.
+Takings are in millions of Australian dollars,
+Occupancy is a percentage of rooms occupied,
+CPI is an index with value 100 in 2012 Q1." />
 
 
 
@@ -121,7 +124,10 @@ also contains the Australian Consumer Price Index (CPI) for the same period." />
     <div class="ref-description">
     <p><code>aus_accommodation</code> is a quarterly `tsibble` containing data on Australian tourist accommodation
 from short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2. The data set
-also contains the Australian Consumer Price Index (CPI) for the same period.</p>
+also contains the Australian Consumer Price Index (CPI) for the same period.
+Takings are in millions of Australian dollars,
+Occupancy is a percentage of rooms occupied,
+CPI is an index with value 100 in 2012 Q1.</p>
     </div>
 
 
@@ -137,8 +143,8 @@ also contains the Australian Consumer Price Index (CPI) for the same period.</p>
     <pre class="examples"><div class='input'>
 <span class='va'>aus_accommodation</span>
 </div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 592 x 5 [1Q]</span><span>
-#&gt; </span><span style='color: #555555;'># Key:       state [8]</span><span>
-#&gt;       date state                        Takings Occupancy   cpi
+#&gt; </span><span style='color: #555555;'># Key:       State [8]</span><span>
+#&gt;       Date State                        Takings Occupancy   CPI
 #&gt;      </span><span style='color: #555555;font-style: italic;'>&lt;qtr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                          </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
 #&gt; </span><span style='color: #555555;'> 1</span><span> 1998 Q1 Australian Capital Territory    24.3      65    67  
 #&gt; </span><span style='color: #555555;'> 2</span><span> 1998 Q2 Australian Capital Territory    22.3      59    67.4
