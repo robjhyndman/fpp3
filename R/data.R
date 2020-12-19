@@ -208,3 +208,22 @@ NULL
 #'   ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()
 #'
 NULL
+
+#' Australian accommodation data
+#'
+#' \code{aus_accommodation} is a quarterly `tsibble` containing data on Australian tourist accommodation
+#' from short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2. The data set
+#' also contains the Australian Consumer Price Index (CPI) for the same period.
+#'
+#' @source
+#' Australian Bureau of Statistics, Cat No 8635.0, Table 10, and Cat No 6401.0, Table 1.
+#'
+#' @name aus_accommodation
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' aus_accommodation
+#'
+NULL
