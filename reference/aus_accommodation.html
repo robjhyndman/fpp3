@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • fpp3</title>
+<title>Australian accommodation data — aus_accommodation • fpp3</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,10 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="Australian accommodation data — aus_accommodation" />
+<meta property="og:description" content="aus_accommodation is a quarterly `tsibble` containing data on Australian tourist accommodation
+from short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2. The data set
+also contains the Australian Consumer Price Index (CPI) for the same period." />
 
 
 
@@ -58,7 +61,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -110,53 +113,51 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1 data-toc-skip>Changelog <small></small></h1>
-      <small>Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
+    <h1>Australian accommodation data</h1>
+    <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/data.R'><code>R/data.R</code></a></small>
+    <div class="hidden name"><code>aus_accommodation.Rd</code></div>
     </div>
 
-    <div id="fpp3-development-version" class="section level1">
-<h1 class="page-header" data-toc-text="development version">
-<a href="#fpp3-development-version" class="anchor"></a>fpp3 (development version)<small> Unreleased </small>
-</h1>
-<ul>
-<li>Added bank_calls, prices, souvenirs and insurance data sets from fpp2</li>
-<li>Added Australian accommodation data</li>
-</ul>
-</div>
-    <div id="fpp3-03" class="section level1">
-<h1 class="page-header" data-toc-text="0.3">
-<a href="#fpp3-03" class="anchor"></a>fpp3 0.3<small> 2020-06-07 </small>
-</h1>
-<ul>
-<li>Updated all objects to work with tsibble v0.9.0</li>
-<li>Added series titles to us_employment</li>
-</ul>
-</div>
-    <div id="fpp3-02" class="section level1">
-<h1 class="page-header" data-toc-text="0.2">
-<a href="#fpp3-02" class="anchor"></a>fpp3 0.2<small> 2020-03-15 </small>
-</h1>
-<ul>
-<li>Added aus_arrivals data set.</li>
-</ul>
-</div>
-    <div id="fpp3-01" class="section level1">
-<h1 class="page-header" data-toc-text="0.1">
-<a href="#fpp3-01" class="anchor"></a>fpp3 0.1<small> 2019-10-09 </small>
-</h1>
-<ul>
-<li>Initial version based on the tidyverse package by Hadley Wickham.</li>
-<li>Some data ported from fpp2. New data sets include us_employment.</li>
-</ul>
-</div>
-  </div>
+    <div class="ref-description">
+    <p><code>aus_accommodation</code> is a quarterly `tsibble` containing data on Australian tourist accommodation
+from short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2. The data set
+also contains the Australian Consumer Price Index (CPI) for the same period.</p>
+    </div>
 
+
+
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>Time series of class `tsibble`</p>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>Australian Bureau of Statistics, Cat No 8635.0, Table 10, and Cat No 6401.0, Table 1.</p>
+
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'>
+<span class='va'>aus_accommodation</span>
+</div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 592 x 5 [1Q]</span><span>
+#&gt; </span><span style='color: #555555;'># Key:       state [8]</span><span>
+#&gt;       date state                        Takings Occupancy   cpi
+#&gt;      </span><span style='color: #555555;font-style: italic;'>&lt;qtr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>                          </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'> 1</span><span> 1998 Q1 Australian Capital Territory    24.3      65    67  
+#&gt; </span><span style='color: #555555;'> 2</span><span> 1998 Q2 Australian Capital Territory    22.3      59    67.4
+#&gt; </span><span style='color: #555555;'> 3</span><span> 1998 Q3 Australian Capital Territory    22.5      58    67.5
+#&gt; </span><span style='color: #555555;'> 4</span><span> 1998 Q4 Australian Capital Territory    24.4      59    67.8
+#&gt; </span><span style='color: #555555;'> 5</span><span> 1999 Q1 Australian Capital Territory    23.7      58    67.8
+#&gt; </span><span style='color: #555555;'> 6</span><span> 1999 Q2 Australian Capital Territory    25.4      61    68.1
+#&gt; </span><span style='color: #555555;'> 7</span><span> 1999 Q3 Australian Capital Territory    28.2      66    68.7
+#&gt; </span><span style='color: #555555;'> 8</span><span> 1999 Q4 Australian Capital Territory    25.8      60    69.1
+#&gt; </span><span style='color: #555555;'> 9</span><span> 2000 Q1 Australian Capital Territory    27.3      60.9  69.7
+#&gt; </span><span style='color: #555555;'>10</span><span> 2000 Q2 Australian Capital Territory    30.1      64.7  70.2
+#&gt; </span><span style='color: #555555;'># … with 582 more rows</span><span></div><div class='input'>
+</div></span></pre>
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
       <h2 data-toc-skip>Contents</h2>
     </nav>
   </div>
-
 </div>
 
 
