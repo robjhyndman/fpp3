@@ -21,7 +21,7 @@ canadian_gas <- as_tsibble(expsmooth::cangas) %>%
 usethis::use_data(canadian_gas, overwrite = TRUE)
 
 # Aus air and Guinea rice
-aus_airpassengers <- as_tsibble(window(fpp2::ausair, end = 2011)) %>%
+aus_airpassengers <- as_tsibble(fpp2::ausair) %>%
   rename(
     Year = index,
     Passengers = value
