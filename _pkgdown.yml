@@ -6,7 +6,7 @@ destination: docs
 
 authors:
   Rob Hyndman:
-    href: http://robjhyndman.com
+    href: https://robjhyndman.com
 
 reference:
   - title: "Package"

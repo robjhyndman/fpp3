@@ -9,7 +9,7 @@
 status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
 [![R build
 status](https://github.com/robjhyndman/fpp3-package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp3-package/actions)
-[![Downloads](http://cranlogs.r-pkg.org/badges/fpp3)](https://cran.r-project.org/package=fpp3)
+[![Downloads](https://cranlogs.r-pkg.org/badges/fpp3)](https://cran.r-project.org/package=fpp3)
 <!-- badges: end -->
 
 ## Overview
