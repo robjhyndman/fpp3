@@ -15,7 +15,7 @@ status](https://github.com/robjhyndman/fpp3-package/workflows/R-CMD-check/badge.
 ## Overview
 
 The fpp3 package contains data used in the book [*Forecasting:
-Principles and Practice* (3rd edition)](https://OTexts.com/fpp3) by Rob
+Principles and Practice* (3rd edition)](https://OTexts.com/fpp3/) by Rob
 J Hyndman and George Athanasopoulos. It also loads several packages
 needed to do the analysis described in the book. These packages work
 with the [tidyverse](https://www.tidyverse.org/) set of packages,
@@ -63,7 +63,7 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> ── Attaching packages ─────────────────────────────────────── fpp3 0.3.0.9000 ──
+#> ── Attaching packages ──────────────────────────────────────────── fpp3 0.4.0 ──
 #> ✓ tibble      3.0.6          ✓ tsibble     0.9.4     
 #> ✓ dplyr       1.0.3          ✓ tsibbledata 0.2.0.9000
 #> ✓ tidyr       1.1.2          ✓ feasts      0.1.6.9000
