@@ -18,10 +18,16 @@ reference:
       - fpp3_packages
   - title: "Data"
     contents:
+      - aus_accommodation
       - aus_airpassengers
+      - aus_arrivals
+      - bank_calls
       - boston_marathon
       - canadian_gas
       - guinea_rice
+      - insurance
+      - prices
+      - souvenirs
       - us_change
       - us_employment
       - us_gasoline
