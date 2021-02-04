@@ -1,7 +1,9 @@
-# fpp3 (development version)
+# fpp3 (0.4)
 
   * Added bank_calls, prices, souvenirs and insurance data sets from fpp2
   * Added Australian accommodation data
+  * Added aus_passengers data
+  * Increased minimum versions for some package dependencies
 
 # fpp3 0.3
  
