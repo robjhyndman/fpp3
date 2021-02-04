@@ -42,20 +42,20 @@ remotes::install_github("robjhyndman/fpp3-package")
 
 `library(fpp3)` will load the following packages:
 
-  - [tibble](https://tibble.tidyverse.org), for tibbles, a modern
+-   [tibble](https://tibble.tidyverse.org), for tibbles, a modern
     re-imagining of data frames.
-  - [dplyr](https://dplyr.tidyverse.org), for data manipulation.
-  - [tidyr](https://tidyr.tidyverse.org), to easily tidy data using
+-   [dplyr](https://dplyr.tidyverse.org), for data manipulation.
+-   [tidyr](https://tidyr.tidyverse.org), to easily tidy data using
     `spread()` and `gather()`.
-  - [lubridate](https://lubridate.tidyverse.org), for date/times.
-  - [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
-  - [tsibble](https://tsibble.tidyverts.org), for tsibbles, a time
+-   [lubridate](https://lubridate.tidyverse.org), for date/times.
+-   [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
+-   [tsibble](https://tsibble.tidyverts.org), for tsibbles, a time
     series version of a tibble.
-  - [tsibbledata](https://tsibbledata.tidyverts.org), various time
+-   [tsibbledata](https://tsibbledata.tidyverts.org), various time
     series data sets in the form of tsibbles.
-  - [feasts](https://feasts.tidyverts.org), for features and statistics
+-   [feasts](https://feasts.tidyverts.org), for features and statistics
     of time series.
-  - [fable](https://fable.tidyverts.org), for fitting models and
+-   [fable](https://fable.tidyverts.org), for fitting models and
     producing forecasts.
 
 You also get a condensed summary of conflicts with other packages you
@@ -63,15 +63,18 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> ── Attaching packages ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── fpp3 0.3 ──
-#> ✓ tibble      3.0.3     ✓ tsibble     0.9.2
-#> ✓ dplyr       1.0.2     ✓ tsibbledata 0.2.0
-#> ✓ tidyr       1.1.2     ✓ feasts      0.1.5
-#> ✓ lubridate   1.7.9     ✓ fable       0.2.1
-#> ✓ ggplot2     3.3.2
-#> ── Conflicts ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── fpp3_conflicts ──
-#> x lubridate::date()   masks base::date()
-#> x dplyr::filter()     masks stats::filter()
-#> x tsibble::interval() masks lubridate::interval()
-#> x dplyr::lag()        masks stats::lag()
+#> ── Attaching packages ─────────────────────────────────────── fpp3 0.3.0.9000 ──
+#> ✓ tibble      3.0.6          ✓ tsibble     0.9.4     
+#> ✓ dplyr       1.0.3          ✓ tsibbledata 0.2.0.9000
+#> ✓ tidyr       1.1.2          ✓ feasts      0.1.6.9000
+#> ✓ lubridate   1.7.9.2        ✓ fable       0.3.0     
+#> ✓ ggplot2     3.3.3
+#> ── Conflicts ───────────────────────────────────────────────── fpp3_conflicts ──
+#> x lubridate::date()    masks base::date()
+#> x dplyr::filter()      masks stats::filter()
+#> x tsibble::intersect() masks base::intersect()
+#> x tsibble::interval()  masks lubridate::interval()
+#> x dplyr::lag()         masks stats::lag()
+#> x tsibble::setdiff()   masks base::setdiff()
+#> x tsibble::union()     masks base::union()
 ```
