@@ -30,9 +30,9 @@ Imports:
     cli (>= 1.0.0),
     crayon (>= 1.3.4),
     dplyr (>= 0.7.4),
-    fable (>= 0.1.0),
-    fabletools (>= 0.1.0),
-    feasts (>= 0.0.0.9001),
+    fable (>= 0.3.0),
+    fabletools (>= 0.3.0),
+    feasts (>= 0.1.7),
     ggplot2 (>= 3.1.1),
     lubridate (>= 1.7.4),
     magrittr (>= 1.5),
@@ -40,8 +40,8 @@ Imports:
     rstudioapi (>= 0.7),
     tibble (>= 1.4.2),
     tidyr (>= 0.8.3),
-    tsibble (>= 0.8.9.9000),
-    tsibbledata (>= 0.1.0),
+    tsibble (>= 0.9.3),
+    tsibbledata (>= 0.2.0),
     urca (>= 1.3-0)
 Encoding: UTF-8
 LazyData: true
