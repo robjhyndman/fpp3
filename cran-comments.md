@@ -8,7 +8,7 @@ Some new data added
 * Github actions CI macOS. R release
 * Github actions CI Windows. R release, R 3.6
 * Github actions CI Ubuntu 16.04. R devel, R release, R oldrel, R 3.5
-* win-builder. R devel, R 4.0.3
+* win-builder. R devel, R 4.0.3, R 3.6.3
 
 ## R CMD check results
 
