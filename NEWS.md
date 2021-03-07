@@ -1,3 +1,7 @@
+# fpp3 (development version)
+
+  * Improved docs
+
 # fpp3 (0.4)
 
   * Added bank_calls, prices, souvenirs and insurance data sets from fpp2
@@ -6,7 +10,7 @@
   * Increased minimum versions for some package dependencies
 
 # fpp3 0.3
- 
+
   * Updated all objects to work with tsibble v0.9.0
   * Added series titles to us_employment
 
