@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Call volume for a large North American bank — bank_calls • fpp3</title>
+<title>Call volume for a large North American commercial bank — bank_calls • fpp3</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Call volume for a large North American bank — bank_calls" />
-<meta property="og:description" content="Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 for 164 days." />
+<meta property="og:title" content="Call volume for a large North American commercial bank — bank_calls" />
+<meta property="og:description" content="Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 and 24 October (164 days)." />
 
 
 
@@ -111,13 +111,13 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Call volume for a large North American bank</h1>
+    <h1>Call volume for a large North American commercial bank</h1>
     <small class="dont-index">Source: <a href='https://github.com/robjhyndman/fpp3-package/blob/master/R/data.R'><code>R/data.R</code></a></small>
     <div class="hidden name"><code>bank_calls.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 for 164 days.</p>
+    <p>Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 and 24 October (164 days).</p>
     </div>
 
 
@@ -127,25 +127,28 @@
     <p>Time series of class `tsibble` at 5 minute intervals.</p>
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>Rob Hyndman</p>
+    <p>Jonathan Weinberg</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p>Weinberg, Brown &amp; Stroud (2007) "Bayesian forecasting of an inhomogeneous Poisson process with applications to call center data" <em>Journal of the American Statistical Associiation</em>, 102:480, 1185-1198.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
 <span class='va'>bank_calls</span>
-</div><div class='output co'>#&gt; <span style='color: #555555;'># A tsibble: 27,716 x 2 [5m] &lt;UTC&gt;</span><span>
+</div><div class='output co'>#&gt; <span style='color: #949494;'># A tsibble: 27,716 x 2 [5m] &lt;UTC&gt;</span><span>
 #&gt;    DateTime            Calls
-#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;dttm&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
-#&gt; </span><span style='color: #555555;'> 1</span><span> 2003-03-03 </span><span style='color: #555555;'>07:00:00</span><span>   111
-#&gt; </span><span style='color: #555555;'> 2</span><span> 2003-03-03 </span><span style='color: #555555;'>07:05:00</span><span>   113
-#&gt; </span><span style='color: #555555;'> 3</span><span> 2003-03-03 </span><span style='color: #555555;'>07:10:00</span><span>    76
-#&gt; </span><span style='color: #555555;'> 4</span><span> 2003-03-03 </span><span style='color: #555555;'>07:15:00</span><span>    82
-#&gt; </span><span style='color: #555555;'> 5</span><span> 2003-03-03 </span><span style='color: #555555;'>07:20:00</span><span>    91
-#&gt; </span><span style='color: #555555;'> 6</span><span> 2003-03-03 </span><span style='color: #555555;'>07:25:00</span><span>    87
-#&gt; </span><span style='color: #555555;'> 7</span><span> 2003-03-03 </span><span style='color: #555555;'>07:30:00</span><span>    75
-#&gt; </span><span style='color: #555555;'> 8</span><span> 2003-03-03 </span><span style='color: #555555;'>07:35:00</span><span>    89
-#&gt; </span><span style='color: #555555;'> 9</span><span> 2003-03-03 </span><span style='color: #555555;'>07:40:00</span><span>    99
-#&gt; </span><span style='color: #555555;'>10</span><span> 2003-03-03 </span><span style='color: #555555;'>07:45:00</span><span>   125
-#&gt; </span><span style='color: #555555;'># … with 27,706 more rows</span><span></div><div class='input'>
+#&gt;    </span><span style='color: #949494;font-style: italic;'>&lt;dttm&gt;</span><span>              </span><span style='color: #949494;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #BCBCBC;'> 1</span><span> 2003-03-03 </span><span style='color: #949494;'>07:00:00</span><span>   111
+#&gt; </span><span style='color: #BCBCBC;'> 2</span><span> 2003-03-03 </span><span style='color: #949494;'>07:05:00</span><span>   113
+#&gt; </span><span style='color: #BCBCBC;'> 3</span><span> 2003-03-03 </span><span style='color: #949494;'>07:10:00</span><span>    76
+#&gt; </span><span style='color: #BCBCBC;'> 4</span><span> 2003-03-03 </span><span style='color: #949494;'>07:15:00</span><span>    82
+#&gt; </span><span style='color: #BCBCBC;'> 5</span><span> 2003-03-03 </span><span style='color: #949494;'>07:20:00</span><span>    91
+#&gt; </span><span style='color: #BCBCBC;'> 6</span><span> 2003-03-03 </span><span style='color: #949494;'>07:25:00</span><span>    87
+#&gt; </span><span style='color: #BCBCBC;'> 7</span><span> 2003-03-03 </span><span style='color: #949494;'>07:30:00</span><span>    75
+#&gt; </span><span style='color: #BCBCBC;'> 8</span><span> 2003-03-03 </span><span style='color: #949494;'>07:35:00</span><span>    89
+#&gt; </span><span style='color: #BCBCBC;'> 9</span><span> 2003-03-03 </span><span style='color: #949494;'>07:40:00</span><span>    99
+#&gt; </span><span style='color: #BCBCBC;'>10</span><span> 2003-03-03 </span><span style='color: #949494;'>07:45:00</span><span>   125
+#&gt; </span><span style='color: #949494;'># … with 27,706 more rows</span><span></div><div class='input'>
 </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
