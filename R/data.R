@@ -145,14 +145,15 @@ NULL
 #'
 NULL
 
-#' Call volume for a large North American bank
+#' Call volume for a large North American commercial bank
 #'
-#' Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 for 164 days.
+#' Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 and 24 October (164 days).
 #'
 #' @name bank_calls
 #' @docType data
 #' @format Time series of class `tsibble` at 5 minute intervals.
-#' @source Rob Hyndman
+#' @source Jonathan Weinberg
+#' @references Weinberg, Brown & Stroud (2007) "Bayesian forecasting of an inhomogeneous Poisson process with applications to call center data" \emph{Journal of the American Statistical Associiation}, 102:480, 1185-1198.
 #' @keywords datasets
 #' @examples
 #'
