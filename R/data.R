@@ -147,7 +147,7 @@ NULL
 
 #' Call volume for a large North American commercial bank
 #'
-#' Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March 2003 and 24 October (164 days).
+#' Five-minute call volume handled on weekdays between 7:00am and 9:05pm, beginning 3 March and 24 October 2003 (164 days).
 #'
 #' @name bank_calls
 #' @docType data
