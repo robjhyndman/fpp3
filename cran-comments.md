@@ -1,14 +1,14 @@
 ## Comments
 
-Some new data added
+Improved docs and fixed NOTE on CRAN check results
 
 ## Test environments
 
-* local Ubuntu 20.04. R 4.0.3
-* Github actions CI macOS. R release
-* Github actions CI Windows. R release, R 3.6
-* Github actions CI Ubuntu 16.04. R devel, R release, R oldrel, R 3.5
-* win-builder. R devel, R 4.0.3, R 3.6.3
+* ubuntu 22.04 (local): R 4.2.2
+* macOS (on GitHub Actions): release
+* windows (on GitHub Actions): release
+* ubuntu 22.04.1 (on GitHub Actions): devel, release, oldrel
+* win-builder: devel, release, oldrelease
 
 ## R CMD check results
 
