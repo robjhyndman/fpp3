@@ -12,3 +12,4 @@ README.Rmd
 ^CRAN-RELEASE$
 ^cran-comments\.md$
 ^\.github$
+^CRAN-SUBMISSION$
