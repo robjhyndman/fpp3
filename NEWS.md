@@ -1,6 +1,7 @@
-# fpp3 (development version)
+# fpp3 (0.5)
 
   * Improved docs
+  * Added fabletools to list of attached packages
 
 # fpp3 (0.4)
 
