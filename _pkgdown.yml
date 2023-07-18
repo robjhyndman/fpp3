@@ -17,6 +17,9 @@ authors:
   Rob Hyndman:
     href: https://robjhyndman.com
 
+navbar:
+  type: light
+
 reference:
   - title: "Package"
     contents:
