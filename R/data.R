@@ -259,3 +259,32 @@ NULL
 #' aus_fertility
 #'
 NULL
+
+#' Monthly offences in NSW
+#'
+#' \code{offences} is a monthly `tsibble` with one value:
+#' \tabular{ll}{
+#'     Count: \tab Number of offences reported \cr
+#' }
+#'
+#' Each series is uniquely identified using one key:
+#' \tabular{ll}{
+#'     Type: \tab Offence type \cr
+#' }
+#'
+#'covering the period from Apr 1995--Dec 2023.
+#'
+#' @source NSW Bureau of Crime Statistics and Research
+#'
+#'
+#' @name offences
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' offences
+#'
+NULL
+
