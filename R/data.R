@@ -231,3 +231,31 @@ NULL
 #' aus_accommodation
 #'
 NULL
+
+#' Australian women fertility rate
+#'
+#' \code{aus_fertility} is a yearly `tsibble` with one value:
+#' \tabular{ll}{
+#'     Rate: \tab Fertility rate (per thousand women)\cr
+#' }
+#'
+#' Each series is uniquely identified using two keys:
+#' \tabular{ll}{
+#'     Region: \tab Australia, states and territories\cr
+#'     Age: \tab Age of the woman\cr
+#' }
+#' based on calendar year of registration data. It covers the period from 1975--2022.
+#'
+#' @source Australian Bureau of Statistics
+#'
+#'
+#' @name aus_fertility
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' aus_fertility
+#'
+NULL
