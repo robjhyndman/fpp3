@@ -288,3 +288,21 @@ NULL
 #'
 NULL
 
+#' Average daily total pedestrian count in Melbourne
+#'
+#' Daily average (across different sensors) total pedestrian count in thousands from 2019-01-01 to
+#' 2024-05-29.
+#'
+#' @source Melbourne Open Data Portal
+#'
+#'
+#' @name daily_walkers
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' daily_walkers
+#'
+NULL
