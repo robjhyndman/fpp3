@@ -306,3 +306,62 @@ NULL
 #' daily_walkers
 #'
 NULL
+
+#' Monthly short term (<1 year) visitor arrivals to Australia
+#'
+#' \code{aus_inbound} is a monthly `tsibble` with one value:
+#' \tabular{ll}{
+#'     Count: \tab Number of individuals arriving in Australia (in thousands) \cr
+#' }
+#'
+#' Each series is uniquely identified using two keys:
+#' \tabular{ll}{
+#'     County: \tab Country of stay/residence \cr
+#'     Purpose: \tab Purpose of travel
+#' }
+#'
+#'covering the period from Jan 2005--Feb 2020.
+#'
+#' @source Tourism Research Australia
+#'
+#'
+#' @name aus_inbound
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' aus_inbound
+#'
+NULL
+
+#' Monthly short term (<1 year) resident departures in Australia
+#'
+#' \code{aus_outbound} is a monthly `tsibble` with one value:
+#' \tabular{ll}{
+#'     Count: \tab Number of individuals departing Australia (in thousands) \cr
+#' }
+#'
+#' Each series is uniquely identified using two keys:
+#' \tabular{ll}{
+#'     County: \tab Destination \cr
+#'     Purpose: \tab Purpose of travel
+#' }
+#'
+#'covering the period from Jan 2005--Jun 2017.
+#'
+#' @source Tourism Research Australia
+#'
+#'
+#' @name aus_outbound
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' aus_outbound
+#'
+NULL
+
