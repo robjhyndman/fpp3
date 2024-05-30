@@ -1,6 +1,6 @@
 library(tsibble)
 library(tidyverse)
-library(readr)
+library(readxl)
 
 aus_nom <- read_xlsx(path ="data-raw/Exams/AUS_NOM/migration_Updated.xlsx")[1:10] |>
   mutate(Quarter = yearquarter(Date)) |>

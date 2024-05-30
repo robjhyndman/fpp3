@@ -412,3 +412,34 @@ NULL
 #' ny_childcare
 #'
 NULL
+
+#' Australian vehicle sales
+#'
+#' The number of new motor vehicles sold in Australia.
+#'
+#' \code{aus_vehicle_sales} is a monthly `tsibble` with one value:
+#' \tabular{ll}{
+#'     \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
+#' }
+#' from January 1994 to December 2017 in Australia,
+#' indexed by:
+#' \tabular{ll}{
+#'     \code{Month}:  \tab Year-month.\cr
+#' }
+#'
+#' Each series is uniquely identified using the key:
+#' \tabular{ll}{
+#'     \code{Type}: The type of the vehicle sold.\cr
+#' }
+#'
+#' @source Australian Bureau of Statistics
+#'
+#' @name aus_vehicle_sales
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' aus_vehicle_sales
+#'
+NULL

@@ -1,6 +1,6 @@
 library(tsibble)
 library(tidyverse)
-library(readr)
+library(readxl)
 
 aus_cigtob <- read_xlsx(path ="data-raw/Exams/AUS_CigTob_Exp/CigTob_Updated.xlsx") |>
   mutate(Quarter = yearquarter(Quarter)) |>

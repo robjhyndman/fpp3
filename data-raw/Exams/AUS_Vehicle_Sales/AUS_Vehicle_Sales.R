@@ -1,0 +1,16 @@
+library(tsibble)
+library(tidyverse)
+library(readxl)
+
+aus_vehicle_sales <- read_xls(path ="data-raw/Exams/AUS_Vehicle_Sales/931401.xls",
+                       sheet = 2,
+                       col_names = FALSE,
+                       skip = 10)[1:4]
+colnames(aus_vehicle_sales) <- c("Month", "Passenger", "SUV", "Other")
+aus_vehicle_sales <- aus_vehicle_sales |>
+  mutate(Month = yearmonth(Month)) |>
+  pivot_longer(Passenger:Other, names_to = "Type", values_to = "Count") |>
+  mutate(Count = Count/1e3) |>
+  as_tsibble(index = Month, key = Type)
+
+usethis::use_data(aus_vehicle_sales, overwrite=TRUE)
