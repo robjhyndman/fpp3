@@ -11,9 +11,10 @@ All data sets required for the examples and exercises in the book "Forecasting: 
 \seealso{
 Useful links:
 \itemize{
+  \item \url{http://pkg.robjhyndman.com/fpp3package/}
   \item \url{https://github.com/robjhyndman/fpp3package}
-  \item \url{https://OTexts.com/fpp3/}
-  \item Report bugs at \url{https://github.com/robjhyndman/fpp3package}
+  \item \url{http://OTexts.com/fpp3}
+  \item Report bugs at \url{https://github.com/robjhyndman/fpp3package/issues}
 }
 
 }
