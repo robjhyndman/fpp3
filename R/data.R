@@ -234,33 +234,26 @@ NULL
 
 #' Australian mortality data
 #'
-#' Mortality counts and mortality rates in Australia.
+#' Weekly death counts and mortality rates in Australia.
 #'
-#' \code{aus_mortality} is a weekly `tsibble` with one value:
+#' \code{aus_mortality} is a weekly `tsibble` with two measured variables:
 #' \tabular{ll}{
-#'     \code{Mortality}:  \tab Mortality count/rate\cr
+#'  \code{Deaths}: \tab Death count
+#'     \code{Mortality}:  \tab Mortality rate\cr
 #' }
 #' from 2015 week 01 to 2023 week 12 for five different age groups plus the
-#' total, categorised for sex.
+#' total, categorised by sex.
 #'
 #' Each series is uniquely identified using three keys:
 #' \tabular{ll}{
-#'     \code{Sex}:  \tab Sex of the individual; \code{m} - male, \code{f} - female, and
-#' \code{b} - both sexes combined\cr
-#'     \code{Age}:  \tab Age group of the individual\cr
-#'     \code{Type}: \tab Whether the \code{Mortality} is a count or a rate.\cr
+#'     \code{Sex}:  \tab Sex of the individual: Male, Female, or Both\cr
+#'     \code{Age}:  \tab Age group of the individual
 #' }
 #'
 #' The mortality rate is defined as the number of deaths per thousand people in
 #' Australia in each week.
 #'
-#' The rest of the two columns of the data set are:
-#' \tabular{ll}{
-#'     \code{Week}:  \tab Year-week\cr
-#'     \code{Forecast}:  \tab Equals to 1 for all years where forecasted population exposures were used to calculate the weekly death rates.\cr
-#' }
-#'
-#' @source \url{https://mortality.org/Data/STMF} (Downloaded on 29th May 2024.)
+#' @source \url{https://mortality.org/Data/STMF} (Downloaded on 29 May 2024)
 #'
 #' @name aus_mortality
 #' @docType data
