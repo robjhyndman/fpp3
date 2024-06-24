@@ -274,7 +274,7 @@ NULL
 
 #' OTexts page views
 #'
-#' Daily page views on the OTexts website.
+#' Daily page views on the OTexts website <https://OTexts.com/> as recorded by Google analytics.
 #'
 #' \code{otexts_views} is a daily `tsibble` with two columns:
 #' \tabular{ll}{

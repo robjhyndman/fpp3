@@ -1,8 +1,9 @@
-library(tsibble)
-library(tidyverse)
+library(fpp3)
 library(readr)
 
-otexts_views <- read_csv(file ="./data-raw/Exams/Otexts_Views/otexts_downloads.csv", skip = 5) |>
+# Data downloaded from Google Analytics
+
+otexts_views <- readr::read_csv(file ="./data-raw/Exams/Otexts_Views/otexts_downloads.csv", skip = 5) |>
   janitor::clean_names() |>
   transmute(Date = lubridate::dmy(day_index), Pageviews = page_views / 1e3) |>
   head(-1) |>

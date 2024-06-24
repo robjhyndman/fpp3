@@ -8,7 +8,7 @@
 Time series of class `tsibble`
 }
 \description{
-Daily page views on the OTexts website.
+Daily page views on the OTexts website <https://OTexts.com/> as recorded by Google analytics.
 }
 \details{
 \code{otexts_views} is a daily `tsibble` with two columns:
