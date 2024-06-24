@@ -8,23 +8,22 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics
+Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/population/births-australia/2022}
 }
 \description{
 Number of births in Australia.
 }
 \details{
-\code{aus_births} is a monthly `tsibble` with one value:
+\code{aus_births} is a monthly `tsibble` with one measured variable:
 \tabular{ll}{
     \code{Births}:  \tab Number of births\cr
 }
-from January 1975 to December 2022 for the 6 states and 2 territories
-of Australia, and for the entire country, indexed by:
+from January 1975 to December 2021 for the 6 states and 2 territories
+of Australia, indexed by:
 \tabular{ll}{
     \code{Month}:  \tab Year-month.\cr
 }
-
-Each series is uniquely identified using the key:
+#' Each series is uniquely identified using the key:
 \tabular{ll}{
     \code{State}: The state or territory.\cr
 }
