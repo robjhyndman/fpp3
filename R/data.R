@@ -402,6 +402,10 @@ NULL
 #'     \code{Count}:  \tab Number of employees.\cr
 #' }
 #'
+#' @source U.S. Bureau of Labor Statistics and Federal Reserve Bank of St. Louis,
+#' All Employees: Education and Health Services: Child Care Services in New York City, NY
+#' retrieved from FRED, Federal Reserve Bank of St. Louis;
+#' <https://fred.stlouisfed.org/series/SMU36935616562440001>, 30 May 2024.
 #' @name ny_childcare
 #' @docType data
 #' @format Time series of class `tsibble`
