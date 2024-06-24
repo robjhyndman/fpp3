@@ -349,14 +349,14 @@ NULL
 #'
 NULL
 
-#' Australian cigarette and tobacco expenditure data
+#' Australian cigarette and tobacco expenditure
 #'
 #' The total household expenditure for cigarette and tobacco consumption (CTC)
 #' in Australia.
 #'
 #' \code{aus_cigtob} is a quarterly `tsibble` with one value:
 #' \tabular{ll}{
-#'     \code{Expd}:  \tab The total expenditure\cr
+#'     \code{Expenditure}:  \tab The total expenditure\cr
 #' }
 #' from 1985 Q3 to 2023 Q4 for the 6 states and 2 territories of Australia,
 #' indexed by:

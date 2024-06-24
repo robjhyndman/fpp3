@@ -3,7 +3,7 @@
 \docType{data}
 \name{aus_cigtob}
 \alias{aus_cigtob}
-\title{Australian cigarette and tobacco expenditure data}
+\title{Australian cigarette and tobacco expenditure}
 \format{
 Time series of class `tsibble`
 }
@@ -17,7 +17,7 @@ in Australia.
 \details{
 \code{aus_cigtob} is a quarterly `tsibble` with one value:
 \tabular{ll}{
-    \code{Expd}:  \tab The total expenditure\cr
+    \code{Expenditure}:  \tab The total expenditure\cr
 }
 from 1985 Q3 to 2023 Q4 for the 6 states and 2 territories of Australia,
 indexed by:
