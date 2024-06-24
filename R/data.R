@@ -231,3 +231,210 @@ NULL
 #' aus_accommodation
 #'
 NULL
+
+#' Australian mortality data
+#'
+#' Weekly death counts and mortality rates in Australia.
+#'
+#' \code{aus_mortality} is a weekly `tsibble` with two measured variables:
+#' \tabular{ll}{
+#'  \code{Deaths}: \tab Death count
+#'     \code{Mortality}:  \tab Mortality rate\cr
+#' }
+#' from 2015 week 01 to 2023 week 12 for five different age groups plus the
+#' total, categorised by sex.
+#'
+#' Each series is uniquely identified using three keys:
+#' \tabular{ll}{
+#'     \code{Sex}:  \tab Sex of the individual: Male, Female, or Both\cr
+#'     \code{Age}:  \tab Age group of the individual
+#' }
+#'
+#' The mortality rate is defined as the number of deaths per thousand people in
+#' Australia in each week.
+#'
+#' @source \url{https://mortality.org/Data/STMF} (Downloaded on 29 May 2024)
+#'
+#' @name aus_mortality
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' aus_mortality
+#'
+NULL
+
+#' OTexts page views
+#'
+#' Daily page views on the OTexts website <https://OTexts.com/> as recorded by Google analytics.
+#'
+#' \code{otexts_views} is a daily `tsibble` with two columns:
+#' \tabular{ll}{
+#'     \code{Date}:  \tab Date for which the page views are recorded\cr
+#'     \code{Pageviews}:  \tab Page views on the OTexts website in thousands.\cr
+#' }
+#'
+#' @name otexts_views
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' otexts_views
+#'
+NULL
+
+#' Australian births data
+#'
+#' Number of births in Australia.
+#'
+#' \code{aus_births} is a monthly `tsibble` with one measured variable:
+#' \tabular{ll}{
+#'     \code{Births}:  \tab Number of births\cr
+#' }
+#' from January 1975 to December 2021 for the 6 states and 2 territories
+#' of Australia, indexed by:
+#' \tabular{ll}{
+#'     \code{Month}:  \tab Year-month.\cr
+#' }
+#'#' Each series is uniquely identified using the key:
+#' \tabular{ll}{
+#'     \code{State}: The state or territory.\cr
+#' }
+#'
+#' @source Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/population/births-australia/2022}
+#'
+#' @name aus_births
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' aus_births
+#'
+NULL
+
+#' Australian migration data
+#'
+#' Net Overseas Migration (NOM) to Australia.
+#'
+#' \code{aus_nom} is a quarterly `tsibble` with one measured variable:
+#' \tabular{ll}{
+#'     \code{NOM}:  \tab The net gain or loss of population through immigration
+#'     to Australia and emigration from Australia\cr
+#' }
+#' from 1981 Q2 to 2023 Q3 for the 6 states and 2 territories of Australia, indexed by:
+#' \tabular{ll}{
+#'     \code{Quarter}:  \tab Year-quarter.\cr
+#' }
+#'
+#' NOM is based on an international traveller's duration of stay being in or out
+#' of Australia for 12 months or more, over a 16 month period.
+#'
+#' Each series is uniquely identified using the key:
+#' \tabular{ll}{
+#'     \code{State}: The state or territory.\cr
+#' }
+#'
+#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023>. Cat No. 310102.
+#'
+#' @name aus_nom
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' aus_nom
+#'
+NULL
+
+#' Australian cigarette and tobacco expenditure
+#'
+#' The total household expenditure for cigarette and tobacco consumption (CTC)
+#' in Australia.
+#'
+#' \code{aus_cigtob} is a quarterly `tsibble` with one value:
+#' \tabular{ll}{
+#'     \code{Expenditure}:  \tab The total expenditure\cr
+#' }
+#' from 1985 Q3 to 2023 Q4 for the 6 states and 2 territories of Australia,
+#' indexed by:
+#' \tabular{ll}{
+#'     \code{Quarter}:  \tab Year-quarter.\cr
+#' }
+#'
+#' The prices are represented as a chain volume measure (a representation of constant prices) in billions of dollars.
+#'
+#' Each series is uniquely identified using the key:
+#' \tabular{ll}{
+#'     \code{State}: The state or territory.\cr
+#' }
+#'
+#' @source Australian Bureau of Statistics
+#'
+#' @name aus_cigtob
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' aus_cigtob
+#'
+NULL
+
+#' New York childcare data
+#'
+#' The number of employees (in thousands) in child day care services in
+#' New York City over the period the period from January 1990 to April 2024.
+#'
+#' \code{ny_childcare} is a monthly `tsibble` with two columns:
+#' \tabular{ll}{
+#'     \code{Month}:  \tab Year-month\cr
+#'     \code{Count}:  \tab Number of employees.\cr
+#' }
+#'
+#' @source U.S. Bureau of Labor Statistics and Federal Reserve Bank of St. Louis,
+#' All Employees: Education and Health Services: Child Care Services in New York City, NY
+#' retrieved from FRED, Federal Reserve Bank of St. Louis;
+#' <https://fred.stlouisfed.org/series/SMU36935616562440001>, 30 May 2024.
+#' @name ny_childcare
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' ny_childcare
+#'
+NULL
+
+#' Australian vehicle sales
+#'
+#' The number of new motor vehicles sold in Australia.
+#'
+#' \code{aus_vehicle_sales} is a monthly `tsibble` with one measured variable:
+#' \tabular{ll}{
+#'     \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
+#' }
+#' from January 1994 to December 2017 in Australia,
+#' indexed by:
+#' \tabular{ll}{
+#'     \code{Month}:  \tab Year-month.\cr
+#' }
+#'
+#' Each series is uniquely identified using the key:
+#' \tabular{ll}{
+#'     \code{Type}: The type of the vehicle sold (Passenger, SUV, Other).\cr
+#' }
+#'
+#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017>. Cat No. 931401.
+#'
+#' @name aus_vehicle_sales
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#' @examples
+#'
+#' aus_vehicle_sales
+#'
+NULL
