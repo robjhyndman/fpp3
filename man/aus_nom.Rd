@@ -8,19 +8,18 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics
+Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023>. Cat No. 310102.
 }
 \description{
 Net Overseas Migration (NOM) to Australia.
 }
 \details{
-\code{aus_nom} is a quarterly `tsibble` with one value:
+\code{aus_nom} is a quarterly `tsibble` with one measured variable:
 \tabular{ll}{
     \code{NOM}:  \tab The net gain or loss of population through immigration
     to Australia and emigration from Australia\cr
 }
-from 1981 Q2 to 2023 Q3 for the 6 states and 2 territories of Australia, and
-for the entire country, indexed by:
+from 1981 Q2 to 2023 Q3 for the 6 states and 2 territories of Australia, indexed by:
 \tabular{ll}{
     \code{Quarter}:  \tab Year-quarter.\cr
 }
