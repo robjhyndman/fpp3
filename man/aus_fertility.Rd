@@ -8,10 +8,10 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics
+Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/births-australia/2022>
 }
 \description{
-\code{aus_fertility} is a yearly `tsibble` with one value:
+\code{aus_fertility} is a yearly `tsibble` with one measured variable:
 \tabular{ll}{
     Rate: \tab Fertility rate (per thousand women)\cr
 }

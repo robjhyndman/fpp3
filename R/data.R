@@ -234,7 +234,7 @@ NULL
 
 #' Australian women fertility rate
 #'
-#' \code{aus_fertility} is a yearly `tsibble` with one value:
+#' \code{aus_fertility} is a yearly `tsibble` with one measured variable:
 #' \tabular{ll}{
 #'     Rate: \tab Fertility rate (per thousand women)\cr
 #' }
@@ -246,8 +246,7 @@ NULL
 #' }
 #' based on calendar year of registration data. It covers the period from 1975--2022.
 #'
-#' @source Australian Bureau of Statistics
-#'
+#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/births-australia/2022>
 #'
 #' @name aus_fertility
 #' @docType data
