@@ -15,7 +15,7 @@ Monthly sales for a souvenir shop on the wharf at a beach resort town in Queensl
 }
 \examples{
 
-souvenirs \%>\% autoplot(Sales)
+souvenirs |> autoplot(Sales)
 
 }
 \keyword{datasets}
