@@ -30,7 +30,7 @@ License: GPL-3
 URL:
   http://pkg.robjhyndman.com/fpp3package/,
   https://github.com/robjhyndman/fpp3package,
-  http://OTexts.com/fpp3
+  http://OTexts.com/fpp3/
 BugReports: https://github.com/robjhyndman/fpp3package/issues
 Depends:
     R (>= 3.5.0)

@@ -16,8 +16,8 @@ Weekly death counts and mortality rates in Australia.
 \details{
 \code{aus_mortality} is a weekly `tsibble` with two measured variables:
 \tabular{ll}{
- \code{Deaths}: \tab Death count
-    \code{Mortality}:  \tab Mortality rate\cr
+ \code{Deaths}: \tab Death count\cr
+    \code{Mortality}:  \tab Mortality rate
 }
 from 2015 week 01 to 2023 week 12 for five different age groups plus the
 total, categorised by sex.
