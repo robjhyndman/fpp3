@@ -16,7 +16,7 @@ Eggs, chicken, nails, oil and copper in $US; wheat in British pounds. All prices
 }
 \examples{
 
-prices \%>\% autoplot(wheat)
+prices |> autoplot(wheat)
 
 }
 \keyword{datasets}

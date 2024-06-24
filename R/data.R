@@ -173,7 +173,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' prices %>% autoplot(wheat)
+#' prices |> autoplot(wheat)
 #'
 NULL
 
@@ -188,7 +188,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' souvenirs %>% autoplot(Sales)
+#' souvenirs |> autoplot(Sales)
 #'
 NULL
 
@@ -205,7 +205,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' insurance %>%
+#' insurance |>
 #'   ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()
 #'
 NULL
@@ -363,4 +363,3 @@ NULL
 #' aus_outbound
 #'
 NULL
-

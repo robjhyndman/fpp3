@@ -16,7 +16,7 @@ January 2002 to April 2005
 }
 \examples{
 
-insurance \%>\%
+insurance |>
   ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()
 
 }
