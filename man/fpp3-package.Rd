@@ -6,7 +6,7 @@
 \alias{fpp3-package}
 \title{fpp3: Data for "Forecasting: Principles and Practice" (3rd Edition)}
 \description{
-All data sets required for the examples and exercises in the book "Forecasting: principles and practice" by Rob J Hyndman and George Athanasopoulos \url{https://OTexts.com/fpp3/}. All packages required to run the examples are also loaded.
+All data sets required for the examples and exercises in the book "Forecasting: principles and practice" by Rob J Hyndman and George Athanasopoulos \url{https://OTexts.com/fpp3/}. All packages required to run the examples are also loaded. Additional data sets not used in the book are also included.
 }
 \seealso{
 Useful links:
@@ -25,6 +25,8 @@ Other contributors:
 \itemize{
   \item George Athanasopoulos [contributor]
   \item Mitchell O'Hara-Wild [contributor]
+  \item Nuwani Palihawadana [contributor]
+  \item Shanika Wickramasuriya [contributor]
   \item RStudio [copyright holder]
 }
 
