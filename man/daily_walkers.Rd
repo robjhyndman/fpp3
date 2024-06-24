@@ -8,10 +8,10 @@
 Time series of class `tsibble`
 }
 \source{
-Melbourne Open Data Portal
+Melbourne Open Data Portal. <https://data.melbourne.vic.gov.au/>
 }
 \description{
-Daily average (across different sensors) total pedestrian count in thousands from 2019-01-01 to
+Daily average total pedestrian count (across different sensors) in thousands from 2019-01-01 to
 2024-05-29.
 }
 \examples{
