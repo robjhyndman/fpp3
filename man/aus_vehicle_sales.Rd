@@ -8,13 +8,13 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics
+Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017>. Cat No. 931401.
 }
 \description{
 The number of new motor vehicles sold in Australia.
 }
 \details{
-\code{aus_vehicle_sales} is a monthly `tsibble` with one value:
+\code{aus_vehicle_sales} is a monthly `tsibble` with one measured variable:
 \tabular{ll}{
     \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
 }
@@ -26,7 +26,7 @@ indexed by:
 
 Each series is uniquely identified using the key:
 \tabular{ll}{
-    \code{Type}: The type of the vehicle sold.\cr
+    \code{Type}: The type of the vehicle sold (Passenger, SUV, Other).\cr
 }
 }
 \examples{

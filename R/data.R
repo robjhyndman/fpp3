@@ -412,7 +412,7 @@ NULL
 #'
 #' The number of new motor vehicles sold in Australia.
 #'
-#' \code{aus_vehicle_sales} is a monthly `tsibble` with one value:
+#' \code{aus_vehicle_sales} is a monthly `tsibble` with one measured variable:
 #' \tabular{ll}{
 #'     \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
 #' }
@@ -424,10 +424,10 @@ NULL
 #'
 #' Each series is uniquely identified using the key:
 #' \tabular{ll}{
-#'     \code{Type}: The type of the vehicle sold.\cr
+#'     \code{Type}: The type of the vehicle sold (Passenger, SUV, Other).\cr
 #' }
 #'
-#' @source Australian Bureau of Statistics
+#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017>. Cat No. 931401.
 #'
 #' @name aus_vehicle_sales
 #' @docType data

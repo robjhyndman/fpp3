@@ -1,8 +1,10 @@
-library(tsibble)
-library(tidyverse)
-library(readxl)
+library(fpp3)
 
-aus_vehicle_sales <- read_xls(path ="data-raw/Exams/AUS_Vehicle_Sales/931401.xls",
+# Data downloaded from
+# https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017.
+# Cat No. 931401.
+
+aus_vehicle_sales <- readxl::read_xls(path ="data-raw/Exams/AUS_Vehicle_Sales/931401.xls",
                        sheet = 2,
                        col_names = FALSE,
                        skip = 10)[1:4]
