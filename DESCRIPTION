@@ -28,12 +28,12 @@ Description:
     loaded. Additional data sets not used in the book are also included.
 License: GPL-3
 URL:
-  http://pkg.robjhyndman.com/fpp3package/,
+  https://pkg.robjhyndman.com/fpp3package/,
   https://github.com/robjhyndman/fpp3package,
-  http://OTexts.com/fpp3/
+  https://OTexts.com/fpp3/
 BugReports: https://github.com/robjhyndman/fpp3package/issues
 Depends:
-    R (>= 3.5.0)
+    R (>= 4.1.0)
 Imports:
     cli (>= 1.0.0),
     crayon (>= 1.3.4),

@@ -1,3 +1,4 @@
+url:  https://pkg.robjhyndman.com/fpp3package/
 template:
   bootstrap: 5
   theme: tango
@@ -10,8 +11,6 @@ template:
     link-color: "#234460"
   includes:
     in_header: <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack-subset.css">
-
-destination: docs
 
 authors:
   Rob Hyndman:
@@ -30,14 +29,26 @@ reference:
       - fpp3_packages
   - title: "Data"
     contents:
-      - aus_accommodation
       - aus_airpassengers
+      - aus_accommodation
       - aus_arrivals
+      - aus_births
+      - aus_cigtob
+      - aus_fertility
+      - aus_inbound
+      - aus_mortality
+      - aus_nom
+      - aus_outbound
+      - aus_vehicle_sales
       - bank_calls
       - boston_marathon
       - canadian_gas
+      - daily_walkers
       - guinea_rice
       - insurance
+      - ny_childcare
+      - offences
+      - otexts_views
       - prices
       - souvenirs
       - us_change

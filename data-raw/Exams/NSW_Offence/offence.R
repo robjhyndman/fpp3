@@ -16,3 +16,4 @@ offences <- offences |>
   tsibble(index = Month, key = Type)
 
 usethis::use_data(offences, overwrite=TRUE)
+
