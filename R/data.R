@@ -308,7 +308,7 @@ NULL
 
 #' Monthly short term (<1 year) visitor arrivals to Australia
 #'
-#' \code{aus_inbound} is a monthly `tsibble` with one value:
+#' \code{aus_inbound} is a monthly `tsibble` with one measured variable:
 #' \tabular{ll}{
 #'     Count: \tab Number of individuals arriving in Australia (in thousands) \cr
 #' }
@@ -337,7 +337,7 @@ NULL
 
 #' Monthly short term (<1 year) resident departures in Australia
 #'
-#' \code{aus_outbound} is a monthly `tsibble` with one value:
+#' \code{aus_outbound} is a monthly `tsibble` with one measured variable:
 #' \tabular{ll}{
 #'     Count: \tab Number of individuals departing Australia (in thousands) \cr
 #' }
