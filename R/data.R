@@ -232,6 +232,138 @@ NULL
 #'
 NULL
 
+#' Australian women fertility rate
+#'
+#' \code{aus_fertility} is a yearly `tsibble` with one measured variable:
+#' \tabular{ll}{
+#'     Rate: \tab Fertility rate (per thousand women)\cr
+#' }
+#'
+#' Each series is uniquely identified using two keys:
+#' \tabular{ll}{
+#'     Region: \tab Australia, states and territories\cr
+#'     Age: \tab Age of the woman\cr
+#' }
+#' based on calendar year of registration data. It covers the period from 1975--2022.
+#'
+#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/births-australia/2022>
+#'
+#' @name aus_fertility
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' aus_fertility
+#'
+NULL
+
+#' Monthly offences in NSW
+#'
+#' \code{offences} is a monthly `tsibble` with one measured variable:
+#' \tabular{ll}{
+#'     Count: \tab Number of offences reported \cr
+#' }
+#'
+#' Each series is uniquely identified using one key:
+#' \tabular{ll}{
+#'     Type: \tab Offence type \cr
+#' }
+#'
+#'covering the period from Apr 1995--Dec 2023.
+#'
+#' @source NSW Bureau of Crime Statistics and Research. <https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx>
+#'
+#'
+#' @name offences
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' offences
+#'
+NULL
+
+#' Average daily total pedestrian count in Melbourne
+#'
+#' Daily average total pedestrian count (across different sensors) in thousands from 2019-01-01 to
+#' 2024-05-29.
+#'
+#' @source Melbourne Open Data Portal. <https://data.melbourne.vic.gov.au/>
+#'
+#'
+#' @name daily_walkers
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' daily_walkers
+#'
+NULL
+
+#' Monthly short term (<1 year) visitor arrivals to Australia
+#'
+#' \code{aus_inbound} is a monthly `tsibble` with one measured variable:
+#' \tabular{ll}{
+#'     Count: \tab Number of individuals arriving in Australia (in thousands) \cr
+#' }
+#'
+#' Each series is uniquely identified using two keys:
+#' \tabular{ll}{
+#'     County: \tab Country of stay/residence \cr
+#'     Purpose: \tab Purpose of travel
+#' }
+#'
+#'covering the period from Jan 2005--Feb 2020.
+#'
+#' @source Tourism Research Australia
+#'
+#'
+#' @name aus_inbound
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' aus_inbound
+#'
+NULL
+
+#' Monthly short term (<1 year) resident departures in Australia
+#'
+#' \code{aus_outbound} is a monthly `tsibble` with one measured variable:
+#' \tabular{ll}{
+#'     Count: \tab Number of individuals departing Australia (in thousands) \cr
+#' }
+#'
+#' Each series is uniquely identified using two keys:
+#' \tabular{ll}{
+#'     County: \tab Destination \cr
+#'     Purpose: \tab Purpose of travel
+#' }
+#'
+#'covering the period from Jan 2005--Jun 2017.
+#'
+#' @source Tourism Research Australia
+#'
+#'
+#' @name aus_outbound
+#' @docType data
+#' @format Time series of class `tsibble`
+#' @keywords datasets
+#'
+#' @examples
+#' library(tsibble)
+#' aus_outbound
+#'
+NULL
+
 #' Australian mortality data
 #'
 #' Weekly death counts and mortality rates in Australia.
