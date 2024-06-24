@@ -261,7 +261,7 @@ NULL
 
 #' Monthly offences in NSW
 #'
-#' \code{offences} is a monthly `tsibble` with one value:
+#' \code{offences} is a monthly `tsibble` with one measured variable:
 #' \tabular{ll}{
 #'     Count: \tab Number of offences reported \cr
 #' }
@@ -273,7 +273,7 @@ NULL
 #'
 #'covering the period from Apr 1995--Dec 2023.
 #'
-#' @source NSW Bureau of Crime Statistics and Research
+#' @source NSW Bureau of Crime Statistics and Research. <https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx>
 #'
 #'
 #' @name offences
