@@ -46,9 +46,8 @@ remotes::install_github("robjhyndman/fpp3package")
 - [tibble](https://tibble.tidyverse.org), for tibbles, a modern
   re-imagining of data frames.
 - [dplyr](https://dplyr.tidyverse.org), for data manipulation.
-- [tidyr](https://tidyr.tidyverse.org), to easily tidy data using
-  `spread()` and `gather()`.
-- [lubridate](https://lubridate.tidyverse.org), for date/times.
+- [tidyr](https://tidyr.tidyverse.org), to tidy data.
+- [lubridate](https://lubridate.tidyverse.org), for dates/times.
 - [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
 - [tsibble](https://tsibble.tidyverts.org), for tsibbles, a time series
   version of a tibble.
@@ -64,7 +63,7 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> ── Attaching packages ─────────────────────────────────────── fpp3 0.5.0.9000 ──
+#> ── Attaching packages ──────────────────────────────────────────── fpp3 1.0.0 ──
 #> ✔ tibble      3.2.1     ✔ tsibble     1.1.4
 #> ✔ dplyr       1.1.4     ✔ tsibbledata 0.4.1
 #> ✔ tidyr       1.3.1     ✔ feasts      0.3.2
