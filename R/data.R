@@ -277,7 +277,7 @@ NULL
 
 #' Average daily total pedestrian count in Melbourne
 #'
-#' Daily average total pedestrian count (across different sensors) in thousands from 2019-01-01 to
+#' Daily average total pedestrian count (across different sensors) from 2019-01-01 to
 #' 2024-05-29.
 #'
 #' @source Melbourne Open Data Portal. \url{https://data.melbourne.vic.gov.au}
@@ -289,7 +289,7 @@ NULL
 #' @keywords datasets
 #'
 #' @examples
-#' autoplot(melb_walkers)
+#' melb_walkers |> autoplot(Count)
 #'
 NULL
 
@@ -297,7 +297,7 @@ NULL
 #'
 #' \code{aus_inbound} contains monthly data with one measured variable:
 #' \tabular{ll}{
-#'     Count: \tab Number of individuals arriving in Australia (in thousands) \cr
+#'     Count: \tab Number of individuals arriving in Australia \cr
 #' }
 #'
 #' Each series is uniquely identified using two keys:
@@ -325,7 +325,7 @@ NULL
 #'
 #' \code{aus_outbound} contains monthly data with one measured variable:
 #' \tabular{ll}{
-#'     Count: \tab Number of individuals departing Australia (in thousands) \cr
+#'     Count: \tab Number of individuals departing Australia \cr
 #' }
 #'
 #' Each series is uniquely identified using two keys:
@@ -389,7 +389,7 @@ NULL
 #' \code{otexts_views} contains daily data with two columns:
 #' \tabular{ll}{
 #'     \code{Date}:  \tab Date for which the page views are recorded\cr
-#'     \code{Pageviews}:  \tab Page views on the OTexts website in thousands.\cr
+#'     \code{Pageviews}:  \tab Page views on the OTexts website\cr
 #' }
 #'
 #' @name otexts_views
@@ -531,7 +531,7 @@ NULL
 #'
 #' \code{aus_vehicle_sales} contains monthly data with one measured variable:
 #' \tabular{ll}{
-#'     \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
+#'     \code{Count}:  \tab The number of vehicles sold\cr
 #' }
 #' from January 1994 to December 2017 in Australia,
 #' indexed by:

@@ -14,7 +14,7 @@ Daily page views on the OTexts website \url{https://OTexts.com/} as recorded by 
 \code{otexts_views} contains daily data with two columns:
 \tabular{ll}{
     \code{Date}:  \tab Date for which the page views are recorded\cr
-    \code{Pageviews}:  \tab Page views on the OTexts website in thousands.\cr
+    \code{Pageviews}:  \tab Page views on the OTexts website\cr
 }
 }
 \examples{

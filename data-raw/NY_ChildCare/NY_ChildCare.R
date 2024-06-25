@@ -4,7 +4,7 @@ library(fpp3)
 # https://fred.stlouisfed.org/series/SMU36935616562440001
 # on 30 May 2024
 
-ny_childcare <- readr::read_csv("data-raw/Exams/NY_ChildCare/SMU36935616562440001.csv") |>
+ny_childcare <- readr::read_csv(here::here("data-raw/NY_ChildCare/SMU36935616562440001.csv")) |>
   rename(Count = SMU36935616562440001) |>
   mutate(Month = yearmonth(DATE)) |>
   select(Month, Count) |>

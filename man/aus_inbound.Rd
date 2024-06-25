@@ -13,7 +13,7 @@ Tourism Research Australia
 \description{
 \code{aus_inbound} contains monthly data with one measured variable:
 \tabular{ll}{
-    Count: \tab Number of individuals arriving in Australia (in thousands) \cr
+    Count: \tab Number of individuals arriving in Australia \cr
 }
 }
 \details{

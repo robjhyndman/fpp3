@@ -16,7 +16,7 @@ The number of new motor vehicles sold in Australia.
 \details{
 \code{aus_vehicle_sales} contains monthly data with one measured variable:
 \tabular{ll}{
-    \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
+    \code{Count}:  \tab The number of vehicles sold\cr
 }
 from January 1994 to December 2017 in Australia,
 indexed by:

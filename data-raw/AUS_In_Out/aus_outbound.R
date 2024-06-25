@@ -1,6 +1,6 @@
 library(fpp3)
 
-aus_outbound <- readxl::read_excel("data-raw/Exams/AUS_In_Out/TRA Consolidated data.xlsx",
+aus_outbound <- readxl::read_excel(here::here("data-raw/AUS_In_Out/TRA Consolidated data.xlsx"),
                                    sheet = "Outbound departures monthly", skip = 5) |>
   rename_at(c(1, 2), ~ c("Purpose", "Country")) |>
   filter(Purpose != "Total", Country != "Total") |>
@@ -10,7 +10,7 @@ aus_outbound <- readxl::read_excel("data-raw/Exams/AUS_In_Out/TRA Consolidated d
     values_to = "Count"
   ) |>
   mutate(
-    Count = Count / 1000,
+    Count = Count,
     Month = as.Date(as.numeric(Month), origin = "1899-12-30"),
     Month = tsibble::yearmonth(Month)
   ) |>

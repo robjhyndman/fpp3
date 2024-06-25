@@ -7,7 +7,7 @@ library(fpp3)
 # for Victoria), and merged the respective cigarettes and tobacco expenditure
 # data into a single data set.
 
-aus_tobacco <- readxl::read_xlsx(path ="data-raw/Exams/AUS_CigTob_Exp/CigTob_Updated.xlsx") |>
+aus_tobacco <- readxl::read_xlsx(path ="data-raw/AUS_CigTob_Exp/CigTob_Updated.xlsx") |>
   mutate(Quarter = yearquarter(Quarter)) |>
   pivot_longer(VIC:ACT, names_to = "State", values_to = "Expenditure") |>
   mutate(Expenditure = Expenditure / 1e3) |>

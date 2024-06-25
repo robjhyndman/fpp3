@@ -5,7 +5,7 @@ library(fpp3)
 # on 30 May 2024
 # Omitted 2022 due to delayed registrations not showing in data for Nov-Dec 2022
 
-aus_births <- readr::read_csv(file = "data-raw/Exams/AUS_Births/ABS_BIRTH_MONTH_OCCURANCE_Updated.csv") |>
+aus_births <- readr::read_csv(file = here::here("data-raw/AUS_Births/ABS_BIRTH_MONTH_OCCURANCE_Updated.csv")) |>
   rename(Month = `Month of occurence`) |>
   filter(Month != "Total", State != "AUS") |>
   pivot_longer("1975":"2022", names_to = "Year", values_to = "Births") |>

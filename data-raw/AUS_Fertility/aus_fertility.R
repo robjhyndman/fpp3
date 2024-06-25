@@ -3,7 +3,7 @@ library(fpp3)
 # Data downloaded from https://www.abs.gov.au/statistics/people/population/births-australia/2022
 # Fertility, by age, by state of usual residence
 # on 30 May 2024
-aus_fertility <- readr::read_csv("data-raw/Exams/AUS_Fertality/ABS_FERTILITY_AGE_STATE_1.0.0_...A.csv")
+aus_fertility <- readr::read_csv("data-raw/AUS_Fertility/ABS_FERTILITY_AGE_STATE_1.0.0_...A.csv")
 aus_fertility <- aus_fertility |>
   filter(`MEASURE: Measure` == "11: Fertility rate") |>
   select(-c(DATAFLOW, `MEASURE: Measure`, `FREQ: Frequency`, `UNIT_MEASURE: Unit of Measure`,

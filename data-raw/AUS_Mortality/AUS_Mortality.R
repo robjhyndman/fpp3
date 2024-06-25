@@ -3,7 +3,7 @@ library(fpp3)
 # Data downloaded from
 # https://mortality.org/Data/STMF on 29 May 2024
 
-aus_mortality <- readr::read_csv(file ="./data-raw/Exams/AUS_Mortality/AUSstmfout_updated.csv",
+aus_mortality <- readr::read_csv(file =here::here("data-raw/AUS_Mortality/AUSstmfout_updated.csv"),
                           name_repair = "minimal")
 colnames(aus_mortality)[5:10] <- paste0(colnames(aus_mortality)[5:10], "_count")
 colnames(aus_mortality)[11:16] <- paste0(colnames(aus_mortality)[11:16], "_rate")

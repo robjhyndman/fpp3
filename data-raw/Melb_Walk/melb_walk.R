@@ -28,7 +28,7 @@ melb_walkers <- melb_walkers |>
 melb_walkers <- melb_walkers |>
   as_tibble() |>
   group_by(Date) |>
-  summarise(Count = mean(Count)/1e3) |>
+  summarise(Count = mean(Count)) |>
   as_tsibble(index = Date)
 
 usethis::use_data(melb_walkers, overwrite=TRUE)
