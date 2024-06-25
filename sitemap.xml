@@ -25,22 +25,22 @@
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_births.html</loc>
   </url>
   <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_cigtob.html</loc>
-  </url>
-  <url>
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_fertility.html</loc>
   </url>
   <url>
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_inbound.html</loc>
   </url>
   <url>
+    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_migration.html</loc>
+  </url>
+  <url>
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_mortality.html</loc>
   </url>
   <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_nom.html</loc>
+    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_outbound.html</loc>
   </url>
   <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_outbound.html</loc>
+    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_tobacco.html</loc>
   </url>
   <url>
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_vehicle_sales.html</loc>
@@ -53,9 +53,6 @@
   </url>
   <url>
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/canadian_gas.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/daily_walkers.html</loc>
   </url>
   <url>
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/fpp3-package.html</loc>
@@ -76,10 +73,13 @@
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/insurance.html</loc>
   </url>
   <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/ny_childcare.html</loc>
+    <loc>https://pkg.robjhyndman.com/fpp3package/reference/melb_walkers.html</loc>
   </url>
   <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/offences.html</loc>
+    <loc>https://pkg.robjhyndman.com/fpp3package/reference/nsw_offences.html</loc>
+  </url>
+  <url>
+    <loc>https://pkg.robjhyndman.com/fpp3package/reference/ny_childcare.html</loc>
   </url>
   <url>
     <loc>https://pkg.robjhyndman.com/fpp3package/reference/otexts_views.html</loc>
