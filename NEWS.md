@@ -12,13 +12,14 @@
       - nsw_offences	
       - ny_childcare	
       - otexts_views
-
-# fpp3 (0.5)
+  * Dropped magrittr dependency
+ 
+# fpp3 0.5
 
   * Improved docs
   * Added fabletools to list of attached packages
 
-# fpp3 (0.4)
+# fpp3 0.4
 
   * Added bank_calls, prices, souvenirs and insurance data sets from fpp2
   * Added Australian accommodation data
