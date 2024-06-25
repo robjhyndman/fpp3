@@ -5,7 +5,7 @@ library(tsibble)
 # Data download from https://research.stlouisfed.org/pdl/1215
 
 us_employment <- read_tsv(
-  "data-raw/US_employment/US_employment_fpp3_Monthly.txt",
+  here::here("data-raw/US_employment/US_employment_fpp3_Monthly.txt"),
   col_types = cols(
     .default = col_double(),
     observation_date = col_date(format = "")
@@ -16,7 +16,7 @@ us_employment <- read_tsv(
   separate(Series_ID, "Series_ID", extra = "drop") |>
   as_tsibble(key = Series_ID, index=Month)
 
-readme <- read_lines("data-raw/US_employment/US_employment_fpp3_README.txt") |>
+readme <- read_lines(here::here("data-raw/US_employment/US_employment_fpp3_README.txt")) |>
   {split(., cumsum(str_detect(., "Series ID")))[-1]} |>
   map_dfr(function(desc){
     desc <- desc[seq_len(str_which(desc, "The source code is") - 1)]

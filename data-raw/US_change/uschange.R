@@ -5,7 +5,7 @@ library(tsibble)
 # Downloaded from https://research.stlouisfed.org/pdl/1216/
 
 # Read monthly unemployment data
-unrate <- read_tsv("data-raw/US_change/uschange_fpp3_Monthly.txt") |>
+unrate <- read_tsv(here::here("data-raw/US_change/uschange_fpp3_Monthly.txt")) |>
   mutate(Month = yearmonth(observation_date)) |>
   select(Month, everything(), -observation_date) |>
   rename(Unemployment = UNRATE_20191004) |>
@@ -19,7 +19,7 @@ unrate <- unrate |>
   filter_index("1969 Q4" ~ .)
 
 # Read remaining quarterly data
-other <- read_tsv("data-raw/US_change/uschange_fpp3_Quarterly.txt", na=c("",".")) |>
+other <- read_tsv(here::here("data-raw/US_change/uschange_fpp3_Quarterly.txt"), na=c("",".")) |>
   mutate(Quarter = yearquarter(observation_date)) |>
   select(Quarter, everything(), -observation_date) |>
   rename(

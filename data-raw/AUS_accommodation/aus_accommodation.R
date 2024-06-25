@@ -1,8 +1,7 @@
-library(tsibble)
-library(tidyverse)
+library(fpp3)
 library(readabs)
 
-aus_accommodation <- read_abs_local(filenames="8635010.xlsx", path="data-raw/AUS_accommodation/") |>
+aus_accommodation <- read_abs_local(filenames="8635010.xlsx", path=here::here("data-raw/AUS_accommodation/")) |>
   filter(series_type == "Original") |>
   mutate(
     Date = yearquarter(date),
@@ -20,7 +19,7 @@ aus_accommodation <- read_abs_local(filenames="8635010.xlsx", path="data-raw/AUS
   filter(State != "Total (Area)") |>
   as_tsibble(index=Date, key=State)
 
-cpi <- read_abs_local(filenames="640101.xlsx", path="data-raw/AUS_accommodation/") |>
+cpi <- read_abs_local(filenames="640101.xlsx", path=here::here("data-raw/AUS_accommodation/")) |>
   filter(str_detect(series,"Australia"), data_type=="INDEX") |>
   mutate(Date = yearquarter(date)) |>
   select(Date, value) |>
