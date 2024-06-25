@@ -1,6 +1,6 @@
 #' US monthly employment data
 #'
-#' \code{us_employment} is a monthly `tsibble` containing US employment data from January 1939
+#' \code{us_employment} contains monthly US employment data from January 1939
 #' to June 2019. Each `Series_ID` represents different sectors of the economy.
 #'
 #' @source
@@ -18,7 +18,7 @@ NULL
 
 #' Percentage changes in economic variables in the USA.
 #'
-#' \code{us_change} is a quarterly `tsibble` containing percentage changes in
+#' \code{us_change} contains percentage changes in
 #' quarterly personal consumption expenditure, personal disposable income,
 #' production, savings and the unemployment rate for the US, 1970 to 2016.
 #' Original $ values were in chained 2012 US dollars.
@@ -37,8 +37,8 @@ NULL
 
 #' US finished motor gasoline product supplied.
 #'
-#' Weekly data beginning Week 6, 1991, ending Week 3, 2017. Units are
-#' "million barrels per day".
+#' Weekly data beginning Week 6, 1991, and ending Week 3, 2017.
+#' Units are "million barrels per day".
 #'
 #' @name us_gasoline
 #' @docType data
@@ -51,13 +51,11 @@ NULL
 #'
 NULL
 
-
 #' Air Transport Passengers Australia
 #'
 #' Total annual air passengers (in millions) including domestic and
 #' international aircraft passengers of air carriers registered in Australia.
 #' 1970-2016.
-#'
 #'
 #' @name aus_airpassengers
 #' @docType data
@@ -70,11 +68,9 @@ NULL
 #'
 NULL
 
-
 #' Rice production (Guinea)
 #'
 #' Total annual rice production (million metric tons) for Guinea. 1970-2011.
-#'
 #'
 #' @name guinea_rice
 #' @docType data
@@ -92,7 +88,6 @@ NULL
 #' Winning times for events at the Boston Marathon.
 #' 1897-2019.
 #'
-#'
 #' @name boston_marathon
 #' @docType data
 #' @format Annual time series of class `tsibble`.
@@ -106,12 +101,10 @@ NULL
 #'
 NULL
 
-
 #' Monthly Canadian gas production
 #'
 #' Monthly Canadian gas production, billions of cubic metres, January 1960 -
 #' February 2005
-#'
 #'
 #' @name canadian_gas
 #' @docType data
@@ -127,12 +120,10 @@ NULL
 #'
 NULL
 
-
 #' International Arrivals to Australia
 #'
 #' Quarterly international arrivals to Australia from Japan, New
-#' Zealand, UK and the US.  1981Q1 - 2012Q3.
-#'
+#' Zealand, UK and the US. 1981Q1 - 2012Q3.
 #'
 #' @name aus_arrivals
 #' @docType data
@@ -192,7 +183,6 @@ NULL
 #'
 NULL
 
-
 #' Insurance quotations and advertising expenditure
 #'
 #' Monthly quotations and monthly television advertising expenditure for a US insurance company.
@@ -212,9 +202,9 @@ NULL
 
 #' Australian accommodation data
 #'
-#' \code{aus_accommodation} is a quarterly `tsibble` containing data on Australian tourist accommodation
-#' from short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2. The data set
-#' also contains the Australian Consumer Price Index (CPI) for the same period.
+#' \code{aus_accommodation} contains quarterly data on Australian tourist accommodation
+#' from short-term non-residential accommodation with 15 or more rooms, 1998 Q1 - 2016 Q2.
+#' The data set also contains the Australian Consumer Price Index (CPI) for the same period.
 #' Takings are in millions of Australian dollars,
 #' Occupancy is a percentage of rooms occupied,
 #' CPI is an index with value 100 in 2012 Q1.
@@ -234,7 +224,7 @@ NULL
 
 #' Australian women fertility rate
 #'
-#' \code{aus_fertility} is a yearly `tsibble` with one measured variable:
+#' \code{aus_fertility} contains annual data on one measured variable:
 #' \tabular{ll}{
 #'     Rate: \tab Fertility rate (per thousand women)\cr
 #' }
@@ -260,7 +250,7 @@ NULL
 
 #' Monthly offences in NSW
 #'
-#' \code{nsw_offences} is a monthly `tsibble` with one measured variable:
+#' \code{nsw_offences} contains monthly data with one measured variable:
 #' \tabular{ll}{
 #'     Count: \tab Number of offences reported \cr
 #' }
@@ -305,7 +295,7 @@ NULL
 
 #' Monthly short term (<1 year) visitor arrivals to Australia
 #'
-#' \code{aus_inbound} is a monthly `tsibble` with one measured variable:
+#' \code{aus_inbound} contains monthly data with one measured variable:
 #' \tabular{ll}{
 #'     Count: \tab Number of individuals arriving in Australia (in thousands) \cr
 #' }
@@ -333,7 +323,7 @@ NULL
 
 #' Monthly short term (<1 year) resident departures in Australia
 #'
-#' \code{aus_outbound} is a monthly `tsibble` with one measured variable:
+#' \code{aus_outbound} contains monthly data with one measured variable:
 #' \tabular{ll}{
 #'     Count: \tab Number of individuals departing Australia (in thousands) \cr
 #' }
@@ -363,7 +353,7 @@ NULL
 #'
 #' Weekly death counts and mortality rates in Australia.
 #'
-#' \code{aus_mortality} is a weekly `tsibble` with two measured variables:
+#' \code{aus_mortality} contains weekly data with two measured variables:
 #' \tabular{ll}{
 #'  \code{Deaths}: \tab Death count\cr
 #'     \code{Mortality}:  \tab Mortality rate
@@ -396,7 +386,7 @@ NULL
 #'
 #' Daily page views on the OTexts website \url{https://OTexts.com/} as recorded by Google analytics.
 #'
-#' \code{otexts_views} is a daily `tsibble` with two columns:
+#' \code{otexts_views} contains daily data with two columns:
 #' \tabular{ll}{
 #'     \code{Date}:  \tab Date for which the page views are recorded\cr
 #'     \code{Pageviews}:  \tab Page views on the OTexts website in thousands.\cr
@@ -416,7 +406,7 @@ NULL
 #'
 #' Number of births in Australia.
 #'
-#' \code{aus_births} is a monthly `tsibble` with one measured variable:
+#' \code{aus_births} contains monthly data with one measured variable:
 #' \tabular{ll}{
 #'     \code{Births}:  \tab Number of births\cr
 #' }
@@ -446,7 +436,7 @@ NULL
 #'
 #' Net Overseas Migration (NOM) to Australia.
 #'
-#' \code{aus_migration} is a quarterly `tsibble` with one measured variable:
+#' \code{aus_migration} contains quarterly data with one measured variable:
 #' \tabular{ll}{
 #'     \code{NOM}:  \tab The net gain or loss of population through immigration
 #'     to Australia and emigration from Australia\cr
@@ -481,7 +471,7 @@ NULL
 #' The total household expenditure for cigarette and tobacco consumption (CTC)
 #' in Australia.
 #'
-#' \code{aus_tobacco} is a quarterly `tsibble` with one value:
+#' \code{aus_tobacco} contains quarterly data with one measured variable:
 #' \tabular{ll}{
 #'     \code{Expenditure}:  \tab The total expenditure\cr
 #' }
@@ -515,7 +505,7 @@ NULL
 #' The number of employees (in thousands) in child day care services in
 #' New York City over the period the period from January 1990 to April 2024.
 #'
-#' \code{ny_childcare} is a monthly `tsibble` with two columns:
+#' \code{ny_childcare} contains monthly data with two columns:
 #' \tabular{ll}{
 #'     \code{Month}:  \tab Year-month\cr
 #'     \code{Count}:  \tab Number of employees.\cr
@@ -539,7 +529,7 @@ NULL
 #'
 #' The number of new motor vehicles sold in Australia.
 #'
-#' \code{aus_vehicle_sales} is a monthly `tsibble` with one measured variable:
+#' \code{aus_vehicle_sales} contains monthly data with one measured variable:
 #' \tabular{ll}{
 #'     \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
 #' }

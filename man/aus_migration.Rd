@@ -14,7 +14,7 @@ Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/p
 Net Overseas Migration (NOM) to Australia.
 }
 \details{
-\code{aus_migration} is a quarterly `tsibble` with one measured variable:
+\code{aus_migration} contains quarterly data with one measured variable:
 \tabular{ll}{
     \code{NOM}:  \tab The net gain or loss of population through immigration
     to Australia and emigration from Australia\cr

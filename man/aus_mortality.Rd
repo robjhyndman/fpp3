@@ -14,7 +14,7 @@ Time series of class `tsibble`
 Weekly death counts and mortality rates in Australia.
 }
 \details{
-\code{aus_mortality} is a weekly `tsibble` with two measured variables:
+\code{aus_mortality} contains weekly data with two measured variables:
 \tabular{ll}{
  \code{Deaths}: \tab Death count\cr
     \code{Mortality}:  \tab Mortality rate

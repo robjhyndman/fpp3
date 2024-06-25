@@ -18,7 +18,7 @@ The number of employees (in thousands) in child day care services in
 New York City over the period the period from January 1990 to April 2024.
 }
 \details{
-\code{ny_childcare} is a monthly `tsibble` with two columns:
+\code{ny_childcare} contains monthly data with two columns:
 \tabular{ll}{
     \code{Month}:  \tab Year-month\cr
     \code{Count}:  \tab Number of employees.\cr

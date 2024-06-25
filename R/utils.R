@@ -53,7 +53,6 @@ invert <- function(x) {
   tapply(as.character(stacked$ind), stacked$values, list)
 }
 
-
 style_grey <- function(level, ...) {
   crayon::style(
     paste0(...),

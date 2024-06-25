@@ -11,7 +11,7 @@ Time series of class `tsibble`
 Daily page views on the OTexts website \url{https://OTexts.com/} as recorded by Google analytics.
 }
 \details{
-\code{otexts_views} is a daily `tsibble` with two columns:
+\code{otexts_views} contains daily data with two columns:
 \tabular{ll}{
     \code{Date}:  \tab Date for which the page views are recorded\cr
     \code{Pageviews}:  \tab Page views on the OTexts website in thousands.\cr

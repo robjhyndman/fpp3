@@ -12,7 +12,7 @@ Tourism Research Australia.
 }
 \description{
 Quarterly international arrivals to Australia from Japan, New
-Zealand, UK and the US.  1981Q1 - 2012Q3.
+Zealand, UK and the US. 1981Q1 - 2012Q3.
 }
 \examples{
 

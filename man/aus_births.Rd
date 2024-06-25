@@ -14,7 +14,7 @@ Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/p
 Number of births in Australia.
 }
 \details{
-\code{aus_births} is a monthly `tsibble` with one measured variable:
+\code{aus_births} contains monthly data with one measured variable:
 \tabular{ll}{
     \code{Births}:  \tab Number of births\cr
 }

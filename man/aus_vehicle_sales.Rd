@@ -14,7 +14,7 @@ Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/industry
 The number of new motor vehicles sold in Australia.
 }
 \details{
-\code{aus_vehicle_sales} is a monthly `tsibble` with one measured variable:
+\code{aus_vehicle_sales} contains monthly data with one measured variable:
 \tabular{ll}{
     \code{Count}:  \tab The number of vehicles sold (in thousands)\cr
 }

@@ -11,7 +11,7 @@ Time series of class `tsibble`
 NSW Bureau of Crime Statistics and Research. \url{https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx}
 }
 \description{
-\code{nsw_offences} is a monthly `tsibble` with one measured variable:
+\code{nsw_offences} contains monthly data with one measured variable:
 \tabular{ll}{
     Count: \tab Number of offences reported \cr
 }

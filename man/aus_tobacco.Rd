@@ -15,7 +15,7 @@ The total household expenditure for cigarette and tobacco consumption (CTC)
 in Australia.
 }
 \details{
-\code{aus_tobacco} is a quarterly `tsibble` with one value:
+\code{aus_tobacco} contains quarterly data with one measured variable:
 \tabular{ll}{
     \code{Expenditure}:  \tab The total expenditure\cr
 }

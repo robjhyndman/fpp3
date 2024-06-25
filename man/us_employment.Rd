@@ -11,7 +11,7 @@ Time series of class `tsibble`
 U.S. Bureau of Labor Statistics
 }
 \description{
-\code{us_employment} is a monthly `tsibble` containing US employment data from January 1939
+\code{us_employment} contains monthly US employment data from January 1939
 to June 2019. Each `Series_ID` represents different sectors of the economy.
 }
 \examples{

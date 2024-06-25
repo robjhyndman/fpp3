@@ -11,7 +11,7 @@ Time series of class `tsibble`
 Tourism Research Australia
 }
 \description{
-\code{aus_outbound} is a monthly `tsibble` with one measured variable:
+\code{aus_outbound} contains monthly data with one measured variable:
 \tabular{ll}{
     Count: \tab Number of individuals departing Australia (in thousands) \cr
 }
