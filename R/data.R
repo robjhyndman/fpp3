@@ -254,14 +254,13 @@ NULL
 #' @keywords datasets
 #'
 #' @examples
-#' library(tsibble)
 #' aus_fertility
 #'
 NULL
 
 #' Monthly offences in NSW
 #'
-#' \code{offences} is a monthly `tsibble` with one measured variable:
+#' \code{nsw_offences} is a monthly `tsibble` with one measured variable:
 #' \tabular{ll}{
 #'     Count: \tab Number of offences reported \cr
 #' }
@@ -276,14 +275,13 @@ NULL
 #' @source NSW Bureau of Crime Statistics and Research. <https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx>
 #'
 #'
-#' @name offences
+#' @name nsw_offences
 #' @docType data
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #'
 #' @examples
-#' library(tsibble)
-#' offences
+#' nsw_offences
 #'
 NULL
 
@@ -295,14 +293,13 @@ NULL
 #' @source Melbourne Open Data Portal. <https://data.melbourne.vic.gov.au/>
 #'
 #'
-#' @name daily_walkers
+#' @name melb_walkers
 #' @docType data
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #'
 #' @examples
-#' library(tsibble)
-#' daily_walkers
+#' autoplot(melb_walkers)
 #'
 NULL
 
@@ -330,7 +327,6 @@ NULL
 #' @keywords datasets
 #'
 #' @examples
-#' library(tsibble)
 #' aus_inbound
 #'
 NULL
@@ -359,7 +355,6 @@ NULL
 #' @keywords datasets
 #'
 #' @examples
-#' library(tsibble)
 #' aus_outbound
 #'
 NULL
@@ -451,7 +446,7 @@ NULL
 #'
 #' Net Overseas Migration (NOM) to Australia.
 #'
-#' \code{aus_nom} is a quarterly `tsibble` with one measured variable:
+#' \code{aus_migration} is a quarterly `tsibble` with one measured variable:
 #' \tabular{ll}{
 #'     \code{NOM}:  \tab The net gain or loss of population through immigration
 #'     to Australia and emigration from Australia\cr
@@ -471,13 +466,13 @@ NULL
 #'
 #' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023>. Cat No. 310102.
 #'
-#' @name aus_nom
+#' @name aus_migration
 #' @docType data
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
 #'
-#' aus_nom
+#' aus_migration
 #'
 NULL
 
@@ -486,7 +481,7 @@ NULL
 #' The total household expenditure for cigarette and tobacco consumption (CTC)
 #' in Australia.
 #'
-#' \code{aus_cigtob} is a quarterly `tsibble` with one value:
+#' \code{aus_tobacco} is a quarterly `tsibble` with one value:
 #' \tabular{ll}{
 #'     \code{Expenditure}:  \tab The total expenditure\cr
 #' }
@@ -503,15 +498,15 @@ NULL
 #'     \code{State}: The state or territory.\cr
 #' }
 #'
-#' @source Australian Bureau of Statistics
+#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2024>
 #'
-#' @name aus_cigtob
+#' @name aus_tobacco
 #' @docType data
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
 #'
-#' aus_cigtob
+#' aus_tobacco |> autoplot(Expenditure) + scale_y_log10()
 #'
 NULL
 

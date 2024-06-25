@@ -25,7 +25,6 @@ Each series is uniquely identified using two keys:
 based on calendar year of registration data. It covers the period from 1975--2022.
 }
 \examples{
-library(tsibble)
 aus_fertility
 
 }

@@ -1,4 +1,4 @@
-url:  https://pkg.robjhyndman.com/fpp3package/
+url:  https://pkg.robjhyndman.com/fpp3package
 template:
   bootstrap: 5
   theme: tango
@@ -33,21 +33,21 @@ reference:
       - aus_accommodation
       - aus_arrivals
       - aus_births
-      - aus_cigtob
       - aus_fertility
       - aus_inbound
+      - aus_migration
       - aus_mortality
-      - aus_nom
       - aus_outbound
+      - aus_tobacco
       - aus_vehicle_sales
       - bank_calls
       - boston_marathon
       - canadian_gas
-      - daily_walkers
       - guinea_rice
       - insurance
+      - melb_walkers
+      - nsw_offences
       - ny_childcare
-      - offences
       - otexts_views
       - prices
       - souvenirs

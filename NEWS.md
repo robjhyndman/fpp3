@@ -1,16 +1,16 @@
 # fpp3 (development version)
   * Many more data sets added: 
       - aus_births
-      - aus_cigtob
       - aus_fertility
       - aus_inbound
       - aus_mortality
-      - aus_nom	
+      - aus_migration
       - aus_outbound
+      - aus_tobacco
       - aus_vehicle_sales	
-      - daily_walkers	
+      - melb_walkers	
+      - nsw_offences	
       - ny_childcare	
-      - offences	
       - otexts_views
 
 # fpp3 (0.5)

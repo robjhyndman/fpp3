@@ -26,7 +26,6 @@ Each series is uniquely identified using two keys:
 covering the period from Jan 2005--Feb 2020.
 }
 \examples{
-library(tsibble)
 aus_inbound
 
 }
