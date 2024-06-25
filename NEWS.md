@@ -1,4 +1,4 @@
-# fpp3 (development version)
+# fpp3 1.0.0
   * Many more data sets added: 
       - aus_births
       - aus_fertility
