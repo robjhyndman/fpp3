@@ -3,7 +3,7 @@
 \docType{data}
 \name{aus_fertility}
 \alias{aus_fertility}
-\title{Australian women fertility rate}
+\title{Australian fertility rates}
 \format{
 Time series of class `tsibble`
 }

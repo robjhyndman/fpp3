@@ -222,7 +222,7 @@ NULL
 #'
 NULL
 
-#' Australian women fertility rate
+#' Australian fertility rates
 #'
 #' \code{aus_fertility} contains annual data on one measured variable:
 #' \tabular{ll}{
