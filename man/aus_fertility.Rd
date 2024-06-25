@@ -8,7 +8,7 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/births-australia/2022>
+Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/population/births-australia/2022}
 }
 \description{
 \code{aus_fertility} is a yearly `tsibble` with one measured variable:

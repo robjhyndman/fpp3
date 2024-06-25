@@ -11,7 +11,7 @@ Time series of class `tsibble`
 U.S. Bureau of Labor Statistics and Federal Reserve Bank of St. Louis,
 All Employees: Education and Health Services: Child Care Services in New York City, NY
 retrieved from FRED, Federal Reserve Bank of St. Louis;
-<https://fred.stlouisfed.org/series/SMU36935616562440001>, 30 May 2024.
+\url{https://fred.stlouisfed.org/series/SMU36935616562440001}, 30 May 2024.
 }
 \description{
 The number of employees (in thousands) in child day care services in

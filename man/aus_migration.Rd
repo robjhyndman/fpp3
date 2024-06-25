@@ -8,7 +8,7 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023>. Cat No. 310102.
+Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023}. Cat No. 310102.
 }
 \description{
 Net Overseas Migration (NOM) to Australia.

@@ -246,7 +246,7 @@ NULL
 #' }
 #' based on calendar year of registration data. It covers the period from 1975--2022.
 #'
-#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/births-australia/2022>
+#' @source Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/population/births-australia/2022}
 #'
 #' @name aus_fertility
 #' @docType data
@@ -272,7 +272,7 @@ NULL
 #'
 #'covering the period from Apr 1995--Dec 2023.
 #'
-#' @source NSW Bureau of Crime Statistics and Research. <https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx>
+#' @source NSW Bureau of Crime Statistics and Research. \url{https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx}
 #'
 #'
 #' @name nsw_offences
@@ -290,7 +290,7 @@ NULL
 #' Daily average total pedestrian count (across different sensors) in thousands from 2019-01-01 to
 #' 2024-05-29.
 #'
-#' @source Melbourne Open Data Portal. <https://data.melbourne.vic.gov.au/>
+#' @source Melbourne Open Data Portal. \url{https://data.melbourne.vic.gov.au}
 #'
 #'
 #' @name melb_walkers
@@ -394,7 +394,7 @@ NULL
 
 #' OTexts page views
 #'
-#' Daily page views on the OTexts website <https://OTexts.com/> as recorded by Google analytics.
+#' Daily page views on the OTexts website \url{https://OTexts.com/} as recorded by Google analytics.
 #'
 #' \code{otexts_views} is a daily `tsibble` with two columns:
 #' \tabular{ll}{
@@ -464,7 +464,7 @@ NULL
 #'     \code{State}: The state or territory.\cr
 #' }
 #'
-#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023>. Cat No. 310102.
+#' @source Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/dec-2023}. Cat No. 310102.
 #'
 #' @name aus_migration
 #' @docType data
@@ -498,7 +498,7 @@ NULL
 #'     \code{State}: The state or territory.\cr
 #' }
 #'
-#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2024>
+#' @source Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2024}
 #'
 #' @name aus_tobacco
 #' @docType data
@@ -524,7 +524,7 @@ NULL
 #' @source U.S. Bureau of Labor Statistics and Federal Reserve Bank of St. Louis,
 #' All Employees: Education and Health Services: Child Care Services in New York City, NY
 #' retrieved from FRED, Federal Reserve Bank of St. Louis;
-#' <https://fred.stlouisfed.org/series/SMU36935616562440001>, 30 May 2024.
+#' \url{https://fred.stlouisfed.org/series/SMU36935616562440001}, 30 May 2024.
 #' @name ny_childcare
 #' @docType data
 #' @format Time series of class `tsibble`
@@ -554,7 +554,7 @@ NULL
 #'     \code{Type}: The type of the vehicle sold (Passenger, SUV, Other).\cr
 #' }
 #'
-#' @source Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017>. Cat No. 931401.
+#' @source Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017}. Cat No. 931401.
 #'
 #' @name aus_vehicle_sales
 #' @docType data

@@ -8,7 +8,7 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2024>
+Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product/mar-2024}
 }
 \description{
 The total household expenditure for cigarette and tobacco consumption (CTC)

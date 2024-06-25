@@ -8,7 +8,7 @@
 Time series of class `tsibble`
 }
 \source{
-Australian Bureau of Statistics. <https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017>. Cat No. 931401.
+Australian Bureau of Statistics. \url{https://www.abs.gov.au/statistics/industry/tourism-and-transport/sales-new-motor-vehicles/dec-2017}. Cat No. 931401.
 }
 \description{
 The number of new motor vehicles sold in Australia.
