@@ -9,6 +9,7 @@ docs/
 cran-comments.md
 README.Rmd
 ^data-raw$
+^hex$
 ^CRAN-RELEASE$
 ^cran-comments\.md$
 ^\.github$

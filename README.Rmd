@@ -11,7 +11,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# fpp3
+# fpp3  <img src="man/figures/logo.png" align="right" width = 150 />
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)

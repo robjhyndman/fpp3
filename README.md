@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# fpp3
+# fpp3 <img src="man/figures/logo.png" align="right" width = 150 />
 
 <!-- badges: start -->
 
@@ -63,7 +63,7 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> ── Attaching packages ──────────────────────────────────────────── fpp3 1.0.0 ──
+#> ── Attaching packages ─────────────────────────────────────── fpp3 1.0.0.9000 ──
 #> ✔ tibble      3.2.1     ✔ tsibble     1.1.4
 #> ✔ dplyr       1.1.4     ✔ tsibbledata 0.4.1
 #> ✔ tidyr       1.3.1     ✔ feasts      0.3.2
