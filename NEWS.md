@@ -1,4 +1,4 @@
-# fpp3 (development version)
+# fpp3 1.0.1
 
   * Removed fabletools from explicit attachments
 
