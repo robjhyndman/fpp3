@@ -1,6 +1,6 @@
 ## Comments
 
-Added many more data sets
+Removed fabletools from attachments as discussed
 
 ## Test environments
 
