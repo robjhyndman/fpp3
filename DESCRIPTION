@@ -1,6 +1,6 @@
 Package: fpp3
 Title: Data for "Forecasting: Principles and Practice" (3rd Edition)
-Version: 1.0.1
+Version: 1.0.1.9000
 Authors@R:
     c(person(given = "Rob",
              family = "Hyndman",
