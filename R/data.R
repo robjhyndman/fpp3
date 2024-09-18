@@ -262,7 +262,8 @@ NULL
 #'
 #'covering the period from Apr 1995--Dec 2023.
 #'
-#' @source NSW Bureau of Crime Statistics and Research. \url{https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx}
+#' @source NSW Bureau of Crime Statistics and Research.
+#' \url{https://bocsar.nsw.gov.au/}
 #'
 #'
 #' @name nsw_offences

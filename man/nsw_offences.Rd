@@ -8,7 +8,8 @@
 Time series of class `tsibble`
 }
 \source{
-NSW Bureau of Crime Statistics and Research. \url{https://www.bocsar.nsw.gov.au/Pages/bocsar_datasets/Offence.aspx}
+NSW Bureau of Crime Statistics and Research.
+\url{https://bocsar.nsw.gov.au/}
 }
 \description{
 \code{nsw_offences} contains monthly data with one measured variable:
