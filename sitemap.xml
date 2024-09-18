@@ -1,102 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/404.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/index.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_accommodation.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_airpassengers.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_arrivals.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_births.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_fertility.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_inbound.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_migration.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_mortality.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_outbound.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_tobacco.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_vehicle_sales.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/bank_calls.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/boston_marathon.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/canadian_gas.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/fpp3-package.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/fpp3_conflicts.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/fpp3_packages.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/guinea_rice.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/insurance.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/melb_walkers.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/nsw_offences.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/ny_childcare.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/otexts_views.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/prices.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/souvenirs.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/us_change.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/us_employment.html</loc>
-  </url>
-  <url>
-    <loc>https://pkg.robjhyndman.com/fpp3package/reference/us_gasoline.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/404.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/authors.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/index.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/news/index.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_accommodation.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_airpassengers.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_arrivals.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_births.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_fertility.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_inbound.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_migration.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_mortality.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_outbound.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_tobacco.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/aus_vehicle_sales.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/bank_calls.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/boston_marathon.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/canadian_gas.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/fpp3-package.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/fpp3_conflicts.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/fpp3_packages.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/guinea_rice.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/index.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/insurance.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/melb_walkers.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/nsw_offences.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/ny_childcare.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/otexts_views.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/prices.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/souvenirs.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/us_change.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/us_employment.html</loc></url>
+<url><loc>https://pkg.robjhyndman.com/fpp3package/reference/us_gasoline.html</loc></url>
 </urlset>
+
