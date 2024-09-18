@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![CRAN status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
-[![R build status](https://github.com/robjhyndman/fpp3package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp3package/actions)
+[![R build status](https://github.com/robjhyndman/fpp3/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp3/actions)
 [![Downloads](https://cranlogs.r-pkg.org/badges/fpp3)](https://cran.r-project.org/package=fpp3)
 <!-- badges: end -->
 
@@ -33,11 +33,11 @@ install.packages('fpp3', dependencies = TRUE)
 ```
 
 You can install the **development** version from
-[Github](https://github.com/robjhyndman/fpp3package)
+[Github](https://github.com/robjhyndman/fpp3)
 
 ```{r eval = FALSE}
 # install.packages("remotes")
-remotes::install_github("robjhyndman/fpp3package")
+remotes::install_github("robjhyndman/fpp3")
 ```
 
 ## Usage

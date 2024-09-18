@@ -8,7 +8,7 @@
 [![CRAN
 status](https://www.r-pkg.org/badges/version/fpp3)](https://cran.r-project.org/package=fpp3)
 [![R build
-status](https://github.com/robjhyndman/fpp3package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp3package/actions)
+status](https://github.com/robjhyndman/fpp3/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp3/actions)
 [![Downloads](https://cranlogs.r-pkg.org/badges/fpp3)](https://cran.r-project.org/package=fpp3)
 <!-- badges: end -->
 
@@ -32,11 +32,11 @@ install.packages('fpp3', dependencies = TRUE)
 ```
 
 You can install the **development** version from
-[Github](https://github.com/robjhyndman/fpp3package)
+[Github](https://github.com/robjhyndman/fpp3)
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("robjhyndman/fpp3package")
+remotes::install_github("robjhyndman/fpp3")
 ```
 
 ## Usage
@@ -63,12 +63,15 @@ have loaded:
 
 ``` r
 library(fpp3)
+#> Registered S3 method overwritten by 'tsibble':
+#>   method               from 
+#>   as_tibble.grouped_df dplyr
 #> ── Attaching packages ─────────────────────────────────────── fpp3 1.0.0.9000 ──
-#> ✔ tibble      3.2.1     ✔ tsibble     1.1.4
-#> ✔ dplyr       1.1.4     ✔ tsibbledata 0.4.1
-#> ✔ tidyr       1.3.1     ✔ feasts      0.3.2
-#> ✔ lubridate   1.9.3     ✔ fable       0.3.4
-#> ✔ ggplot2     3.5.1     ✔ fabletools  0.4.2
+#> ✔ tibble      3.2.1          ✔ tsibble     1.1.5     
+#> ✔ dplyr       1.1.4          ✔ tsibbledata 0.4.1     
+#> ✔ tidyr       1.3.1          ✔ feasts      0.3.2     
+#> ✔ lubridate   1.9.3          ✔ fable       0.3.4.9000
+#> ✔ ggplot2     3.5.1
 #> ── Conflicts ───────────────────────────────────────────────── fpp3_conflicts ──
 #> ✖ lubridate::date()    masks base::date()
 #> ✖ dplyr::filter()      masks stats::filter()
