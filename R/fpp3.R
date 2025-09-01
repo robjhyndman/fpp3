@@ -3,7 +3,6 @@
 
 #' @import dplyr
 #' @import fable
-#' @import fabletools
 #' @import feasts
 #' @import ggplot2
 #' @importFrom lubridate date
