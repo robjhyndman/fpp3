@@ -66,12 +66,12 @@ library(fpp3)
 #> Registered S3 method overwritten by 'tsibble':
 #>   method               from 
 #>   as_tibble.grouped_df dplyr
-#> ── Attaching packages ─────────────────────────────────────── fpp3 1.0.0.9000 ──
-#> ✔ tibble      3.2.1          ✔ tsibble     1.1.5     
-#> ✔ dplyr       1.1.4          ✔ tsibbledata 0.4.1     
-#> ✔ tidyr       1.3.1          ✔ feasts      0.3.2     
-#> ✔ lubridate   1.9.3          ✔ fable       0.3.4.9000
-#> ✔ ggplot2     3.5.1
+#> ── Attaching packages ─────────────────────────────────────── fpp3 1.0.1.9000 ──
+#> ✔ tibble      3.3.0     ✔ tsibble     1.1.6
+#> ✔ dplyr       1.1.4     ✔ tsibbledata 0.4.1
+#> ✔ tidyr       1.3.1     ✔ feasts      0.4.1
+#> ✔ lubridate   1.9.4     ✔ fable       0.4.1
+#> ✔ ggplot2     3.5.2
 #> ── Conflicts ───────────────────────────────────────────────── fpp3_conflicts ──
 #> ✖ lubridate::date()    masks base::date()
 #> ✖ dplyr::filter()      masks stats::filter()
