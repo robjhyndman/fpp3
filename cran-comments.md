@@ -1,13 +1,13 @@
 ## Comments
 
-Removed fabletools from attachments as discussed
+Removed fabletools from imports to prevent checking errors
 
 ## Test environments
 
-* KDE neon 6.0 based on ubuntu 22.04 (local): R 4.4.1
+* KDE Neon based on Ubuntu 24.04 (local): R 4.5.0
 * macOS (on GitHub Actions): release
 * windows (on GitHub Actions): release
-* ubuntu 22.04.4 (on GitHub Actions): devel, release, oldrel
+* ubuntu 24.04.3 (on GitHub Actions): devel, release, oldrel
 * win-builder: devel, release, oldrelease
 
 ## R CMD check results

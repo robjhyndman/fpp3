@@ -27,12 +27,8 @@ Description:
     <https://OTexts.com/fpp3/>. All packages required to run the examples are also
     loaded. Additional data sets not used in the book are also included.
 License: GPL-3
-URL: 
-  https://pkg.robjhyndman.com/fpp3/, 
-  https://github.com/robjhyndman/fpp3, 
-  https://OTexts.com/fpp3/
-BugReports: 
-  https://github.com/robjhyndman/fpp3/issues
+URL: https://pkg.robjhyndman.com/fpp3/, https://github.com/robjhyndman/fpp3, https://OTexts.com/fpp3/
+BugReports: https://github.com/robjhyndman/fpp3/issues
 Depends:
     R (>= 4.1.0)
 Imports:
