@@ -6,6 +6,7 @@ core <- c(
   "tidyr",
   "lubridate",
   "ggplot2",
+  "ggtime",
   "tsibble",
   "tsibbledata",
   "feasts",

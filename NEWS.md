@@ -1,5 +1,7 @@
 # fpp3 (development version)
 
+  * Added ggtime to the attached packages
+
 # fpp3 1.0.2
 
   * Removed fabletools from imports
