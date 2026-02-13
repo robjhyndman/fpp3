@@ -18,9 +18,9 @@ The fpp3 package contains data used in the book [*Forecasting:
 Principles and Practice* (3rd edition)](https://OTexts.com/fpp3/) by Rob
 J Hyndman and George Athanasopoulos. It also loads several packages
 needed to do the analysis described in the book. These packages work
-with the [tidyverse](https://tidyverse.org/) set of packages,
-sharing common data representations and API design. Additional data sets
-not used in the book are also included.
+with the [tidyverse](https://tidyverse.org/) set of packages, sharing
+common data representations and API design. Additional data sets not
+used in the book are also included.
 
 ## Installation
 
@@ -63,15 +63,12 @@ have loaded:
 
 ``` r
 library(fpp3)
-#> Registered S3 method overwritten by 'tsibble':
-#>   method               from 
-#>   as_tibble.grouped_df dplyr
-#> ── Attaching packages ─────────────────────────────────────── fpp3 1.0.1.9000 ──
-#> ✔ tibble      3.3.0     ✔ tsibble     1.1.6
-#> ✔ dplyr       1.1.4     ✔ tsibbledata 0.4.1
-#> ✔ tidyr       1.3.1     ✔ feasts      0.4.1
-#> ✔ lubridate   1.9.4     ✔ fable       0.4.1
-#> ✔ ggplot2     3.5.2
+#> ── Attaching packages ──────────────────────────────────────────── fpp3 1.0.3 ──
+#> ✔ tibble      3.3.1     ✔ tsibble     1.2.0
+#> ✔ dplyr       1.2.0     ✔ tsibbledata 0.4.1
+#> ✔ tidyr       1.3.2     ✔ feasts      0.5.0
+#> ✔ lubridate   1.9.5     ✔ fable       0.5.0
+#> ✔ ggplot2     4.0.2     ✔ ggtime      0.2.0
 #> ── Conflicts ───────────────────────────────────────────────── fpp3_conflicts ──
 #> ✖ lubridate::date()    masks base::date()
 #> ✖ dplyr::filter()      masks stats::filter()
