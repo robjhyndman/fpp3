@@ -18,7 +18,7 @@ The fpp3 package contains data used in the book [*Forecasting:
 Principles and Practice* (3rd edition)](https://OTexts.com/fpp3/) by Rob
 J Hyndman and George Athanasopoulos. It also loads several packages
 needed to do the analysis described in the book. These packages work
-with the [tidyverse](https://www.tidyverse.org/) set of packages,
+with the [tidyverse](https://tidyverse.org/) set of packages,
 sharing common data representations and API design. Additional data sets
 not used in the book are also included.
 

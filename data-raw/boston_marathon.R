@@ -3,7 +3,7 @@ library(stringr)
 library(tidyverse)
 library(tsibble)
 
-web <- read_html("https://www.baa.org/races/boston-marathon/results/champions")
+web <- read_html("https://www.baa.org/races/boston-marathon/results/champions/")
 
 event_names <- html_node(web, "#rte") |>
   html_nodes("h5") |>

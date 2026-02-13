@@ -9,7 +9,7 @@ Annual time series of class `tsibble`.
 }
 \source{
 Boston Athletic Association.
-\url{https://www.baa.org/races/boston-marathon/results/champions}
+\url{https://www.baa.org/races/boston-marathon/results/champions/}
 }
 \description{
 Winning times for events at the Boston Marathon.
