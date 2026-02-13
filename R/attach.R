@@ -9,7 +9,8 @@ core <- c(
   "tsibble",
   "tsibbledata",
   "feasts",
-  "fable"
+  "fable",
+  "ggtime"
 )
 
 core_unloaded <- function() {

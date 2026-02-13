@@ -5,6 +5,7 @@
 #' @import fable
 #' @import feasts
 #' @import ggplot2
+#' @import ggtime
 #' @importFrom lubridate date
 #' @import tibble
 #' @import tidyr
