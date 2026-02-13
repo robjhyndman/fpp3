@@ -21,13 +21,13 @@ Source:
 [`DESCRIPTION`](https://github.com/robjhyndman/fpp3/blob/master/DESCRIPTION)
 
 Hyndman R (2026). *fpp3: Data for "Forecasting: Principles and Practice"
-(3rd Edition)*. R package version 1.0.2.9000,
+(3rd Edition)*. R package version 1.0.3,
 <https://pkg.robjhyndman.com/fpp3/>.
 
     @Manual{,
       title = {fpp3: Data for "Forecasting: Principles and Practice" (3rd Edition)},
       author = {Rob Hyndman},
       year = {2026},
-      note = {R package version 1.0.2.9000},
+      note = {R package version 1.0.3},
       url = {https://pkg.robjhyndman.com/fpp3/},
     }
