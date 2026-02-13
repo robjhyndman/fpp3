@@ -8,9 +8,9 @@ core <- c(
   "ggplot2",
   "tsibble",
   "tsibbledata",
+  "ggtime",
   "feasts",
-  "fable",
-  "ggtime"
+  "fable"
 )
 
 core_unloaded <- function() {
