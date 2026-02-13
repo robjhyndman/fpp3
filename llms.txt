@@ -1,0 +1,138 @@
+# fpp3
+
+## Overview
+
+The fpp3 package contains data used in the book [*Forecasting:
+Principles and Practice* (3rd edition)](https://OTexts.com/fpp3/) by Rob
+J Hyndman and George Athanasopoulos. It also loads several packages
+needed to do the analysis described in the book. These packages work
+with the [tidyverse](https://tidyverse.org/) set of packages, sharing
+common data representations and API design. Additional data sets not
+used in the book are also included.
+
+## Installation
+
+You can install the **stable** version from
+[CRAN](https://cran.r-project.org/package=fpp3).
+
+``` r
+install.packages('fpp3', dependencies = TRUE)
+```
+
+You can install the **development** version from
+[Github](https://github.com/robjhyndman/fpp3)
+
+``` r
+# install.packages("remotes")
+remotes::install_github("robjhyndman/fpp3")
+```
+
+## Usage
+
+[`library(fpp3)`](https://pkg.robjhyndman.com/fpp3/) will load the
+following packages:
+
+- [tibble](https://tibble.tidyverse.org), for tibbles, a modern
+  re-imagining of data frames.
+- [dplyr](https://dplyr.tidyverse.org), for data manipulation.
+- [tidyr](https://tidyr.tidyverse.org), to tidy data.
+- [lubridate](https://lubridate.tidyverse.org), for dates/times.
+- [ggplot2](https://ggplot2.tidyverse.org), for data visualisation.
+- [tsibble](https://tsibble.tidyverts.org), for tsibbles, a time series
+  version of a tibble.
+- [tsibbledata](https://tsibbledata.tidyverts.org), various time series
+  data sets in the form of tsibbles.
+- [feasts](https://feasts.tidyverts.org), for features and statistics of
+  time series.
+- [fable](https://fable.tidyverts.org), for fitting models and producing
+  forecasts.
+
+You also get a condensed summary of conflicts with other packages you
+have loaded:
+
+``` r
+library(fpp3)
+#> ── Attaching packages ──────────────────────────────────────────── fpp3 1.0.3 ──
+#> ✔ tibble      3.3.1     ✔ tsibble     1.2.0
+#> ✔ dplyr       1.2.0     ✔ tsibbledata 0.4.1
+#> ✔ tidyr       1.3.2     ✔ feasts      0.5.0
+#> ✔ lubridate   1.9.5     ✔ fable       0.5.0
+#> ✔ ggplot2     4.0.2     ✔ ggtime      0.2.0
+#> ── Conflicts ───────────────────────────────────────────────── fpp3_conflicts ──
+#> ✖ lubridate::date()    masks base::date()
+#> ✖ dplyr::filter()      masks stats::filter()
+#> ✖ tsibble::intersect() masks base::intersect()
+#> ✖ tsibble::interval()  masks lubridate::interval()
+#> ✖ dplyr::lag()         masks stats::lag()
+#> ✖ tsibble::setdiff()   masks base::setdiff()
+#> ✖ tsibble::union()     masks base::union()
+```
+
+# Package index
+
+## Package
+
+- [`fpp3`](https://pkg.robjhyndman.com/fpp3package/reference/fpp3-package.md)
+  [`fpp3-package`](https://pkg.robjhyndman.com/fpp3package/reference/fpp3-package.md)
+  : fpp3: Data for "Forecasting: Principles and Practice" (3rd Edition)
+
+## Functions
+
+- [`fpp3_conflicts()`](https://pkg.robjhyndman.com/fpp3package/reference/fpp3_conflicts.md)
+  : Conflicts between fpp3 packages and other packages
+- [`fpp3_packages()`](https://pkg.robjhyndman.com/fpp3package/reference/fpp3_packages.md)
+  : List all packages loaded by fpp3
+
+## Data
+
+- [`aus_airpassengers`](https://pkg.robjhyndman.com/fpp3package/reference/aus_airpassengers.md)
+  : Air Transport Passengers Australia
+- [`aus_accommodation`](https://pkg.robjhyndman.com/fpp3package/reference/aus_accommodation.md)
+  : Australian accommodation data
+- [`aus_arrivals`](https://pkg.robjhyndman.com/fpp3package/reference/aus_arrivals.md)
+  : International Arrivals to Australia
+- [`aus_births`](https://pkg.robjhyndman.com/fpp3package/reference/aus_births.md)
+  : Australian births data
+- [`aus_fertility`](https://pkg.robjhyndman.com/fpp3package/reference/aus_fertility.md)
+  : Australian fertility rates
+- [`aus_inbound`](https://pkg.robjhyndman.com/fpp3package/reference/aus_inbound.md)
+  : Monthly short term (\<1 year) visitor arrivals to Australia
+- [`aus_migration`](https://pkg.robjhyndman.com/fpp3package/reference/aus_migration.md)
+  : Australian migration data
+- [`aus_mortality`](https://pkg.robjhyndman.com/fpp3package/reference/aus_mortality.md)
+  : Australian mortality data
+- [`aus_outbound`](https://pkg.robjhyndman.com/fpp3package/reference/aus_outbound.md)
+  : Monthly short term (\<1 year) resident departures in Australia
+- [`aus_tobacco`](https://pkg.robjhyndman.com/fpp3package/reference/aus_tobacco.md)
+  : Australian cigarette and tobacco expenditure
+- [`aus_vehicle_sales`](https://pkg.robjhyndman.com/fpp3package/reference/aus_vehicle_sales.md)
+  : Australian vehicle sales
+- [`bank_calls`](https://pkg.robjhyndman.com/fpp3package/reference/bank_calls.md)
+  : Call volume for a large North American commercial bank
+- [`boston_marathon`](https://pkg.robjhyndman.com/fpp3package/reference/boston_marathon.md)
+  : Boston marathon winning times since 1897
+- [`canadian_gas`](https://pkg.robjhyndman.com/fpp3package/reference/canadian_gas.md)
+  : Monthly Canadian gas production
+- [`guinea_rice`](https://pkg.robjhyndman.com/fpp3package/reference/guinea_rice.md)
+  : Rice production (Guinea)
+- [`insurance`](https://pkg.robjhyndman.com/fpp3package/reference/insurance.md)
+  : Insurance quotations and advertising expenditure
+- [`melb_walkers`](https://pkg.robjhyndman.com/fpp3package/reference/melb_walkers.md)
+  : Average daily total pedestrian count in Melbourne
+- [`nsw_offences`](https://pkg.robjhyndman.com/fpp3package/reference/nsw_offences.md)
+  : Monthly offences in NSW
+- [`ny_childcare`](https://pkg.robjhyndman.com/fpp3package/reference/ny_childcare.md)
+  : New York childcare data
+- [`otexts_views`](https://pkg.robjhyndman.com/fpp3package/reference/otexts_views.md)
+  : OTexts page views
+- [`prices`](https://pkg.robjhyndman.com/fpp3package/reference/prices.md)
+  : Price series for various commodities
+- [`souvenirs`](https://pkg.robjhyndman.com/fpp3package/reference/souvenirs.md)
+  : Sales for a souvenir shop
+- [`us_change`](https://pkg.robjhyndman.com/fpp3package/reference/us_change.md)
+  : Percentage changes in economic variables in the USA.
+- [`us_employment`](https://pkg.robjhyndman.com/fpp3package/reference/us_employment.md)
+  : US monthly employment data
+- [`us_gasoline`](https://pkg.robjhyndman.com/fpp3package/reference/us_gasoline.md)
+  : US finished motor gasoline product supplied.
+
