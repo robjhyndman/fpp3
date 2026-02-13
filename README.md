@@ -28,7 +28,7 @@ You can install the **stable** version from
 [CRAN](https://cran.r-project.org/package=fpp3).
 
 ``` r
-install.packages('fpp3', dependencies = TRUE)
+pak::pak("fpp3")
 ```
 
 You can install the **development** version from
@@ -36,7 +36,7 @@ You can install the **development** version from
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("robjhyndman/fpp3")
+pak::pak("robjhyndman/fpp3")
 ```
 
 ## Usage
@@ -53,6 +53,7 @@ remotes::install_github("robjhyndman/fpp3")
   version of a tibble.
 - [tsibbledata](https://tsibbledata.tidyverts.org), various time series
   data sets in the form of tsibbles.
+- [ggtime](https://ggtime.tidyverts.org), for time series visualisation.
 - [feasts](https://feasts.tidyverts.org), for features and statistics of
   time series.
 - [fable](https://fable.tidyverts.org), for fitting models and producing
