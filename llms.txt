@@ -55,9 +55,9 @@ library(fpp3)
 #> ── Attaching packages ──────────────────────────────────────────── fpp3 1.0.3 ──
 #> ✔ tibble      3.3.1     ✔ tsibble     1.2.0
 #> ✔ dplyr       1.2.0     ✔ tsibbledata 0.4.1
-#> ✔ tidyr       1.3.2     ✔ feasts      0.5.0
-#> ✔ lubridate   1.9.5     ✔ fable       0.5.0
-#> ✔ ggplot2     4.0.2     ✔ ggtime      0.2.0
+#> ✔ tidyr       1.3.2     ✔ ggtime      0.2.0
+#> ✔ lubridate   1.9.5     ✔ feasts      0.5.0
+#> ✔ ggplot2     4.0.2     ✔ fable       0.5.0
 #> ── Conflicts ───────────────────────────────────────────────── fpp3_conflicts ──
 #> ✖ lubridate::date()    masks base::date()
 #> ✖ dplyr::filter()      masks stats::filter()
