@@ -18,7 +18,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/robjhyndman/fpp3/blob/master/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/robjhyndman/fpp3/blob/v1.0.3/DESCRIPTION)
 
 Hyndman R (2026). *fpp3: Data for "Forecasting: Principles and Practice"
 (3rd Edition)*. R package version 1.0.3,
