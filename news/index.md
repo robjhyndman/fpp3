@@ -2,7 +2,7 @@
 
 ## fpp3 (development version)
 
-- Now importing ggtime
+- Added ggtime to the attached packages
 
 ## fpp3 1.0.2
 
