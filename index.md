@@ -23,7 +23,6 @@ You can install the **development** version from
 [Github](https://github.com/robjhyndman/fpp3)
 
 ``` r
-# install.packages("remotes")
 pak::pak("robjhyndman/fpp3")
 ```
 
