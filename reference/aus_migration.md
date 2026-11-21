@@ -16,8 +16,8 @@ Cat No. 310102.
 
 `aus_migration` contains quarterly data with one measured variable:
 
-|        |                                                                                                   |
-|--------|---------------------------------------------------------------------------------------------------|
+|  |  |
+|----|----|
 | `NOM`: | The net gain or loss of population through immigration to Australia and emigration from Australia |
 
 from 1981 Q2 to 2023 Q3 for the 6 states and 2 territories of Australia,

@@ -40,5 +40,4 @@ Each series is uniquely identified using the key:
 
 ``` r
 aus_tobacco |> autoplot(Expenditure) + scale_y_log10()
-
 ```

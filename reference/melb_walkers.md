@@ -15,5 +15,4 @@ Melbourne Open Data Portal. <https://data.melbourne.vic.gov.au>
 
 ``` r
 melb_walkers |> autoplot(Count)
-
 ```

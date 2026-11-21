@@ -4,6 +4,8 @@
 
 ## fpp3 1.0.3
 
+CRAN release: 2026-02-13
+
 - Added ggtime to the attached packages
 
 ## fpp3 1.0.2

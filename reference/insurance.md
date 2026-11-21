@@ -16,5 +16,4 @@ Kindly provided by Dave Reilly, Automatic Forecasting Systems.
 ``` r
 insurance |>
   ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()
-
 ```

@@ -19,5 +19,4 @@ applications\*, John Wiley & Sons: New York. Chapter 9.
 prices |> autoplot(wheat)
 #> Warning: Removed 1 row containing missing values or values outside the scale range
 #> (`geom_line()`).
-
 ```

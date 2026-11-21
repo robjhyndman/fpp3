@@ -16,5 +16,4 @@ applications\*, John Wiley & Sons: New York. Exercise 5.8.
 
 ``` r
 souvenirs |> autoplot(Sales)
-
 ```

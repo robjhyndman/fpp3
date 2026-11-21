@@ -16,6 +16,7 @@ You can install the **stable** version from
 [CRAN](https://cran.r-project.org/package=fpp3).
 
 ``` r
+
 pak::pak("fpp3")
 ```
 
@@ -23,6 +24,7 @@ You can install the **development** version from
 [Github](https://github.com/robjhyndman/fpp3)
 
 ``` r
+
 pak::pak("robjhyndman/fpp3")
 ```
 
@@ -51,6 +53,7 @@ You also get a condensed summary of conflicts with other packages you
 have loaded:
 
 ``` r
+
 library(fpp3)
 #> ── Attaching packages ──────────────────────────────────────────── fpp3 1.0.3 ──
 #> ✔ tibble      3.3.1     ✔ tsibble     1.2.0
