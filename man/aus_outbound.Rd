@@ -27,6 +27,5 @@ covering the period from Jan 2005--Jun 2017.
 }
 \examples{
 aus_outbound
-
 }
 \keyword{datasets}

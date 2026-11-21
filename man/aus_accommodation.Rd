@@ -19,8 +19,6 @@ Occupancy is a percentage of rooms occupied,
 CPI is an index with value 100 in 2012 Q1.
 }
 \examples{
-
 aus_accommodation
-
 }
 \keyword{datasets}

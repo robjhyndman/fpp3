@@ -26,6 +26,5 @@ based on calendar year of registration data. It covers the period from 1975--202
 }
 \examples{
 aus_fertility
-
 }
 \keyword{datasets}

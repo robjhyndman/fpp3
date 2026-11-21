@@ -25,8 +25,6 @@ New York City over the period the period from January 1990 to April 2024.
 }
 }
 \examples{
-
 ny_childcare
-
 }
 \keyword{datasets}

@@ -15,8 +15,6 @@ Annual prices for eggs, chicken, copper, nails, oil and wheat.
 Eggs, chicken, nails, oil and copper in $US; wheat in British pounds. All prices adjusted for inflation.
 }
 \examples{
-
 prices |> autoplot(wheat)
-
 }
 \keyword{datasets}

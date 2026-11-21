@@ -27,6 +27,5 @@ covering the period from Apr 1995--Dec 2023.
 }
 \examples{
 nsw_offences
-
 }
 \keyword{datasets}

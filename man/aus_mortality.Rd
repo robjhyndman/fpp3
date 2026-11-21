@@ -32,8 +32,6 @@ The mortality rate is defined as the number of deaths per thousand people in
 Australia in each week.
 }
 \examples{
-
 aus_mortality
-
 }
 \keyword{datasets}

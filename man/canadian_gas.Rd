@@ -17,9 +17,7 @@ Monthly Canadian gas production, billions of cubic metres, January 1960 -
 February 2005
 }
 \examples{
-
 canadian_gas
-
 }
 \references{
 \url{https://robjhyndman.com/expsmooth/}

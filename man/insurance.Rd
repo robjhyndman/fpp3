@@ -15,9 +15,7 @@ Monthly quotations and monthly television advertising expenditure for a US insur
 January 2002 to April 2005
 }
 \examples{
-
 insurance |>
   ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()
-
 }
 \keyword{datasets}

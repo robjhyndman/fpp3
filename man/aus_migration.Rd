@@ -33,8 +33,6 @@ Each series is uniquely identified using the key:
 }
 }
 \examples{
-
 aus_migration
-
 }
 \keyword{datasets}

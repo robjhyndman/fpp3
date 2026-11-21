@@ -33,8 +33,6 @@ Each series is uniquely identified using the key:
 }
 }
 \examples{
-
 aus_tobacco |> autoplot(Expenditure) + scale_y_log10()
-
 }
 \keyword{datasets}

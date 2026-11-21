@@ -18,8 +18,6 @@ Daily page views on the OTexts website \url{https://OTexts.com/} as recorded by 
 }
 }
 \examples{
-
 otexts_views
-
 }
 \keyword{datasets}

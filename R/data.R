@@ -11,9 +11,7 @@
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' us_employment
-#'
 NULL
 
 #' Percentage changes in economic variables in the USA.
@@ -30,9 +28,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' us_change
-#'
 NULL
 
 #' US finished motor gasoline product supplied.
@@ -46,9 +42,7 @@ NULL
 #' @source US Energy Information Administration.
 #' @keywords datasets
 #' @examples
-#'
 #' us_gasoline
-#'
 NULL
 
 #' Air Transport Passengers Australia
@@ -63,9 +57,7 @@ NULL
 #' @source World Bank.
 #' @keywords datasets
 #' @examples
-#'
 #' aus_airpassengers
-#'
 NULL
 
 #' Rice production (Guinea)
@@ -78,9 +70,7 @@ NULL
 #' @source World Bank.
 #' @keywords datasets
 #' @examples
-#'
 #' guinea_rice
-#'
 NULL
 
 #' Boston marathon winning times since 1897
@@ -96,9 +86,7 @@ NULL
 #'
 #' @keywords datasets
 #' @examples
-#'
 #' boston_marathon
-#'
 NULL
 
 #' Monthly Canadian gas production
@@ -115,9 +103,7 @@ NULL
 #' Springer.
 #' @keywords datasets
 #' @examples
-#'
 #' canadian_gas
-#'
 NULL
 
 #' International Arrivals to Australia
@@ -131,9 +117,7 @@ NULL
 #' @source Tourism Research Australia.
 #' @keywords datasets
 #' @examples
-#'
 #' aus_arrivals
-#'
 NULL
 
 #' Call volume for a large North American commercial bank
@@ -147,9 +131,7 @@ NULL
 #' @references Weinberg, Brown & Stroud (2007) "Bayesian forecasting of an inhomogeneous Poisson process with applications to call center data" \emph{Journal of the American Statistical Associiation}, 102:480, 1185-1198.
 #' @keywords datasets
 #' @examples
-#'
 #' bank_calls
-#'
 NULL
 
 #' Price series for various commodities
@@ -163,9 +145,7 @@ NULL
 #' @format Annual time series of class `tsibble`.
 #' @keywords datasets
 #' @examples
-#'
 #' prices |> autoplot(wheat)
-#'
 NULL
 
 #' Sales for a souvenir shop
@@ -178,9 +158,7 @@ NULL
 #' @format Monthly time series of class `tsibble`.
 #' @keywords datasets
 #' @examples
-#'
 #' souvenirs |> autoplot(Sales)
-#'
 NULL
 
 #' Insurance quotations and advertising expenditure
@@ -194,10 +172,8 @@ NULL
 #' @format Monthly time series of class `tsibble`.
 #' @keywords datasets
 #' @examples
-#'
 #' insurance |>
 #'   ggplot(aes(x=TVadverts, y=Quotes)) + geom_point()
-#'
 NULL
 
 #' Australian accommodation data
@@ -217,9 +193,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' aus_accommodation
-#'
 NULL
 
 #' Australian fertility rates
@@ -245,7 +219,6 @@ NULL
 #'
 #' @examples
 #' aus_fertility
-#'
 NULL
 
 #' Monthly offences in NSW
@@ -273,7 +246,6 @@ NULL
 #'
 #' @examples
 #' nsw_offences
-#'
 NULL
 
 #' Average daily total pedestrian count in Melbourne
@@ -291,7 +263,6 @@ NULL
 #'
 #' @examples
 #' melb_walkers |> autoplot(Count)
-#'
 NULL
 
 #' Monthly short term (<1 year) visitor arrivals to Australia
@@ -319,7 +290,6 @@ NULL
 #'
 #' @examples
 #' aus_inbound
-#'
 NULL
 
 #' Monthly short term (<1 year) resident departures in Australia
@@ -347,7 +317,6 @@ NULL
 #'
 #' @examples
 #' aus_outbound
-#'
 NULL
 
 #' Australian mortality data
@@ -378,9 +347,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' aus_mortality
-#'
 NULL
 
 #' OTexts page views
@@ -398,9 +365,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' otexts_views
-#'
 NULL
 
 #' Australian births data
@@ -428,9 +393,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' aus_births
-#'
 NULL
 
 #' Australian migration data
@@ -462,9 +425,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' aus_migration
-#'
 NULL
 
 #' Australian cigarette and tobacco expenditure
@@ -496,9 +457,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' aus_tobacco |> autoplot(Expenditure) + scale_y_log10()
-#'
 NULL
 
 #' New York childcare data
@@ -521,9 +480,7 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' ny_childcare
-#'
 NULL
 
 #' Australian vehicle sales
@@ -552,7 +509,5 @@ NULL
 #' @format Time series of class `tsibble`
 #' @keywords datasets
 #' @examples
-#'
 #' aus_vehicle_sales
-#'
 NULL

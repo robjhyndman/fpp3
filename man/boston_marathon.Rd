@@ -16,8 +16,6 @@ Winning times for events at the Boston Marathon.
 1897-2019.
 }
 \examples{
-
 boston_marathon
-
 }
 \keyword{datasets}

@@ -14,8 +14,6 @@ Makridakis, Wheelwright and Hyndman (1998) *Forecasting: methods and application
 Monthly sales for a souvenir shop on the wharf at a beach resort town in Queensland, Australia.
 }
 \examples{
-
 souvenirs |> autoplot(Sales)
-
 }
 \keyword{datasets}

@@ -15,8 +15,6 @@ Weekly data beginning Week 6, 1991, and ending Week 3, 2017.
 Units are "million barrels per day".
 }
 \examples{
-
 us_gasoline
-
 }
 \keyword{datasets}

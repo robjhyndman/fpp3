@@ -27,6 +27,5 @@ covering the period from Jan 2005--Feb 2020.
 }
 \examples{
 aus_inbound
-
 }
 \keyword{datasets}

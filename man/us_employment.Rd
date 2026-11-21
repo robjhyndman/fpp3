@@ -15,8 +15,6 @@ U.S. Bureau of Labor Statistics
 to June 2019. Each `Series_ID` represents different sectors of the economy.
 }
 \examples{
-
 us_employment
-
 }
 \keyword{datasets}

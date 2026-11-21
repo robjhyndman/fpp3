@@ -16,6 +16,5 @@ Daily average total pedestrian count (across different sensors) from 2019-01-01 
 }
 \examples{
 melb_walkers |> autoplot(Count)
-
 }
 \keyword{datasets}

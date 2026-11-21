@@ -16,8 +16,6 @@ international aircraft passengers of air carriers registered in Australia.
 1970-2016.
 }
 \examples{
-
 aus_airpassengers
-
 }
 \keyword{datasets}

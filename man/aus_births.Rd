@@ -29,8 +29,6 @@ of Australia, indexed by:
 }
 }
 \examples{
-
 aus_births
-
 }
 \keyword{datasets}

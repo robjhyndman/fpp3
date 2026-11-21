@@ -14,8 +14,6 @@ World Bank.
 Total annual rice production (million metric tons) for Guinea. 1970-2011.
 }
 \examples{
-
 guinea_rice
-
 }
 \keyword{datasets}

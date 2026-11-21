@@ -30,8 +30,6 @@ Each series is uniquely identified using the key:
 }
 }
 \examples{
-
 aus_vehicle_sales
-
 }
 \keyword{datasets}

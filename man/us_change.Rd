@@ -17,8 +17,6 @@ production, savings and the unemployment rate for the US, 1970 to 2016.
 Original $ values were in chained 2012 US dollars.
 }
 \examples{
-
 us_change
-
 }
 \keyword{datasets}
