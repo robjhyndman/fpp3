@@ -1,11 +1,9 @@
 url:  https://pkg.robjhyndman.com/fpp3package
 template:
   bootstrap: 5
-  theme: tango
   bootswatch: flatly
   bslib:
     base_font: {google: "Fira Sans"}
-    heading_font: {google: "Fira Sans"}
     code_font: "Hack, mono"
     primary: "#234460"
     link-color: "#234460"
